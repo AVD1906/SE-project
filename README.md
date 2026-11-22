@@ -1,6 +1,6 @@
-﻿# Fieldnote — Software Engineering course project
+ Software Engineering course project
 
-Fieldnote demonstrates a single-input project workflow with a requirements agent, an SDLC advisor, and an SRS PDF builder.
+This demonstrates a single-input project workflow with a requirements agent, an SDLC advisor, and an SRS PDF builder.
 
 ## Run the browser app
 

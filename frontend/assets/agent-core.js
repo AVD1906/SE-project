@@ -63,8 +63,6 @@
       const score = total ? Math.round(s.good.length / total * 100) : null;
       return { name, score, good: s.good, bad: s.bad, evaluated: total };
     });
-    const maxKnownPoints=Math.max(0,...ranked.map(row=>row.evaluated));
-    for(const row of ranked) row.evidenceScore=maxKnownPoints?Math.round(row.evaluated/maxKnownPoints*100):null;
     ranked.sort((a, b) => b.evaluated - a.evaluated || (b.score ?? -1) - (a.score ?? -1) || a.name.localeCompare(b.name));
     const supported = ranked.filter(row => row.evaluated > 0);
     const qualified = supported.filter(row => row.evaluated >= 3);

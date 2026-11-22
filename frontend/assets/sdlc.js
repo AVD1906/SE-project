@@ -20,7 +20,7 @@ function analyze(options={}) {
   $('reason').textContent = tiedTop
     ? `The top fit signals are tied (${tiedNames.join(', ')}), each at ${qualified[0].score}% across ${qualified[0].evaluated} evaluated conditions. Add or clarify project details to distinguish them.`
     : candidate
-    ? `${best?'Best-supported model':'Leading evidence coverage'}: ${candidate.evaluated} known characteristics (${candidate.evidenceScore}% of the most-evaluated model); fit ${candidate.score}% (${candidate.good.length}/${candidate.evaluated} signals). ${candidate.good.length ? `Supporting evidence: ${candidate.good.join(', ')}.` : ''} ${candidate.bad.length ? `Conflicts: ${candidate.bad.join(', ')}.` : ''} ${best?'':'More project facts are needed before committing to a model.'}`
+    ? `${best?'Recommended model':'Leading model'}: ${candidate.good.length} of ${candidate.evaluated} known signals match (${candidate.score}% fit). ${candidate.good.length ? `Supporting evidence: ${candidate.good.join(', ')}.` : ''} ${candidate.bad.length ? `Conflicts: ${candidate.bad.join(', ')}.` : ''} ${best?'':'More project facts are needed before committing to a model.'}`
     : 'No model has evidence to compare yet. Enter the requirement once on the overview page to prepare all three outputs.';
   $('unknown-note').textContent = result.unknown.length
     ? `Open questions: ${result.unknown.join(', ')}. Resolve these with the stakeholder before committing to a lifecycle.`
@@ -28,11 +28,11 @@ function analyze(options={}) {
   $('models').innerHTML = result.ranked.map((item, i) => {
     const isTiedTop=tiedTop&&item.score===qualified[0].score&&item.evaluated===qualified[0].evaluated;
     const isWinner=Boolean(best&&item.name===best.name);
-    const score = item.score === null ? 'No evidence' : `${item.evidenceScore}% evidence · ${item.evaluated} known`;
+    const score = item.score === null ? 'No known signals' : `${item.score}% fit · ${item.good.length}/${item.evaluated} match`;
     const detail = item.evaluated
-      ? `${item.score}% fit (${item.good.length}/${item.evaluated} known signals). ${item.good.length ? `Fits: ${item.good.join(', ')}.` : 'No supporting conditions found.'} ${item.bad.length ? `Conflicts: ${item.bad.join(', ')}.` : ''}`
+      ? `${item.good.length ? `Fits: ${item.good.join(', ')}.` : 'No known conditions match.'} ${item.bad.length ? `Conflicts: ${item.bad.join(', ')}.` : ''}`
       : 'Provide relevant project characteristics to evaluate this model.';
-    return `<div class="model"><div class="modelline"><b>${item.name}${isWinner ? ' · recommended' : isTiedTop ? ' · tied top fit' : ''}</b><span class="score">${score}</span></div><div class="bar"><i style="width:${item.evidenceScore ?? 0}%"></i></div><small>${escapeHTML(blurbs[item.name])} ${escapeHTML(detail)}</small></div>`;
+    return `<div class="model"><div class="modelline"><b>${item.name}${isWinner ? ' · recommended' : isTiedTop ? ' · tied top fit' : ''}</b><span class="score">${score}</span></div><div class="bar"><i style="width:${item.score ?? 0}%"></i></div><small>${escapeHTML(blurbs[item.name])} ${escapeHTML(detail)}</small></div>`;
   }).join('');
   $('sdlc-status').textContent = options.loaded ? 'Project characteristics loaded automatically from your overview request.' : 'Comparison updated · rule-based fit signals';
   if(options.persist){

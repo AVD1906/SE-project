@@ -2,7 +2,7 @@
 
 ## Run
 
-- From the project root, run `python -m http.server 8000 --directory web`.
+- From the project root, run `python -m http.server 8000 --directory frontend`.
 - Open `http://localhost:8000`.
 
 ## Walkthrough

@@ -4,9 +4,9 @@ This directory contains a **draft development benchmark**, not a reviewed accura
 
 ## Contents
 
-- `benchmark.json`: 26 requirement scenarios and 14 SDLC characteristic sets. Source-backed requirement labels cite chunks in `chunks.txt`; unsupported scenarios are intentionally marked for source-set verification. SDLC labels are derived from `sdlc_rules.txt`, and tied or under-specified examples expect abstention.
-- `../scripts/run_agent_benchmark.js`: reports requirement exact-set match, precision, recall, F1, and SDLC agreement, coverage, and abstentions.
-- `../scripts/test_agent_logic.js`: focused implementation regression checks.
+- `benchmark.json`: 26 requirement scenarios and 14 SDLC characteristic sets. Source-backed requirement labels cite chunks in `data/processed/chunks.txt`; unsupported scenarios are intentionally marked for source-set verification. SDLC labels are derived from `config/sdlc_rules.txt`, and tied or under-specified examples expect abstention.
+- `../../tests/browser/run_agent_benchmark.js`: reports requirement exact-set match, precision, recall, F1, and SDLC agreement, coverage, and abstentions.
+- `../../tests/browser/test_agent_logic.js`: focused implementation regression checks.
 
 All cases are currently development examples because the agent logic was inspected and adjusted while preparing this set. Once a reviewer approves or corrects the labels, freeze this file. Build a new, unseen set for the final evaluation; do not tune against that holdout.
 
@@ -23,8 +23,8 @@ All cases are currently development examples because the agent logic was inspect
 From the project root:
 
 ```powershell
-node scripts/run_agent_benchmark.js
-node scripts/test_agent_logic.js
+node tests/browser/run_agent_benchmark.js
+node tests/browser/test_agent_logic.js
 ```
 
 The first command evaluates the current browser decision logic. Its requirement metric measures the browser demo's source-match behavior; this demo does not perform general requirement extraction or call Gemini. SDLC percentages are fit scores, while benchmark agreement is calculated against draft labels. Neither is a validated real-world accuracy rate.

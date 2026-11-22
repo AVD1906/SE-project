@@ -1,5 +1,8 @@
 from openai import OpenAI
 import os
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
 
 # -----------------------------
 # 1. Connect to OpenAI
@@ -16,7 +19,7 @@ print("Connected to online LLM!")
 # 2. Load retrieved RAG context
 # -----------------------------
 
-with open("retrieved_context.txt", "r", encoding="utf-8") as f:
+with (ROOT / "data" / "generated" / "retrieved_context.txt").open("r", encoding="utf-8") as f:
     context = f.read()
 
 
@@ -89,7 +92,7 @@ print(result)
 # 6. Save result
 # -----------------------------
 
-with open("generated_requirements.txt", "w", encoding="utf-8") as f:
+with (ROOT / "data" / "generated" / "generated_requirements.txt").open("w", encoding="utf-8") as f:
     f.write(result)
 
-print("\nRequirements saved to generated_requirements.txt")
+print("\nRequirements saved to data/generated/generated_requirements.txt")

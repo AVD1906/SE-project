@@ -1,11 +1,11 @@
 // Draft offline benchmark: never treat its labels as reviewed ground truth.
 const fs = require('node:fs');
 const vm = require('node:vm');
-const benchmark = JSON.parse(fs.readFileSync('benchmark/benchmark.json', 'utf8'));
+const benchmark = JSON.parse(fs.readFileSync('evaluation/benchmark/benchmark.json', 'utf8'));
 const context = { window: {} };
-vm.runInNewContext(fs.readFileSync('web/assets/agent-core.js', 'utf8'), context);
+vm.runInNewContext(fs.readFileSync('frontend/assets/agent-core.js', 'utf8'), context);
 const { mapScenario, evaluateSDLC } = context.window.FieldnoteAgents;
-const chunkText = fs.readFileSync('chunks.txt', 'utf8');
+const chunkText = fs.readFileSync('data/processed/chunks.txt', 'utf8');
 const availableChunks = new Map([...chunkText.matchAll(/CHUNK_ID:\s*(\d+)\r?\nSOURCE:\s*([^\r\n]+)/g)].map(m=>[Number(m[1]),m[2].trim()]));
 const ids=[...benchmark.requirements_cases,...benchmark.sdlc_cases].map(row=>row.id);
 if(new Set(ids).size!==ids.length) throw new Error('Duplicate benchmark case IDs found.');
@@ -44,7 +44,7 @@ console.log(`  Exact requirement-set match: ${reqMetrics.exactSet}/${reqMetrics.
 console.log(`  Draft-label precision / recall / F1: ${(100*reqMetrics.precision).toFixed(1)}% / ${(100*reqMetrics.recall).toFixed(1)}% / ${(100*reqMetrics.f1).toFixed(1)}%`);
 console.log(`  Requirement IDs: TP ${reqMetrics.tp}, FP ${reqMetrics.fp}, FN ${reqMetrics.fn}`);
 console.log(`  Unsupported-request false positives: ${unsupportedErrors.length}${unsupportedErrors.length?` (${unsupportedErrors.join(', ')})`:''}`);
-console.log(`  Source references checked against chunks.txt: ${benchmark.requirements_cases.reduce((n,row)=>n+row.sources.length,0)} valid`);
+console.log(`  Source references checked against data/processed/chunks.txt: ${benchmark.requirements_cases.reduce((n,row)=>n+row.sources.length,0)} valid`);
 console.log(`\nSDLC (${sdlcRows.length} cases)`);
 console.log(`  Draft expected-decision agreement: ${sdlcRows.length ? (100*sdlcCorrect/sdlcRows.length).toFixed(1):'0.0'}% (${sdlcCorrect}/${sdlcRows.length})`);
 console.log(`  Recommendation coverage: ${(100*(sdlcRows.length-sdlcAbstained)/sdlcRows.length).toFixed(1)}% (${sdlcRows.length-sdlcAbstained}/${sdlcRows.length})`);

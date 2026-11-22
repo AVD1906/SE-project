@@ -1,8 +1,9 @@
 from pathlib import Path
 from pypdf import PdfReader
 
-input_folder = Path("info for req docs")
-output_folder = Path("extracted_docs")
+ROOT = Path(__file__).resolve().parents[2]
+input_folder = ROOT / "data" / "source_documents" / "pdfs"
+output_folder = ROOT / "data" / "processed" / "extracted_text"
 
 output_folder.mkdir(exist_ok=True)
 

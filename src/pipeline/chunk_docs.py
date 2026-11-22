@@ -1,7 +1,8 @@
 from pathlib import Path
 
-input_folder = Path("extracted_docs")
-output_file = Path("chunks.txt")
+ROOT = Path(__file__).resolve().parents[2]
+input_folder = ROOT / "data" / "processed" / "extracted_text"
+output_file = ROOT / "data" / "processed" / "chunks.txt"
 
 CHUNK_SIZE = 600
 OVERLAP = 100

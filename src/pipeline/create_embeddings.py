@@ -4,10 +4,11 @@ import pickle
 
 print("Loading embedding model...")
 
+ROOT = Path(__file__).resolve().parents[2]
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 # Read chunks
-text = Path("chunks.txt").read_text(encoding="utf-8")
+text = (ROOT / "data" / "processed" / "chunks.txt").read_text(encoding="utf-8")
 
 # Split individual chunks
 raw_chunks = text.split("-" * 80)
@@ -44,10 +45,11 @@ data = {
     "embeddings": embeddings
 }
 
-with open("embeddings.pkl", "wb") as f:
+embedding_file = ROOT / "data" / "processed" / "embeddings.pkl"
+with embedding_file.open("wb") as f:
     pickle.dump(data, f)
 
 print("\nEmbeddings created successfully!")
 print("Number of embeddings:", len(embeddings))
 print("Vector size:", len(embeddings[0]))
-print("Saved to: embeddings.pkl")
+print(f"Saved to: {embedding_file.relative_to(ROOT)}")

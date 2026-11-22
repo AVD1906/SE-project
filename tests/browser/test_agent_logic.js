@@ -3,11 +3,11 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const browser = { window: {} };
-vm.runInNewContext(fs.readFileSync('web/assets/agent-core.js', 'utf8'), browser);
+vm.runInNewContext(fs.readFileSync('frontend/assets/agent-core.js', 'utf8'), browser);
 const { mapScenario, evaluateSDLC } = browser.window.FieldnoteAgents;
 let passed = 0;
 function check(name, fn) { fn(); passed++; console.log(`PASS ${name}`); }
-check('requirements page loads the core decision logic before its UI handler',()=>{const html=fs.readFileSync('web/requirements.html','utf8');assert.ok(html.indexOf('assets/agent-core.js')<html.indexOf('assets/requirements.js'));});
+check('requirements page loads the core decision logic before its UI handler',()=>{const html=fs.readFileSync('frontend/requirements.html','utf8');assert.ok(html.indexOf('assets/agent-core.js')<html.indexOf('assets/requirements.js'));});
 
 const exact = 'Customers should be able to apply for loans online and the bank should check whether they already have an existing loan.';
 check('loan example maps to two source-linked requirements', () => {
@@ -63,10 +63,10 @@ function element(value='') { return { value, textContent:'', innerHTML:'', handl
 function requirementsPage(workflow){
   const nodes=Object.fromEntries(['scenario-display','requirements','req-count'].map(id=>['#'+id,element()]));
   const context={document:{querySelector:selector=>nodes[selector]},window:browser.window,localStorage:{getItem:()=>JSON.stringify(workflow)}};
-  vm.runInNewContext(fs.readFileSync('web/assets/requirements.js','utf8'),context);
+  vm.runInNewContext(fs.readFileSync('frontend/assets/requirements.js','utf8'),context);
   return nodes;
 }
-const requirementsHTML=fs.readFileSync('web/requirements.html','utf8');
+const requirementsHTML=fs.readFileSync('frontend/requirements.html','utf8');
 const reqPage=requirementsPage({scenario:exact,requirements:mapScenario(exact).requirements});
 check('requirements page has no second scenario input',()=>{assert.doesNotMatch(requirementsHTML,/<textarea[^>]+id="scenario"/);assert.doesNotMatch(requirementsHTML,/id="generate"/);});
 check('requirements page loads the overview request and linked drafts',()=>{assert.equal(reqPage['#scenario-display'].textContent,exact);assert.match(reqPage['#requirements'].innerHTML,/chunks 26.*27/);assert.match(reqPage['#requirements'].innerHTML,/chunk 32/);assert.equal(reqPage['#req-count'].textContent,'2 REQUIREMENTS');});
@@ -77,7 +77,7 @@ check('requirements page keeps unmatched input escaped and marked for review',()
 const sdlcIds=['stability','change','uncertainty','complexity','users','prototype','vv','timeline','modular','early','risk','releases','models','recommendation','reason','unknown-note','sdlc-status','analyze'];
 const nodes=Object.fromEntries(sdlcIds.map(id=>[id,element(base[id]||'')]));
 const sdlcContext={document:{getElementById:id=>nodes[id]},window:browser.window};
-vm.runInNewContext(fs.readFileSync('web/assets/sdlc.js','utf8'),sdlcContext);
+vm.runInNewContext(fs.readFileSync('frontend/assets/sdlc.js','utf8'),sdlcContext);
 check('SDLC UI does not recommend a lifecycle with no evidence',()=>{nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Insufficient evidence');assert.match(nodes['unknown-note'].textContent,/requirement stability/);});
 check('SDLC UI renders all seven comparisons',()=>{assert.equal((nodes.models.innerHTML.match(/class="model"/g)||[]).length,7);});
 check('SDLC UI explains recommendation evidence and conflicts',()=>{for(const [id,value] of Object.entries({stability:'stable',change:'low',uncertainty:'low',complexity:'low',vv:'no'}))nodes[id].value=value;nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Waterfall');assert.match(nodes.reason.textContent,/Supporting evidence/);assert.match(nodes.models.innerHTML,/Conflicts:/);});

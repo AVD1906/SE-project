@@ -1,15 +1,18 @@
 from google import genai
 import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
 
 
 # =========================================================
 # 1. READ INPUT FILES
 # =========================================================
 
-with open("generated_requirements.txt", "r", encoding="utf-8") as f:
+with (ROOT / "data" / "generated" / "generated_requirements.txt").open("r", encoding="utf-8") as f:
     requirements = f.read()
 
-with open("sdlc_rules.txt", "r", encoding="utf-8") as f:
+with (ROOT / "config" / "sdlc_rules.txt").open("r", encoding="utf-8") as f:
     rules = f.read()
 
 
@@ -112,7 +115,7 @@ except json.JSONDecodeError:
 # 4. SAVE CHARACTERISTICS
 # =========================================================
 
-with open("project_characteristics.json", "w", encoding="utf-8") as f:
+with (ROOT / "data" / "generated" / "project_characteristics.json").open("w", encoding="utf-8") as f:
     json.dump(project, f, indent=4)
 
 
@@ -218,8 +221,7 @@ Return ONLY valid JSON in this format:
 
 
     # Save questions
-    with open(
-        "clarification_questions.json",
+    with (ROOT / "data" / "generated" / "clarification_questions.json").open(
         "w",
         encoding="utf-8"
     ) as f:

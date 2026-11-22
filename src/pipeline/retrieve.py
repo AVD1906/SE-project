@@ -1,7 +1,9 @@
 from sentence_transformers import SentenceTransformer
+from pathlib import Path
 import pickle
 import numpy as np
 
+ROOT = Path(__file__).resolve().parents[2]
 
 # ============================================================
 # 1. Load embedding model
@@ -18,7 +20,7 @@ model = SentenceTransformer(
 # 2. Load chunks and embeddings
 # ============================================================
 
-with open("embeddings.pkl", "rb") as f:
+with (ROOT / "data" / "processed" / "embeddings.pkl").open("rb") as f:
     data = pickle.load(f)
 
 chunks = data["chunks"]
@@ -179,8 +181,7 @@ for i, result in enumerate(unique_results, start=1):
 # 9. Save final evidence for the LLM
 # ============================================================
 
-with open(
-    "retrieved_context.txt",
+with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
     "w",
     encoding="utf-8"
 ) as f:
@@ -219,6 +220,6 @@ with open(
 # ============================================================
 
 print("\n" + "=" * 80)
-print("Retrieved evidence saved to retrieved_context.txt")
+print("Retrieved evidence saved to data/generated/retrieved_context.txt")
 print("Unique chunks retrieved:", len(unique_results))
 print("=" * 80)

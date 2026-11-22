@@ -1,5 +1,8 @@
 import os
+from pathlib import Path
 from google import genai
+
+ROOT = Path(__file__).resolve().parents[2]
 
 # --------------------------------------------------
 # GEMINI SETUP
@@ -30,8 +33,7 @@ customer_input = input(
 # READ RETRIEVED EVIDENCE
 # --------------------------------------------------
 
-with open(
-    "retrieved_context.txt",
+with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
     "r",
     encoding="utf-8"
 ) as f:
@@ -612,8 +614,7 @@ print("=" * 80)
 # SAVE EVERYTHING
 # --------------------------------------------------
 
-with open(
-    "generated_requirements.txt",
+with (ROOT / "data" / "generated" / "generated_requirements.txt").open(
     "w",
     encoding="utf-8"
 ) as f:
@@ -639,4 +640,4 @@ with open(
     f.write(quality_analysis)
 
 
-print("\nSaved to generated_requirements.txt")
+print("\nSaved to data/generated/generated_requirements.txt")

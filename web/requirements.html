@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Requirements — Fieldnote</title>
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="index.html"><span class="brand-mark">f</span><span><strong>fieldnote</strong><small>software studio</small></span></a>
+      <div class="nav-label">Workspace</div>
+      <nav class="nav">
+        <a href="index.html"><span class="icon">⌂</span><span>Overview</span></a>
+        <a class="active" href="requirements.html"><span class="icon">⌘</span><span>Requirements agent</span></a>
+        <a href="sdlc.html"><span class="icon">↗</span><span>SDLC advisor</span></a>
+        <a href="srs.html"><span class="icon">S</span><span>SRS builder</span></a>
+      </nav>
+      <div class="side-bottom"><span class="status-dot"></span>Requirements review<br>From overview request</div>
+    </aside>
+    <main class="main">
+      <div class="topline"><div class="crumb"><a href="index.html">Projects</a><span>›</span><b>Requirements</b></div><span class="avatar">AGENT 01</span></div>
+      <div class="hero"><div><div class="eyebrow">Requirements engineering</div><h1>Requirements<br>from your brief.</h1><p>Review the source-matched requirement drafts from your overview request. Each draft includes its evidence reference.</p></div><span class="pill">DRAFTS · SOURCE LINKS</span></div>
+      <div class="grid">
+        <div class="side-stack">
+          <section class="card">
+            <div class="card-head"><h2>Customer request</h2><small>FROM OVERVIEW</small></div>
+            <div class="card-body"><p id="scenario-display" class="scenario">No request has been submitted yet. Enter it once on the <a href="index.html" style="color:var(--green);text-decoration:underline">overview page</a>.</p></div>
+          </section>
+        </div>
+        <section class="card">
+          <div class="card-head"><h2>Functional requirement drafts</h2><span class="chip" id="req-count">0 REQUIREMENTS</span></div>
+          <div class="card-body">
+            <div class="list" id="requirements"><div class="empty">Submit a requirement on the overview page to see source-matched drafts here.</div></div>
+            <div class="btn-row" style="justify-content:space-between;margin-top:18px"><span class="hint">Review scope and wording before approval.</span><a class="btn secondary" href="srs.html">Open SRS builder &nbsp; →</a></div>
+          </div>
+        </section>
+      </div>
+      <div class="footer"><span>AGENT 01 / REQUIREMENTS</span><span>TRACEABILITY ATTACHED TO EACH DRAFT</span></div>
+    </main>
+  </div>
+  <script src="assets/requirements.js"></script>
+</body>
+</html>

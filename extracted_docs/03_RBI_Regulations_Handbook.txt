@@ -1,0 +1,2649 @@
+iii
+PREFACE ...........................................................................................................................................................v
+Chapter I: Legislative Framework ..................................................................................................................1
+Chapter II: Licensing of new institutions .....................................................................................................2
+II.1  Licensing of Banks ...................................................................................................................................2
+II.2  NBFC Registration.................................................................................................................................... 4
+II.3  Branch Licensing ..................................................................................................................................... 5
+Chapter III: Governance and Ownership Framework ..................................................................................6
+III.1  Governance Framework .......................................................................................................................... 6
+III.2  Scale-based governance framework for NBFC ........................................................................................7
+III.3  Ownership Guidelines ............................................................................................................................8
+Chapter IV: Prudential Norms and Capital Regulations ..............................................................................9
+IV.1  Capital Regulations prescribed by BCBS ................................................................................................. 9
+IV.2  Capital and Prudential Requirements in India- Market and Liquidity Risk .......................................10
+IV.3  Credit Risk ............................................................................................................................................. 12
+ IV.3.a Credit Products ............................................................................................................................ 12
+ IV.3.b Credit Risk Management ............................................................................................................ 16
+ IV.3.c Income Recognition, Asset Classification and Provisioning Norms ......................................... 20
+ IV.3.d Resolution of Stressed Assets .....................................................................................................25
+ IV.3.e Credit Risk Transfer and Distribution ........................................................................................27
+ IV.3.f Concentration Risk Management ................................................................................................30
+IV.4  Operational Risk for Banks ...................................................................................................................33
+IV.5  Operational Risk for NBFCs: Key Principles......................................................................................... 34
+IV.6  Guidelines on Managing Risks and Code of Conduct in Outsourcing of Financial Services ............ 36
+ IV.6.a Roles and responsibilities of the Board and Senior Management ............................................36
+ IV.6.b Other important considerations .................................................................................................36
+ IV.6.c Monitoring, Control, and Audit ..................................................................................................37
+IV.7  Leverage Ratio requirements applicable to REs ...................................................................................38
+CONTENTS
+iv
+IV.8  Capital Adequacy and Provisioning Requirements for RBI Regulated Entities ..................................39
+ IV.8.a Banks and All-India Financial Institutions (AIFIs) .....................................................................39
+ IV.8.b NBFCs ...........................................................................................................................................40
+ IV.8.c Risk weight related regulations covering all forms of risk ........................................................41
+IV.9  Statutory and regulatory limits on deposits for deposit taking NBFCs (including HFCs) .................44
+IV.10 Prudential norms on Dividend declaration ......................................................................................... 46
+ IV.10.a General Framework for Dividend Declaration .........................................................................46
+ IV.10.b Payout Ratios for Commercial Banks (excluding RRBs) ...........................................................47
+ IV.10.c Payout Ratio for NBFCs ............................................................................................................. 47
+IV.11 Norms on Disclosure .............................................................................................................................48
+IV.12 Disclosure Norms for Different NBFCs ................................................................................................50
+IV.13 Overview of the Framework for acceptance of Green Deposits ......................................................... 53
+Chapter V: Conduct related regulations ......................................................................................................54
+V.1  Interest Rate Framework for NBFCs .....................................................................................................54
+ V.1.a Pricing and Charges ...................................................................................................................... 54
+ V.1.b Deposit related pricing aspects- NBFCs .......................................................................................54
+V.2 Interest Rate Framework and Pricing of Deposits for SCBs and Cooperative Banks .........................55
+ V.2.a Deregulation of Deposit Rates of SCBs and Cooperative Banks .................................................56
+ V.2.b Present Limit on Bulk deposits ....................................................................................................56
+ V.2.c Interest rates and Charges on Deposits .......................................................................................56
+V.3  Foreign Currency Deposits ....................................................................................................................57
+V.4  Guidelines on Fair Practices Code for Lenders ....................................................................................58
+ V.4.a Pre-sanction appraisal................................................................................................................... 58
+ V.4.b Disbursement and Post-disbursement supervision ....................................................................59
+ V.4.c Other Instructions ........................................................................................................................60
+V.5  Recent Instructions ............................................................................................................................... 61
+V.6  Key elements of KYC Policy ...................................................................................................................63
+Chapter VI: Resolution of Regulated Entities .............................................................................................66
+VI.1  Mergers and Amalgamations ................................................................................................................ 66
+VI.2  Resolution ..............................................................................................................................................67
+Handbook on Regulations at a Glance
+v
+Department of Regulation (DoR) serves as the primary regulatory authority within the Reserve Bank of 
+India overseeing a diverse range of financial entities, including Commercial Banks, Cooperative Banks, 
+Non-Banking Financial Companies (NBFCs), Asset Reconstruction Companies, All India Financial 
+Institutions, and Credit Information Companies. With a dual focus on depositor protection and the 
+promotion of a robust financial system, the Department strives to ensure the orderly development 
+and conduct of banking operations, ultimately fostering a healthy, stable, and inclusive financial 
+ecosystem that offers cost-effective intermediation services while upholding responsible conduct. 
+To achieve these objectives, the Department operates through a twin-peak regulatory architecture, 
+divided into two specialized Divisions—the Prudential Regulation Division and the Conduct and 
+Operations Division.
+As the Indian financial system has evolved, many regulatory instructions have been issued over the 
+years. To enhance the ease of accessibility and compliance, it has become essential to institutionalize 
+a regular, periodic review of regulatory developments and processes. This proactive approach will 
+enable DoR to streamline its framework, ensuring it remains effective, efficient, and supportive of 
+the financial system’s continued growth and development.
+With this objective, the Reserve Bank constituted the Regulations Review Authority 2.0 (RRA 2.0) 
+in 2021 to review the regulatory prescriptions internally as well as by seeking suggestions from 
+the RBI regulated entities and other stakeholders with a view to their simplification and ease of 
+implementation. Based on detailed deliberation, RRA 2.0 finalized its report on June 10, 2022. One 
+of the key recommendations of the report was to create a Regulatory Handbook, consolidating the 
+regulations applicable to regulated entities as a quick reference guide. 
+Accordingly, DoR has compiled its regulatory instructions in an easily accessible handbook titled 
+“Regulations at a Glance”. The handbook provides tabular summary of all major regulations issued 
+by the Reserve Bank and has been organized in six different chapters; namely, I—Introduction; II—
+Licensing of New Institutions; III— Governance and Ownership Framework; IV—Prudential Norms 
+and Capital Regulations; V—Conduct Related Regulations; and VI—Resolution of Regulated Entities.
+This handbook is designed to provide a high-level overview of the regulatory landscape, serving 
+as a broad point of reference for general understanding. For specific compliance requirements, 
+regulated entities are advised to consult and adhere to the respective, detailed regulations issued 
+through Circulars/ Master Circulars/ Master Directions and as amended from time to time. Please 
+note that this handbook will undergo updates at regular intervals to reflect changes in the regulatory 
+environment. Users are encouraged to check for the latest version to ensure accuracy.
+PREFACE
+1
+CHAPTER I - LEGISLATIVE FRAMEWORK 
+Sl. 
+No.
+Categories Relevant Legisltaive Frameworks (indicative list only)
+01. Regulation of Banks • Reserve Bank of India Act, 1934
+• Banking Regulation Act, 1949
+• The Recovery Of Debts And Bankruptcy (RDB) Act, 1993
+• Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 
+2002 
+• The Prevention of Money Laundering (PML) Act, 2002
+• Companies Act, 2013
+02. Regulation of 
+NBFCs, ARC and 
+Credit Information 
+Companies
+• Reserve Bank of India Act, 1934 (for all NBFCs)
+• National Housing Bank Act (NHB Act), 1987 (for HFCs)
+• SARFAESI Act, 2002 (for ARCs)
+• The Prevention of Money Laundering (PML) Act, 2002
+• Credit Information Companies (Regulation) Act, 2005 (for Credit Information Companies),
+• Factoring Regulation Act, 2011 (for NBFC-Factors and NBFC-ICCs licensed to undertaking factoring business)
+03. Regulation of 
+Cooperative Banks
+• Reserve Bank of India Act, 1934
+• Banking Regulation Act, 1949
+• Multi-State Co-operative Act, 2002
+• The Prevention of Money Laundering (PML) Act, 2002
+• Various State Co-operative Acts
+04. Regulation of All India 
+Financial Institutions 
+(AIFIs)
+• Reserve Bank of India Act, 1934
+• Relevant Acts for the concerned AIFIs like NABARD Act, 1981, NHB Act, 1987, NaBFID Act, 2021.
+• The Recovery Of Debts And Bankruptcy (RDB) Act, 1993
+• SARFAESI Act, 2002
+• The Prevention of Money Laundering (PML) Act, 2002
+2
+CHAPTER II - LICENSING OF NEW INSTITUTIONS
+II.1 LICENSING OF BANKS
+Category Commercial Banks Cooperative Banks
+Universal Banks Small Finance Banks Urban Cooperative Banks Rural Cooperative Banks 
+[State Cooperative Banks 
+(StCBs), Central Cooperative 
+Banks (CCBs)]
+1. Paid-up/ Net 
+worth (or other 
+important 
+conditions)
+`1,000 crore `300 crore `12.5 lakh - `4 crore 
+(depending upon category 
+of centre, and population 
+size)
+[RBI has stopped accepting fresh application for granting banking license to new UCBs since 2004]
+• State Govt. declares a 
+particular society as StCB/
+CCB
+• RBI to ensure adequate 
+capital/Governance structure 
+and earning prospects
+• RBI grants banking license 
+based on recommendation 
+of NABARD and its internal 
+analyses
+2. Condition for 
+Promoters/ 
+Promoter 
+groups
+Fit and Proper Crieria Fit and Proper Crieria Focus on promoters' 
+educational background, 
+professional competence, 
+means and standing, ability 
+to mobilise requisite capital 
+and membership
+Resident Individuals with 
+> 10 years of experience 
+in banking and finance 
+at a senior level; Record 
+of sound credentials and 
+integrity; successful track 
+record > 10 years.
+Resident Indian Citizens 
+with > 10 years of 
+experience in banking and 
+finance at a senior level; 
+Companies and Societies 
+having successful track 
+record > 5 years,
+Chapter II - Licensing of New Institutions
+3
+Category Commercial Banks Cooperative Banks
+Universal Banks Small Finance Banks Urban Cooperative Banks Rural Cooperative Banks 
+[State Cooperative Banks 
+(StCBs), Central Cooperative 
+Banks (CCBs)]
+Resident entities with 
+> 10 years of successful 
+track record (if total assets 
+> `5000 crore then non-
+financial business to be 
+≤ 40% in terms of assets/
+income)
+Record of sound 
+credentials and integrity; 
+successful track record 
+>for at least 10 years
+3.  Transition from 
+other financial 
+institutions
+Existing NBFCs controlled 
+by residents with >10 
+years of successful track 
+record can set up
+Existing NBFCs, LABs, 
+MFIs controlled by 
+residents with >5 years of 
+successful track record can 
+set up
+– –
+Listed scheduled SFBs can 
+be converted into UBs if 
+satisfactory track record 
+> 5 years; Net Worth 
+> `1000 crore; meeting 
+prescribed CRAR; net 
+profit in last 2 FY; GNPA ≤ 
+3% and NNPA ≤ 1%.
+UCBs with NW ≥ `150 
+crore and maintaining 
+CRAR ≥ 9% can convert;
+Existing Payments Banks 
+(PBs) who have completed 
+five years of operations
+– –
+Handbook on Regulations at a Glance
+4
+NBFC 
+category
+Defining conditions Current Net Owned Fund
+NBFC-ICC: 
+Type I NBFC 
+- ND 
+NBFC-ICC (financial assets >50% of its total assets and income from these financial assets 
+>50% of its gross income), which does not accept/intend to accept public funds and does not 
+have/intend to have customer interface
+`2 crore
+NBFC-ICC: 
+Type II NBFC 
+- ND 
+NBFC-ICC (financial assets >50% of its total assets and income from these financial assets 
+>50% of its gross income), which accepts/ intends to accept public funds and/or have/ intends 
+to have customer interface in future
+`10 crore
+NBFC-P2P NBFC which carries on the business of peer-to-peer lending platform `2 crore
+NBFC-AA NBFC which carries on the business of account aggregator `2 crore
+NBFC-MFI Non-deposit taking NBFC with ≥ 75% of its total assets deployed towards micro-finance loans `10 crore
+NBFC-FACTOR NBFC with ≥ 50% of its total assets and ≥ 50% of its gross income derived from factoring 
+business
+`10 crore
+NBFC-HFC NBFC with ≥ 60% of its total assets (netted off by intangible assets) in housing finance; ≥ 50% 
+of its total assets (netted off by intangible assets) in housing finance for individuals
+`20 crore
+MGC A company which primarily transacts the business of providing mortgage guarantee (≥ 90% of 
+business turnover; or ≥ 90% of gross income is from mortgage guarantee business)
+`100 crore
+IDF-NBFC Non-deposit taking NBFC permitted to refinance post commencement operations date (COD) 
+infrastructure projects with ≥ 01 year of satisfactory commercial operations; finance toll 
+operate transfer (TOT) projects as the direct lender
+`300 crore
+NBFC-IFC Non-deposit taking NBFC with ≥ 75% of its total assets deployed towards infrastructure lending `300 crore
+ARC A company registered with Reserve Bank for the purposes of carrying on the business of asset 
+reconstruction and/or securitisation under the aegis of SARFAESI Act, 2002
+`300 crore
+NBFC-CIC Core Investment company ≥ `100 crore of total assets either individually or in aggregate along 
+with other CICs in the Group, which raises or holds public funds; and 90% of its net assets is in 
+the form of investment/loans in group companies, out of which 60% is in form of equity shares.
+Adjusted Net Worth (ANW) 
+should be ≥ 30% of its 
+aggregate RWA on B/S and 
+risk adjusted value of off-
+B/s items as on the date 
+of the last audited balance 
+sheet as at the end of FY
+II.2 NBFC REGISTRATION
+Chapter II - Licensing of New Institutions
+5
+II.3 BRANCH LICENSING 
+Scheduled Commercial Banks Cooperative banks NBFCs
+SCBs other than 
+RRBs
+RRBs UCBs Rural Cooperative Banks
+StCBs DCCBs
+Permitted to open 
+outlets in tier-1 to 
+6 centers without 
+specific approval 
+from RBI (except for 
+Payment Banks) with 
+certain conditions 
+such as opening 
+25% of branches 
+in unbanked rural 
+centres during a 
+financial year
+General permission 
+to open outelts in 
+tier-5 and 6 centers 
+without specific 
+approval; 
+Prior approval 
+required for 
+opening branches 
+in tier-1 to 4 centres 
+Automatic route : 
+UCBs meeting 
+Financially Sound 
+and Well Managed 
+(FSWM) criteria 
+permitted for 
+opening new 
+branches up to 
+10% of the no. of 
+branches (at the 
+end of previous FY) 
+in a FY, s.t. opening 
+minimum 1 branch 
+and a maximum 5 
+branches branch, in 
+the approved area 
+of operationApproval route : 
+Board approved 
+annual business 
+plan (ABP) for next 
+FY sent from FSWM 
+UCBs to RBI-RO for 
+approval by 15 th 
+December. 
+Approval from 
+NABARD and RBI 
+s.t. meeting certain 
+conditions: 
+CRAR ≥ 9%; 
+No default in 
+maintenance of 
+CRR/SLR during 
+last FY; NNPA ≤ 
+5%; a track record 
+of regulatory 
+compliance and no 
+monetary penalty 
+during last 2 FYs
+Conditions specified 
+for StCBs plus 
+some additional 
+conditions: licensed 
+DCCB having 
+operation ≥ 3 years; 
+Net profit in last 
+2 FYs; Not under 
+directions from RBI
+NBFCs lending against gold jewellery : Required 
+to seek prior approval of 
+the Bank to open new 
+branches if the existing 
+number of branches 
+exceed 1,000; no branches 
+to be opened w/o storage 
+and security facilitiesDeposit taking NBFCs: 
+(i) NOF > `50 crore and 
+credit rating of AA or 
+above – allowed to open 
+branches anywhere in 
+India. 
+(ii) NOF upto `50 crore – 
+allowed to open branches 
+only in the state where 
+its registered office is 
+situated.Other NBFCs : Prior 
+approval not required
+6
+CHAPTER III - GOVERNANCE AND OWNERSHIP FRAMEWORK
+III.1 GOVERNANCE FRAMEWORK
+Commercial Banks NBFCs ARCs Cooperatives
+• The BR Act prescribes certain 
+qualifications for Directors of 
+the banking company
+• Enhanced requirements includes 
+expertise in additional fields like 
+IT, risk management, etc.
+• Roles of Chairman and CEO/ 
+MD separated in PvSBs (2007) 
+and PSBs excluding SBI (2014), 
+requiring the Chairman to be 
+part-time (non-executive)
+• Prior approval required 
+from RBI for appointment /
+reappointment/ termination of 
+WTDs and Part-Time Chairman 
+• Private sector banks are required 
+to have a minimum of two 
+WTDs, including the MD&CEO, 
+on their Boards
+• Fit and proper criteria for elected 
+directors on Board of PSBs
+• Guidelines for compensation of 
+WTDs/CEOs/MRTs and Control 
+Function Staff for PvSBs and FBs
+• The Companies Act, 2013 
+has provisions, inter alia, 
+on constitution of the Board 
+and Board committees, and 
+qualification of directors
+• RBI can remove the 
+directors of NBFCs (except 
+government owned NBFCs) 
+and supersede their board of 
+directors (except the board 
+of Government Company)
+• Scale-based guidelines in 
+the areas of Committees of 
+the Board, restrictions on 
+Directorship, appointment 
+of CRO, etc (details given in 
+table below).
+• ‘Fit and proper’ criteria for 
+directors in NBFCs, and 
+prior approval of RBI for any 
+change in management with 
+>30% change in director 
+(excluding independent 
+directors)
+• ARCs are also companies 
+and are governed by the 
+provisions of the Companies 
+Act, 2013
+• Besides, the SARFAESI Act 
+requires ARCs to obtain 
+prior approval of RBI for 
+appointment of any director 
+including the MD or CEO
+• RBI can remove chairman or 
+any director of the ARC and 
+appoint additional director 
+on their board
+• ‘Fit and proper’ criteria 
+for directors and CEO, 
+maximum age limit and 
+max continuous tenure of 
+MD/CEO/WTD
+• Board of ARCs shall be 
+chaired by an independent 
+director and at least half 
+of the directors in every 
+board meeting shall be 
+independent directors.
+• Governed by the provisions of 
+the respective state/central co-
+operative society laws 
+• Management-related provisions 
+of the BR Act, 1949 have also 
+been made applicable to them 
+since 2020 
+• RBI guidelines for directors of 
+UCBs, including constitution of 
+Audit Committee of the Board in 
+UCBs
+• Criteria for appointment of 
+majority of the directors, MD/ 
+CEO/WTD, max continuous 
+tenure of the directors, 
+supersession of the board, etc. 
+in the BR Act, 1949.
+• Larger UCBs to have independent 
+CRO with no additional 
+responsibility
+• NABARD’s guidelines for rural 
+cooperatives
+Chapter III - Governance and Ownership Framework
+7
+III.2 SCALE-BASED GOVERNANCE FRAMEWORK FOR NBFC
+No. Governance regulation NBFC-BL NBFC-ML NBFC-UL
+1 Atleast one director should have worked in a bank/ NBFC Applicable Applicable Applicable
+2 Risk Management Committee at Board or Executive level Applicable Applicable Applicable
+3 Board approved policy for loans to directors, relative of directors and senior 
+officers of the NBFCs
+Applicable Applicable Applicable
+4 Constitution of Audit Committee of the Board NA Applicable Applicable
+5 Constitution of Nomination & Remuneration Committee NA Applicable Applicable
+6 KMPs to not hold any office (including directorship) in any other NBFC-ML or 
+NBFC-UL (except for directorship in a subsidiary)
+NA Applicable Applicable
+7 Restriction on independent director to hold directorships in more than 3 NBFC-
+ML or NBFC-UL
+NA Applicable Applicable
+8 Board approved policy on compensation to KMP and senior management NA Applicable Applicable
+9 Framing of internal guidelines on corporate governance and publish on website NA Applicable Applicable
+10 Appointment of Chief Risk Officer (CRO). NA Applicable to NBFCs with asset 
+size of more than `5,000 Cr
+11 Qualification of Board members – specific expertise is a prerequisite depending 
+on type of business of NBFC
+NA NA Applicable
+12 Listing & disclosures as applicable for listed company NA NA Mandatory
+Handbook on Regulations at a Glance
+8 III.3 OWNERSHIP GUIDELINES
+Banking Companies NBFCs/ HFCs ARCs
+• Prior approval of RBI is required for 
+acquisition of major shareholding in a 
+banking company (≥ 5% of paid-up share 
+capital or voting rights).
+• Major shareholders of banks to be ‘fit and 
+proper’ on a continuous basis.
+• The persons from FATF non-compliant 
+jurisdictions (including those through 
+which funds are routed) are not allowed 
+to be major shareholders in the banking 
+company.
+• Prior approval of RBI is required for any 
+acquisition/ transfer of ≥ 26% of the 
+shareholding of NBFCs and ≥26 % of the 
+paid-up equity capital of HFCs.
+• In case of deposit accepting/taking 
+HFCs, the prior approval is required for 
+acquisition of 10% or more by a foreign 
+investor.
+• Further approval required for takeover or 
+acquisition of control which may or may 
+not lead to change of management of 
+NBFCs/HFCs.
+• Investors from FATF non-compliant 
+jurisdictions are not permitted to acquire 
+significant influence in NBFCs/HFCs.
+• Prior approval of RBI is required for 
+- any transfer or fresh issuance of shares 
+resulting in induction of a new sponsor 
+- any transfer or fresh issuance of shares 
+resulting in cessation of an existing 
+sponsor.
+- an aggregate transfer of 10% or more 
+of the total paid up share capital of the 
+ARC by a sponsor during the period of 
+five years commencing from the date of 
+the CoR.
+• Sponsors of ARCs to be ‘fit and proper’ on 
+a continuous basis.
+- Investors from FATF non-compliant 
+jurisdictions are not permitted to 
+acquire significant influence in ARCs.
+9
+CHAPTER IV - PRUDENTIAL NORMS AND CAPITAL REGULATIONS
+IV.1 CAPITAL REGULATIONS PRESCRIBED BY BCBS
+Basel I Framework Basel II Framework Basel III Framework
+• Definition of regulatory capital - items 
+qualifying as capital were divided into 
+Tier 1 capital and Tier 2 capital; 
+• Categorization of assets by standard 
+risk-weight categories - all credit risk 
+exposures were risk weighted based on 
+their relative degree of risk; and 
+• Stipulation of Minimum Capital 
+Adequacy Ratios - relating capital to risk-
+weighted assets viz., Tier 1 Capital Ratio 
+of 4% and Total Regulatory Capital Ratio 
+of 8%
+• Pillar 1 – stipulating minimum 
+capital requirements which are more 
+comprehensive in their coverage and 
+more risk-sensitive than Basel I. In 
+addition to credit risk and market risk, a 
+specific charge for operational risk was 
+included; 
+• Pillar 2 – consisting of a Supervisory 
+Review Process for assessing the capital 
+adequacy of individual banks, requiring 
+banks to hold capital for risks that are 
+not captured under Pillar 1; and 
+• Pillar 3 – or Market Discipline, which 
+introduced disclosure requirements for 
+a better understanding of a bank’s risk 
+profile and its capital position
+• Revised Definition of Capital: The minimum 
+level of Tier 1 capital was raised from 4% to 6%. 
+A new Common Equity Tier 1 (CET1) ratio of 
+4.5% within the Tier 1 capital was introduced 
+to ensure that at least three-quarters of the 
+Tier 1 ratio is composed of capital of the 
+highest quality (common equity and retained 
+earnings).
+• Introducing a leverage ratio to contain the 
+build-up of bank leverage.
+• Ensuring that capital requirements contribute 
+to dampening economic and financial shocks, 
+as opposed to amplifying them, through 
+the introduction of capital buffers viz., 
+the Capital Conservation Buffer (CCB) and 
+Countercyclical Capital Buffer (CCyb).
+• A framework for identifying the Global 
+Systemically Important Banks (G-SIBs) and 
+the magnitude of additional loss absorbency 
+capital requirements (in the form of CET1 
+capital) applicable to these G-SIBs. The BCBS 
+further required all member countries to have 
+a regulatory framework to deal with Domestic 
+Systemically Important Banks (D-SIBs)
+Handbook on Regulations at a Glance
+10 IV.2 CAPITAL AND PRUDENTIAL REQUIREMENTS IN INDIA- MARKET AND LIQUIDITY RISK
+Risk Component Capital Estimation and/or other prudential requirements
+Market Risk • Market risk means the risk of losses in on and off-balance-sheet positions arising from movements in 
+market prices. The market risk positions subject to capital charge requirement are: (i) The risks pertaining 
+to interest rate related instruments and equities in the trading book; and (ii) Foreign exchange risk 
+(including open position in precious metals) throughout the bank (both banking and trading books).
+• The capital requirement for market risk is the simple sum of the capital requirements arising from each 
+of the three risk classes – namely interest rate risk, equity risk and FX risk.
+Interest Risk The capital requirement consists of two components:
+• “Specific risk” charge for each security, which is designed to protect against an adverse movement in the 
+price of an individual security owing to factors related to the individual issuer. The specific risk capital 
+charge varies based on, 
+inter alia,  the nature of the investment and the residual maturity.
+• “General market risk” charge, which is designed to capture the risk of loss arising from changes in market 
+interest rates towards interest rate risk in the portfolio. The capital charge is the sum of four components:
+(a) the net short or long position in the whole trading book;
+(b) a small proportion of the matched positions in each time-band (the “vertical disallowance”);
+(c) a larger proportion of the matched positions across different time-bands (the “horizontal disallowance”), 
+and
+(d) a net charge for positions in options, where appropriate.
+Equity Risk The capital requirement consists of two components:
+(i)  “Specific risk” charge for each security, which will be 11.25 per cent or capital charge in accordance with 
+the risk warranted by external rating (or lack of it) of the counterparty, whichever is higher and specific 
+risk is computed on banks’ gross equity positions. 
+(ii) “General market risk” charge towards equity risk in the portfolio, which will be 9 per cent on the gross 
+equity positions.
+Forex Risk • To determine the forex risk capital charge, banks shall first determine the net open position in each 
+currency. The net open positions, limits or actual whichever is higher, would attract capital charge at 9 per 
+cent.
+Chapter IV - Prudential Norms and Capital Regulations
+11
+Risk Component Capital Estimation and/or other prudential requirements
+Market Risk (NBFCs) Not applicable
+Market Risk  
+(Standalone PDs- SPDs)
+• Capital charge to be higher of (i) and (ii)-
+(i)  Standardised Approach: Fixed income (duration method), Forex (the net open positions, limits or 
+actual whichever is higher, would attract capital charge at 15 per cent) and equity (using Internal 
+Model Approach).
+(ii) Internal risk management framework-based approach: daily VaR at 99th percentile, one-tailed 
+confidence level; price shock equivalent to 15 days movement in prices; 
+Counterparty Credit Risk • Capital computation through Current Exposure Method (CEM) 
+=> Exposure = Replacement Cost (RC) + potential furture exposure (PFE), 
+where PFE = (notional principal amount of each of the contracts) X (relevant add-on factors according to 
+nature and residual maturity).
+Interest Rate Risk in the 
+Banking Book (IRRBB)
+• Exposure to IRRBB in terms of potential change in-
+(i) earnings perspective - measured through ΔNII (Net Interest Income) using Traditional Gap Analysis 
+(TGA) method, and
+(ii) economic value perspective - measured through ΔMVE (Market value of Equity i.e. networth) using 
+Duration Gap Analysis (DGA) method
+Liquidity Risk
+• All commercial banks in India (except RRBs, Payments Banks and Local Area Banks) are required to 
+maintain minimum of 100 per cent Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR) 
+on an ongoing basis at both standalone and consolidated basis. 
+• All non-deposit taking NBFCs with asset size of ₹5,000 crore and above (except CICs, Type 1 NBFCs, NOFHCs 
+and SPDs) and all deposit taking NBFCs irrespective of their asset size are also required to maintain a 
+minimum 100 per cent LCR.
+Handbook on Regulations at a Glance
+12 IV.3 CREDIT RISK
+IV.3.a Credit Products
+IV.3.a.i Lending Against Securities
+Security against which loan is granted Limit LTV/ Margin
+Scheduled Commercial Banks (as per applicability)
+Equity shares and equity mutual funds (in dematerialized form) `20 lakh LTV of 75%
+Bonds and Debentures `20 lakh As per bank’s internal policy
+Debt mutual funds As per bank’s internal policy As per bank’s internal policy
+Loan for IPOs `10 lakh 50% margin
+Loan for ESOPs `20 lakh 10% margin
+Urban Cooperative Banks
+Shares, bonds and debentures (in dematerialized form) `10 lakh LTV of 50% 
+Rural Cooperative Banks
+Shares, bonds and debentures `5 lakh LTV of 50% 
+NBFCs
+Listed equity shares No limit LTV of 50%
+Loans for subscription to IPOs `1 crore As per NBFC’s internal policy
+Scheduled Commercial Banks (in further details)
+Item/Subject Limit
+Banks' exposure to capital markets as sensitive sector exposure, imposing a flat RW 125%
+Banks' total exposure to capital markets 40% of net worth
+Financing NBFCs for further lending to individuals for subscribing to IPOs or purchasing shares in the 
+secondary market
+Prohibited
+Chapter IV - Prudential Norms and Capital Regulations
+13
+IV.3.a.ii Housing Finance
+Entity Amt. (`lakh) LTV Risk Weight
+SCBs and HFCs Up to 30 <=80 35
+>80 but ≤90 50
+Above 30 up to 75 <=80 35
+Above 75 <=75 50
+UCBs Up to 30 <=75 50
+Above 30 <=75 75
+Other housing loans 100
+RCBs Up to 30 <=75 50
+>75 100
+Other housing loans 100
+LABs and RRBs Up to 20 90 50
+Above 20 and up to 75 80 50
+Above 75 75 75
+NBFCs excluding HFCs Other secured loans 100
+Further, limits on Housing loans have been prescribed for certain categories of REs, which are as under:
+Entity Nature of Loan Limit
+UCBs Aggregate exposure of a UCB to residential 
+mortgages (housing loans to individuals), 
+other than those eligible to be classified as 
+priority sector
+25% of total loans and advances
+Aggregate exposure of a UCB to real estate 
+sector, excluding housing loans to individuals
+5% of total loans and advances
+Housing Loans to individuals (loan amount 
+per dwelling unit, subject to extant single 
+borrower exposure limits)
+₹60 lakh for Tier-1 UCBs
+₹1.40 crore for Tier-2 UCBs
+₹2 crore for Tier-3 UCBs
+₹3 crore for Tier-4 UCBs
+Handbook on Regulations at a Glance
+14
+Entity Nature of Loan Limit
+Supplementary Finance – loans for alterations, 
+additions, repairs to houses / flats 
+₹10 lakh in metropolitan centres and up to ₹6 
+lakh in other centres 
+StCBs/DCCBs having assessed net worth 
+less than ₹100 crore 
+Housing Loans ₹50 lakh 
+StCBs/DCCBs having assessed net worth 
+equal to or more than ₹100 crore 
+Housing Loans ₹75 lakh 
+All StCBs/DCCBs Total Exposure to Housing Finance and CRE- 
+Residential Housing
+5% of total assets 
+All StCBs/DCCBs Supplementary Finance – loans for alterations, 
+additions, repairs to houses / flats
+₹1 lakh  
+IV.3.a.iii Digital Lending
+Item/Subject Limit/Details
+Default Loss Guarantee from Lending Service Provider to Regulated 
+Entities 
+5% of the loan portfolio
+Nature of Default Loss Guarantee Cash or lien marked fixed Deposit or a bank guarantee from a 
+scheduled commercial bank
+Invocation of Default Loss Guarantee Within 120 days 
+Period of Default Loss Guarantee cover Not less than the longest tenor of the loan in the underlying loan 
+portfolio being guaranteed
+Prudential norms on income recognition, asset classification and provisioning shall be applicable on the underlying loans in the portfolio, 
+irrespective of availability of DLG cover. In cases where REs act as LSPs and provide DLG cover, the RE shall deduct the amount of DLG 
+cover from its capital. 
+To improve transparency and disclosure on such arrangements, REs shall ensure that LSPs disclose the number of DLG portfolios along 
+with respective amount of DLG cover on their website.
+Chapter IV - Prudential Norms and Capital Regulations
+15
+IV.3.a.iv Regulations related to Non-Fund Based Facilities
+Scheduled Commercial Banks Urban Co-operative Banks
+• Guarantees should generally not have a maturity of > 10 Yrs
+• Banks should generally avoid issuing non-fund based facilities to/
+on behalf of customers who do not have credit facility with them
+• Bank Guarantee (BG)/ Letter of Credit (LCs) can be issued to 
+clients of co-operative banks with a counter guarantee from the 
+co-operative bank, subject to the specified conditions
+• The limit on unsecured exposure was removed in 2004, giving 
+bank boards the freedom to set their own policies
+• Guarantees for `50,000 and above should be signed by two officials
+• Banks should be cautious when co-accepting bills, ensuring they 
+are genuine trade bills and not accommodation bills
+• The maturity period for guarantees should be kept short and 
+should not exceed ten years
+• Total volume of outstanding guarantee obligations should not 
+exceed 10% of the total owned resources of the bank comprising 
+paid up capital, reserves and deposits
+• Proportion of unsecured guarantees outstanding at any time 
+outstanding at any time may be limited to 25% of the owned 
+funds of the bank or 25% of the total amount of guarantees, 
+whichever is less
+• Primarily focus on providing financial guarantees and avoid 
+issuing performance guarantees
+• Exercise caution when co-accepting bills
+• Avoid undue concentration of unsecured guarantee commitments 
+to particular groups of customers and/or trades
+Handbook on Regulations at a Glance
+16 IV.3.b Credit Risk Management
+IV.3.b.i Interest Rate on Advances
+Entity Conditions
+SCBs • Banks have the freedom to offer all categories of advances on fixed or floating interest rates. However, for EMI based personal 
+loans, Banks are mandated to offer loans on both fixed and floating rate
+• Fixed interest rate on loans of tenor three years and below cannot be less than the corresponding Marginal Cost of Lending 
+Rate (MCLR)
+• For floating interest rate loans to other than retail and MSME borrowers, banks can offer loans with reference to either an 
+internally calculated reference rate MCLR or external reference rates published by the Financial Benchmarks India Pvt Ltd 
+(FBIL)
+• MCLR: Banks are required to calculate their cost of funds as a marginal cost that includes certain components viz., marginal 
+cost of funds, negative carry-on account of CRR, operating cost and tenor premium. The periodicity of reset shall be one year 
+or lower. The exact periodicity of reset shall form part of the terms of the loan contract
+• Banks are required to extend floating rate loans to Retail and MSME borrowers with reference to external benchmark lending 
+rates only. The external benchmarks that may be considered for loans are - Reserve Bank of India policy Repo Rate or 
+Government of India 3-Months and 6-Months Treasury Bill yields published by FBIL or any other benchmark market interest 
+rate published by FBIL. The periodicity of reset of interest shall be atleast once in three months.
+• Banks can, at their discretion, extend EBLR loans to other than mandated sector as well
+RRBs • The interest rates charged by RRBs have been deregulated in 1994 wherein it was advised to abolish minimum lending rate 
+for credit limits of over ` 2 lakh
+NBFCs • The interest rates charged by NBFCs have been deregulated wherein the Board shall adopt an interest rate model taking into 
+account relevant factors such as cost of funds, margin and risk premium and determine the rate of interest to be charged.
+Chapter IV - Prudential Norms and Capital Regulations
+17
+IV.3.b.ii Loans and Advances
+Statutory Restrictions on SCBs
+Sl. 
+No
+Item/Subject Limit/Permissibility
+1 Advances against bank's own shares Prohibited as per BR Act
+2 Advances to bank's Directors Restricted as per BR Act
+3 Banks holding shares in any company, whether as 
+pledgee, mortgagee or absolute owner (as % of the 
+paid-up share capital of that company or its own 
+paid-up share capital and reserves, whichever is less) < 30%
+4 Employment of any person whose remuneration 
+or part of whose remuneration takes the form of 
+commission or a share in the profits of the company
+Prohibited as per BR Act
+5 Banks to maintain minimum level of their assets 
+in India at the close of business on the last Friday 
+of every quarter
+≥ 75% of Demand and  
+Time Liabilities in India (DTL)
+Regulatory limits on UCBs:
+Sr. 
+No.
+Area Limits for UCBs
+1 Prudential exposure limits  
+(Single or Group borrower/ parties) 
+15% of Tier-I capital (Single borrower) 
+ 25% of Tier-I capital (Group borrower) 
+2 Aggregate exposure of a UCB to residential 
+mortgages (housing loans to individuals), other 
+than those eligible to be classified as priority sector
+25% of total loans and advances
+Aggregate exposure of a UCB to real estate sector, 
+excluding housing loans to individuals
+5% of total loans and advances
+Handbook on Regulations at a Glance
+18
+Sr. 
+No.
+Area Limits for UCBs
+3 Housing Loans to individuals (loan amount per 
+dwelling unit, subject to extant single borrower 
+exposure limits)
+₹60 lakh for Tier-1 UCBs
+₹1.40 crore for Tier-2 UCBs
+₹2 crore for Tier-3 UCBs
+₹3 crore for Tier-4 UCBs 
+(Housing loans may be repayable within a maximum period of 20 years, including 
+moratorium or repayment holiday.) 
+4 Housing Finance – Loans to individual borrower 
+for repairs/ additions/ alterations 
+₹10 lakh in metropolitan centres (those centres with population of 10 lakh and 
+above); and, ₹6 lakh in other centres 
+5 Deposit with other banks (Gross) 20% of its total deposits 
+6 Deposit with other banks (Single bank) 5% of its total deposits 
+7 Unsecured loans and advances – bank level 10% of its total assets 
+(For UCBs having CRAR ≥ 9%, Gross NPAs ≤ 7%; Extra limit upto 15% of total 
+assets for loans sanctioned for productive purposes (upto ₹10,000);
+For UCBs with a large PSL portfolio (not less than 90%), CRAR ≥ 9%, Gross NPAs≤ 
+7; Limit upto 35% of total assets for priority sector loans upto ₹40,000)
+8 Unsecured loans and advances – Individual borrower Limits ranging from ₹25,000 to ₹5 lakh, depending on the size of Demand and 
+Time Liabilities (DTL) and compliance with CRAR 
+9 Lending against shares/debentures (Aggregate limit) 20% of the Tier-I capital as on March 31st of previous financial year  
+10 Lending against shares/ debentures ₹5 lakh if the security is in physical form 
+₹10 lakh if the security is in demat form  
+(A margin of 50% should be maintained on all such advances. Advances against 
+units of mutual funds can be extended only to individuals as in the case of 
+advances against the security of shares, debentures and bonds) 
+11 Small Value Loans (limit for 50% of aggregate loans 
+and advances) 
+(Limit will be 40% by March 31, 2025 and 50% by 
+March 31, 2026) 
+₹25 lakh or 0.4% of Tier I capital, whichever is higher, subject to a ceiling of  
+₹3 crore per borrower. 
+Subject to prudential exposure limits 
+(Boards of UCBs, however, shall periodically review the portfolio behaviour and 
+quality under different loan-size categories and where necessary, may consider 
+fixing lower ceilings.)
+Chapter IV - Prudential Norms and Capital Regulations
+19
+Sr. 
+No.
+Area Limits for UCBs
+12 Gold Loan – Bullet Repayment `2 lakh (`4 lakh for PSL compliant UCBs)
+Subject to following conditions:
+(i)  UCBs should maintain a LTV ratio of 75% on the outstanding amount of loan 
+including the interest on an ongoing basis, failing which the loan will be treated as 
+Non-Performing Asset (NPA).
+(ii)  The period of the loan shall not exceed 12 months from the date of sanction.
+13 Loans to nominal members (for short / temporary 
+period and for purchase of consumer durables)
+`0.50 lakh for UCBs with deposits upto `50 crore
+ `1 lakh for other UCBs
+14 Overall PSL targets 75% of Adjusted Net Bank Credit (ANBC) or Credit Equivalent Amount of Off-balance 
+Sheet Exposure (CEOBSE) by March 31, 2026
+15 PSL sub-target for weaker section Higher of 12% of ANBC or CEOBSE by March 31, 2026
+16 PSL sub-target for micro enterprises Higher of 7.5% of ANBC or CEOBSE
+IV.3.b.iii Gold Loans
+Sl. 
+No
+Item/Subject Limit/Permissibility
+1 LTV Condition Regulatory stipulation: 75%
+For SCBs, LTV is applicable only on non-agricultural loans.
+For StCBs, CCBs and RRBs, LTV is applicable only on loans extended for the 
+purpose of medical expenses and meeting unforeseen liabilities.
+For NBFCs and UCBs, LTV is applicable on all loans extended by the RE.
+2 Other condition Co-operative banks and RRBs are not permitted to extend bullet repayment loans 
+against eligible gold collateral of > `2 Lakh to a single customer. 
+For UCBs that have met their PSL obligations, the limit is enhanced to `4 Lakh
+Handbook on Regulations at a Glance
+20 IV.3.c Income Recognition, Asset Classification1 and Provisioning Norms2
+IV.3.c.i IRACP norms
+Special Mention 
+Accounts (SMA) 
+Sub-categories
+Loans other than revolving facilities: 
+Basis for classification – Principal or interest payment 
+or any other amount wholly or partly overdue between
+For revolving facilities: 
+Basis for classification – Outstanding balance remains 
+continuously in excess of the sanctioned limit or drawing 
+power, whichever is lower, for a period of:
+SMA-0 Up to 30 days NA
+SMA-1 More than 30 days and up to 60 days More than 30 days and up to 60 days
+SMA-2 More than 60 days and up to 90 days More than 60 days and up to 90 days
+NPA > 90 days • The outstanding balance in the CC/OD account remains 
+continuously in excess of the sanctioned limit/drawing 
+power for 90 days, or
+• The outstanding balance in the CC/OD account is less than 
+the sanctioned limit/drawing power but there are no credits 
+continuously for 90 days, or the outstanding balance in the 
+CC/OD account is less than the sanctioned limit/drawing 
+power but credits are not enough to cover the interest 
+debited during the previous 90 days period inclusive of the 
+day for which the day-end process is being run
+• In the case of Farm Credit extended to agricultural 
+activities, loan granted for short duration crops will 
+be treated as NPAs, if the instalment of principal 
+or interest thereon remains overdue for two crop 
+seasons. 
+• A loan granted for long duration crops will be treated 
+as NPA, if the instalment of principal or interest 
+thereon remains overdue for one crop season.
+ 1  In case of NBFCs where the NPA/SMA criteria is not aligned to 90 days overdues norm, the references to 90 days for NPA and SMA classification may be read as per the 
+applicable norms and also subject to the provisions of the Master Direction DoR.FIN.REC.No.45/03.10.119/2023-24 dated October 19, 2023 on ‘Scale Based Regulation (SBR).
+2  For Ind AS implementing NBFCs/ HFCs, the IRACP norms are relevant for ascertaining the adequacy of provisioning since provisioning as per IRACP norms is the 
+prudential floor.
+Chapter IV - Prudential Norms and Capital Regulations
+21
+IV.3.c.ii Asset Classification
+Categories 
+in NPA
+SCBs/AIFIs UCBs StCBS/CCBs RRBs NBFCs HFCs
+Sub Standard 
+Assets 
+An asset which 
+has remained NPA 
+for a period less 
+than or equal to 12 
+months
+An asset which 
+has remained NPA 
+for a period less 
+than or equal to 12 
+months
+An asset which 
+has remained 
+overdue for 
+a period not 
+exceeding 3 years
+An asset 
+classified as NPA 
+for a period not 
+exceeding one 
+year.
+An asset which 
+has remained NPA 
+for a period less 
+than or equal to 12 
+months
+NBFC-BL- NPA 
+for a period not 
+exceeding 18 
+months
+An asset which has 
+remained NPA for a 
+period less than or 
+equal to 12 months
+Doubtful 
+Asset
+An asset which 
+has remained in 
+the substandard 
+category for a 
+period of 12 
+months.
+An asset which 
+has remained NPA 
+for more than 12 
+months. 
+An asset which 
+has remained 
+overdue for a 
+period exceeding 
+3 years
+An asset which 
+has remained in 
+the sub-standard 
+category for 12 
+months
+An asset which 
+remains a sub-
+standard asset for 
+a period exceeding 
+12 months.
+NBFC-BL- which 
+remains a sub-
+standard asset for 
+a period exceeding 
+18 months
+An asset which 
+has remained in 
+the substandard 
+category for a 
+period exceeding 
+12 months.
+Loss Assets Identification of 
+loss by bank, or 
+internal/external 
+auditor, or RBI
+Identification of 
+loss by Bank, or 
+internal/external 
+auditor, or RBI, or 
+Cooperation Dept.
+Identification of loss by Bank, or 
+internal/external auditor, or RBI, or 
+NABARD
+Identification of 
+loss by NBFC, or 
+internal/external 
+auditor, or RBI
+Identification of 
+loss by HFC, or 
+internal/external 
+auditor, or RBI, or 
+NHB
+Handbook on Regulations at a Glance
+22
+Categories 
+in NPA
+SCBs/AIFIs UCBs StCBS/CCBs RRBs NBFCs HFCs
+Asset not written 
+off wholly
+Asset is considered 
+uncollectible and 
+its continuance as 
+a bankable asset 
+is not warranted 
+but may have 
+some salvage and 
+recovery value
+Asset not written 
+off wholly
+Asset is considered 
+uncollectible and 
+its continuance as 
+a bankable asset 
+is not warranted 
+but may have 
+some salvage and 
+recovery value
+Asset not written off wholly
+Asset is considered uncollectible and 
+its continuance as a bankable asset 
+is not warranted but may have some 
+salvage and recovery value
+Asset not written-
+off wholly
+Non-recoverability 
+due to either 
+erosion in the 
+value of security 
+or non-availability 
+of security or due 
+to any fraudulent 
+act or omission 
+on the part of the 
+borrower
+Asset not written 
+off wholly
+Asset is adversely 
+affected by a 
+potential threat of 
+non-recoverability 
+or due to any 
+fraudulent act 
+or omission on 
+the part of the 
+borrower
+IV.3.c.iii Standard Asset Provisioning Rates
+SCBs & AIFIs UCBs3 NBFC (UL) & 
+HFCs
+RRBs RCBs NBFCs
+Farm Credit 0.25% 0.25% NA 0.25% 0.25%
+0.40% (ML)
+0.25% (BL)
+Individual housing loans 0.25% 0.40% 0.25% 0.40% 0.40%
+Small and Micro Enterprises 0.25% 0.25% 0.25%4 0.25% 0.25%
+Commercial Real Estate (CRE) 1.00% 1.00% 1.00% 1.00% 1.00%
+CRE- Residential Housing (RH) 0.75% 0.75% 0.75% 0.40% 0.40%
+Housing loans at teaser rates 2.00% 0.40% 2.00% 0.40% 0.40%
+All others 0.40% 0.40% 0.40% 0.40% 0.40%
+3  The erstwhile Tier I UCBs, which are currently maintaining standard asset provision of 0.25% on ‘all other loans and advances not included above’ are permitted to 
+achieve the provisioning requirement of 0.40% on such advances in a staggered manner by March 31, 2025.
+4  Not applicable for HFCs
+Chapter IV - Prudential Norms and Capital Regulations
+23
+IV.3.c.iv Specific loan loss provisioning
+For sub-standard assets For doubtful assets For Loss Assets
+•  For SCBs and AIFIs, provisioning for sub-standard assets 
+shall be on the basis of security coverage i.e., secured 
+advances shall be provided at 15% and un-secured 
+advances at 25%. 
+•  For HFCs, a general provision of 15% shall be made. 
+•  For all other REs, it shall be at 10% irrespective of security 
+availability. 
+•  For SCBs, AIFIs and HFCs, provisioning for doubtful 
+assets shall be 25%/40%/100% for the secured portion, 
+based on ageing profile. 
+•  For NBFCs it shall be 20%/30%/50% for the secured 
+portion, based on ageing profile. 
+•  For other REs it shall be 20%/30%/100% respectively 
+for the secured portion, based on ageing profile. For 
+unsecured portion, it shall be 100% 
+100%
+Provisioning (for NBFC-MFIs)
+Asset Classification Provisioning
+Standard Asset NBFC-BL: 0.25% of outstanding 
+NBFC-ML: 0.40% of outstanding
+Non-performing Assets The aggregate loan provision to be maintained by NBFC-MFIs at any point of 
+time shall not be less than the higher of:
+(a)  1% of the outstanding loan portfolio, or 
+(b)  50% of the aggregate loan instalments which are overdue for more than 
+90 days and less than 180 days and 100 percent of the aggregate loan 
+instalments which are overdue for 180 days or more.
+Handbook on Regulations at a Glance
+24 IV.3.c.v Provisions on Project Accounts as long as these are classified as standard assets
+Entity Particulars Provisioning requirement
+Commercial 
+Banks
+If the revised Date of Commencement of Commercial Operations 
+(DCCO) is within two years/one year from the original DCCO 
+prescribed at the time of financial closure for infrastructure and 
+non-infrastructure projects (including commerical real estate 
+projects) respectively
+0.40%
+If the DCCO is extended:
+i)  Beyond two years and upto four years or three years from the 
+original DCCO, as the case may be, for infrastructure projects 
+depending upon the reasons for such delay;
+ii)  Beyond one year and upto two years from the original DCCO, 
+for non-infrastructure projects (including real estate projects)
+5.00% – From the date of such restructuring till the 
+revised DCCO or 2 years from the date of restructuring, 
+whichever is later
+UCBs Project Loans for Infrastructure Sector
+i)  Until two years from the original DCCO
+ii)  During the third and the fourth years after the original DCCO
+i)  0.40%
+ii)  1.00%
+Project Loans for Non-Infrastructure Sector
+i)  Until the first six months from the original DCCO
+ii)  During the next six months
+i)  0.40%
+ii)  1.00%
+NBFCs If the revised DCCO is within two years from the original DCCO 
+prescribed at the time of financial closure
+0.25% 
+If the DCCO is extended beyond two years and upto four years or 
+three years from the original DCCO, as the case may be, depending 
+upon the reasons for such delay
+Project loans restructured with effect from January 24, 
+2014: 
+5.00% - From the date of such restructuring till the 
+revised DCCO or 2 years from the- date of restructuring, 
+whichever is later.
+Chapter IV - Prudential Norms and Capital Regulations
+25
+IV.3.d Resolution of Stressed Assets
+IV.3.d.i Guidelines
+Restructuring Guidelines applicable to different REs
+SCBs, SCBs (excluding RRBs), 
+AIFIs, SFBs, non-deposit taking 
+NBFCs of asset size of `500 
+crore and above and all NBFC-D
+UCBs Non-deposit taking 
+NBFCs with asset size 
+less than `500 crore
+HFCs LABs, RRBs
+Prudential Framework on 
+Resolution of Stressed 
+Assets dated June 07, 2019  
+Framework for Revival and 
+Rehabilitation of Micro, Small 
+and Medium Enterprises 
+(MSMEs) dated March 17, 2016 
+(for MSME borrowers whose 
+aggregate exposure with all 
+commercial banks is `25 crore or 
+less)
+Prudential Guidelines 
+on Restructuring of 
+Advances by UCBs 
+dated March 6, 2009
+Master Direction – 
+Reserve Bank of India 
+(Non-Banking Financial 
+Company – Scale Based 
+Regulation) Directions, 
+2023
+Non-Banking Financial 
+Company – Housing 
+Finance Company 
+(Reserve Bank) 
+Directions, 2021
+Debt Restructuring 
+Mechanism for Small 
+and Medium Enterprises 
+(SMEs) dated September 
+08, 2005
+Handbook on Regulations at a Glance
+26 IV.3.d.ii Prudential Framework on Resolution of Stressed Assets
+Item/Subject Details
+Applicability SCBs (excluding RRBs), All India Financial Institutions (AIFIs) and non-deposit taking NBFCs of asset size of 
+`500 crore and above and all Deposit-taking NBFCs
+Other important features • Trigger of Review Period: Lenders to complete prima facie review of borrower account within 30 days of 
+default
+• If RP is not implemented within 180 days from the end of the Review Period, then additional provisions of 
+20% for borrowers with aggregate exposure to the banking system is >= `1500 cr. If the resolution plan is 
+not successfully implemented within 365 days from occurrence of default, additional 15% provision shall be 
+made, making the total provisioning to be at 35%
+• Borrowers with aggregate exposure of ≥ `100 Cr, resolution plans involving restructuring/change in 
+ownership shall mandatorily require one independent credit evaluation (ICE) rating of RP4 or higher from a 
+CRA for residual debt; two such ICE ratings if exposure ≥`500 Cr
+• Asset classification of borrower accounts to be downgraded to NPA upon restructuring
+• Monitoring period: longer of period for repayment of ≥10% of dues as part of RP, or 1 year from the beginning 
+of first repayment
+• Review period: Triggered if unsatisfactory performance during the monitoring period
+• Specified period: period from the date of implementation of RP up to the date by which at least 20% of 
+outstanding principal and interest sanctioned as per plan of RP. Fresh RP required in case of default during 
+the specified period. In such a case, additional provision of 15% required
+• If borrower exits specified period, any new default will be treated as new credit event
+• Compromise settlement where repayment period >3 months shall be treated as restructuring
+Chapter IV - Prudential Norms and Capital Regulations
+27
+IV.3.e Credit Risk Transfer and Distribution
+IV.3.e.i Securitisation of Standard Assets
+Item/Subject Limit/Criteria (for SCBs, AIFIs, SFBs and NBFCs)
+Applicability SCBs, AIFIs, and NBFCs including HFCs; (RRBs and Cooperative banks are 
+not permitted for securitisation under MD-SSA; SFBs also need to follow 
+their operating guidelines)
+Assets not eligible for securitisation:   a.  Re-securitisation exposures;
+b.  Structures in which short term instruments such as commercial 
+paper, which are periodically rolled over, are issued against long 
+term assets held by a Special Purpose Entity (SPE)
+c.  Synthetic securitisation; 
+d.  Securitisation with the following assets as underlying:
+i)    revolving credit facilities as underlying 
+ii)  Restructured loans and advances which are in the specified 
+period;
+iii) Exposures to other lending institutions;
+iv)  Refinance exposures of AIFIs;
+v)  Loans with bullet payments of both principal and interest as 
+underlying; and,
+vi) Loans with residual maturity of less than 365 days
+Minimum Retention Requirement (MRR) for underlying loans of 
+maturity – 24 months or less;
+MRR for 24 months and more and loans with bullet repayments
+5% of the book value of the loans being securitised
+10% of the book value of the loans being securitised
+Limit on total exposure of an originator to the securitisation 
+exposures belonging to a securitisation structure or scheme 
+20%
+Requirements for Simple Transparent and Comparable (STC) 
+criteria 
+Homogenous, non-default, sufficient information history on asset 
+performance and payment details, consistency in underwriting, 
+transparent enforcement rights
+Handbook on Regulations at a Glance
+28 Capital Treatment 
+Long Term Short Term
+STC Non-STC STC Non-STC
+Applicable Risk Weight 
+(Actual weight will be dependent 
+upon maturity, seniority, and tranche 
+thickness)
+10% - 1250% (Senior 
+tranche)
+15% - 1250% (Non-
+senior tranche)
+[based on rating and 
+tranche maturity]
+15% - 1250% [based 
+on rating and tranche 
+maturity]
+10% - 1250% [based 
+on rating]
+15% - 1250% [based on 
+rating]
+IV.3.e.ii Transfer of Loan Exposures
+Sl. 
+No
+Item/Subject Limit/Criteria
+A Non-Default Loans
+1 Permitted modes Assignment, novation or loan participation
+2 Permitted transferors/transferees SCBs (including SFBs5, excluding RRBs), AIFIs, NBFCs including HFCs
+3 Minimum Holding Period (MHP) requirements 
+-  for loans with original maturity less than two years; 
+ for loans with original maturity more than two years
+3 months
+6 months
+4 Minimum retention Requirement 
+Where the acquiring lender performs due diligence at the 
+individual loan level for less than one third of the portfolio 
+10% of economic interest in the transferred loans
+5 Subject to the conditions specified in the Operating Guidelines
+Chapter IV - Prudential Norms and Capital Regulations
+29
+Sl. 
+No
+Item/Subject Limit/Criteria
+B Stressed Loans6
+1 Permitted mode Through assignment or novation
+Loan Participation not permitted 
+2 Permitted transferors SCBs, Primary (Urban) Co-operative Banks/State Co-operative Banks/ 
+Central Co-operative Banks, SFBs7, NBFCs including HFCs, and AIFIs
+3 Permitted transferees 
+- General permission 
+- Under a resolution plan implemented under the 
+Prudential Framework dated June 7, 2019 
+SCBs (excluding RRBs), AIFIs, SFBs, NBFCs (incl HFCs), ARCs
+Apart from the above, a company, as defined in sub-section (20) of 
+Section 2 of the Companies Act, 2013 other than a financial service 
+provider as defined in sub-section (17) of Section 3 of the Insolvency 
+and Bankruptcy Code, 2016. [Other class of entities permitted to hold loan exposures under the regulations issued by a financial sector regulator may be added, based on a framework put in place by the financial regulator concerned for this purpose, in consultation with the Reserve Bank.]
+4 Cooling period in respect of:
+- Fresh exposure by the transferor to the borrower 
+- Fresh exposure by any RBI-regulated entity to the acquirer 
+for the purpose of deploying in the borrower, except for 
+working capital facilities (which are not in the nature of 
+term loans) to the borrower whose loan is transferred
+- 1 year, if transferee is RBI-regulated entity
+- 3 years, if transferee is non-RBI regulated entity 
+- 3 years 
+5 Mandatory Swiss Challenge If the aggregate exposure (including investment exposure) of lenders 
+to the borrower/s whose loan is being transferred is `100 crore or more
+6  RRBs and Cooperative Banks are permitted as only transferor(s) of stressed loans
+7  Subject to the conditions specified in the Operating Guidelines
+Handbook on Regulations at a Glance
+30
+Sl. 
+No
+Item/Subject Limit/Criteria
+6 Minimum Holding Period (in case of loans acquired from 
+other entities) for lenders to hold the exposures on their 
+books, before transferring
+6 months 
+C Transfer of stressed asset to ARCs 
+1 Periodic Valuation of Security Receipts (SRs) by transferors, 
+in respect of assets transferred by them 
+If the investment by the transferor in SRs issued against 
+loans transferred by it is more than 10% of all SRs issued 
+against the transferred asset
+Lower of (A):
+- Redemption value of SRs arrived based on the NAV declared by the 
+ARC 
+- NBV of the transferred stressed loan at the time of transfer.
+Lower of (B):
+- A above 
+- face value of the SRs reduced by the notional provisioning rate 
+applicable if the loans had continued on the books of the transferor.
+IV.3.f Concentration Risk Management
+IV.3.f.i Exposure/Concentration Norms- SCBs
+Items Limits
+Large Exposure Framework (LEF) norms for SCBs
+Single counterparty 20% of Tier 1 capital (extendable to 25% with Board approval)
+Group of connected counterparties 25% of Tier 1 capital
+Single counterparty (Exposure to Bank) 25% of Tier 1 capital 
+(15% for G-SIB exposure to G-SIB)
+(20% for non G-SIB exposure to G-SIB)
+Single counterparty (Exposure to NBFC) 20% of Tier 1 (gold loan NBFC - 7.5% of capital funds)
+Chapter IV - Prudential Norms and Capital Regulations
+31
+Items Limits
+Capital Market Exposures 40% of net worth
+Sectoral exposures, including real estate To be decided by the bank's Board
+Consumer credit, including unsecured loans To be decided by the bank's Board
+Exposure norms for SFBs 
+Single counterparty 10% of capital funds
+Group of connected counterparties 15% of capital funds
+Other exposure norms At least 50% of the loan portfolio should constitute loans and advances 
+of up to `25 lakh
+Intragroup exposures for SCBs
+Single exposure
+Non-financial companies and unregulated financial services 
+companies
+5% of Paid-up capital and reserves
+Regulated financial services companies 10% of Paid-up capital and reserves
+Aggregate exposure
+All non-financial companies and unregulated financial services 
+companies taken together
+10% of Paid-up capital and reserves
+All group companies taken together 20% of Paid-up capital and reserves
+Country Risk Exposure limits for SCBs
+Limits on exposure to any country Regulatory capital (Tier 1 and 2) , except in the case of insignificant 
+risk category
+Inter Bank Liabilities (Commercial Banks excluding RRBs)
+Limit • Shall not exceed 200 % of its net worth as on 31 st March of the 
+previous year
+• 300 % of net worth for banks whose CRAR is at least 11.25 % as on 
+31st March of the previous year 
+Handbook on Regulations at a Glance
+32
+Items Limits
+Inclusions Only fund based limits within India
+Exclusions IBL outside India
+TREPS borrowing, refinance from NABARD, SIDBI
+Inter Bank Liabilities (UCBs)
+Inter-UCB Deposits The total inter-UCB deposits accepted by a UCB shall not exceed 10% 
+of its total deposits as on 31st March of the previous financial year 
+subject to specified conditions.
+IV.3.f.ii Exposure/Concentration Norms- NBFCsLEF for NBFC- Upper Layer (UL) (other than IFC) Limits
+Single 20% of Tier 1 capital (+5% Board discretion, +5% for infrastructure - 
+Ceiling 25% of tier 1 capital)
+Group 25% of Tier 1 capital (+10% for infrastructure)
+LEF for NBFC-UL (IFC)
+Single 25% of Tier 1 capital (+5% Board discretion)
+Group 35% of Tier 1 capital
+Concentration norms for NBFC-Middle Layer (ML) (other than IFC)
+Single 25% of Tier 1 capital (+5% infrastructure)
+Group 40% of Tier 1 capital (+10% for infrastructure) 
+Concentration norms for NBFC-ML (IFC)
+Single 30% of Tier 1 capital
+Group 50% of Tier 1 capital
+NBFC- Base Layer (BL) As per NBFC's Board approved policy.
+Chapter IV - Prudential Norms and Capital Regulations
+33
+IV.4 OPERATIONAL RISK FOR BANKS
+Current approach Basic Indicator Approach as per Master Circular – Basel III Capital Regulations, 2024
+• Operational risk capital (ORC) = fixed percentage (denoted as alpha (α) which is presently 15%) of positive 
+annual gross income (GI) averaged over the previous three years
+• RWA = ORC * 12.5
+Proposed Approach
+(Implementation date to be 
+communicated later)
+Master Direction (MD) on Minimum Capital Requirements for Operational Risk- Standardised Approach
+Bucket Category ORC Calculation
+Bucket 1 banks
+Buckets 2 & 3 banks (with < 5 years of high-quality loss data) ORC = BIC
+Buckets 2 & 3 banks (with 5>= years of high-quality loss data) ORC = BIC x ILM
+RWA = ORC *12.5
+Details regarding Buckets, BIC and ILM are given below in separate table
+Component Description Formula
+Estimation of BIC and ILM
+Business Indicator (BI) A financial-statement-based proxy 
+for operational risk comprising 
+(i) interest, lease, and dividend 
+component (ILDC), (ii) service 
+component (SC), and financial 
+component (FC). 
+BI = ILDC + SC + FC
+ 
+Business Indicator 
+Component (BIC)
+Calculated by multiplying BI by 
+specific coefficients (αi) based on BI 
+size.
+BIC = BI x αi
+Handbook on Regulations at a Glance
+34
+Component Description Formula
+Estimation of BIC and ILM
+The value of marginal co-efficient is based on the bucket category of 
+the banks.
+Bucket BI Range (` Crore) BI Marginal Coefficients (αi)
+Bucket 1 ≤ 8000 12%
+Bucket 2 8000 < BI ≤ 240000 15%
+Bucket 3 > 240000 18%
+Internal Loss Multiplier 
+(ILM)
+A scaling factor reflecting historical 
+losses, used to adjust operational 
+risk capital.   
+Loss Component (LC) is equal to 15 times average annual operational 
+risk losses based on high-quality operational risk annual loss data for 
+10 years. However, banks that do not have 10 years of high-quality loss 
+data but have five years and above of high-quality loss data shall make 
+use of such available high-quality loss data to calculate the LC.
+IV.5 OPERATIONAL RISK FOR NBFCs: KEY PRINCIPLES
+PILLAR-1 
+[Prepare and Protect]
+PILLAR-2 
+[Build Resilience]
+PILLAR-3 
+[Learn and Adapt]
+Principle 1:  Establishing a strong risk 
+management culture
+Principle 2:  Implementing and maintaining 
+an Operational Risk Management Framework 
+(ORMF) and operational resilience approach, 
+integrated into overall risk management 
+processes
+Principle 10:  Mapping of the internal 
+and external interconnections and 
+interdependencies for critical operations
+Principle 11:  Management of third 
+dependencies (including intra-group) for 
+delivery of critical operations
+Principle 15:  Transparent and appropriate 
+disclosures on operational risk management 
+approach and operational risk exposure 
+Principle 16:  Conduct of lessons learned 
+exercise after a disruption to enhance 
+capability to adapt and respond in future 
+Chapter IV - Prudential Norms and Capital Regulations
+35
+PILLAR-1 
+[Prepare and Protect]
+PILLAR-2 
+[Build Resilience]
+PILLAR-3 
+[Learn and Adapt]
+Principle 3: Approval and periodic review of 
+ORMF by the Board 
+Principle 4: Approval and periodic review of 
+risk appetite, tolerance statement, criteria 
+for identification of critical operations and 
+impact tolerances for them.
+Principle 5:  Implementation of policies by 
+Senior management by establishing robust 
+governance structure with segregation of 
+responsibilities. 
+Principle 6:  Identification, assessment and 
+management of the operational risk in all 
+material products, activities, processes and 
+systems. 
+Principle 7:  Comprehensive, appropriately 
+resourced and adequately articulated change 
+management process
+Principle 8:  Monitoring of operational risk 
+profiles and exposures and establishing 
+reporting mechanisms 
+Principle 9:  Implementation of strong 
+control environment, internal controls and 
+risk mitigation strategies
+Principle 12: Implementation and testing of 
+business continuity plans 
+Principle 13:  Development and 
+implementation of incident response and 
+recovery plans 
+Principle 14:  Robust Information and 
+Communication Technology (ICT) risk 
+management programs which are tested 
+regularly
+Principle 17: Establishing effective feedback 
+systems for continuous learning and 
+improvement 
+Handbook on Regulations at a Glance
+36 IV.6 GUIDELINES ON MANAGING RISKS AND CODE OF CONDUCT IN OUTSOURCING OF FINANCIAL SERVICES
+IV.6.a Roles and responsibilities of the Board and Senior Management
+Board Senior Management
+• Approve a risk and materiality evaluation framework and policies 
+for outsourcing.
+• Set approval authorities based on risk and materiality of service.
+• Review outsourcing strategies regularly.
+• Assess risks and materiality of outsourcing using Board-approved 
+framework.
+• Develop and enforce outsourcing policies and procedures and 
+periodically review policy effectiveness
+• Inform the Board about material outsourcing risks.
+• Ensure that tested contingency plans are put in place.
+IV.6.b Other important considerations
+Evaluation and due diligence of 
+Service Provider
+Outsourcing Agreement Confidentiality and Security Business Continuity and 
+Contingency Planning
+• Consider qualitative and 
+quantitative, financial, 
+operational and reputational 
+factors including compatibility 
+with RE’s systems, 
+performance and customer 
+service standards. 
+• Due diligence of all the aspects 
+including but not limited to 
+evaluation of experience, 
+financial soundness, 
+reputation and culture, 
+compliance, complaints
+• The outsourcing contract 
+should be clear and 
+enforceable, covering key 
+aspects, including but not 
+limited to service standards 
+and access to relevant 
+records, monitoring and 
+termination provisions, 
+data confidentiality audit 
+rights for the RE, right of 
+RBI to access documents 
+and conduct inspections of 
+service provider, preservation
+• REs should ensure that service 
+provider safeguards customer 
+information, with access 
+granted only on a “need-to-
+know” basis, security breaches 
+are disclosed by service 
+provider to the RE and the 
+same are reported to the Bank 
+immediately and enough 
+safeguards are implemented 
+by service provider to prevent 
+comingling of documents and 
+data of RE and other entities. 
+• REs must ensure that service 
+providers establish and test 
+a robust business continuity 
+plan and documents and 
+data of the RE are isolated 
+by service provider for easy 
+retrieval and transfer back to 
+RE in emergencies. 
+• REs should retain controls 
+to implement appropriate 
+measures including options 
+to transferring the service to
+Chapter IV - Prudential Norms and Capital Regulations
+37
+IV.6.c Monitoring, Control and Audit
+Monitoring Mechanism Strategy to be implemented by REs
+Central Record of Agreements Maintain centralized records of all material outsourcing arrangements and ensure that half yearly 
+reviews are placed before the Board.
+Regular Audits and Review (a)  Assess the adequacy of the risk management practices adopted in overseeing and managing the 
+outsourcing arrangement.
+(b)  Annual assessments of provider’s financial stability, operational condition, and compliance and 
+highlight areas of concern.
+Termination Announcement Publicize provider terminations to prevent continued customer interactions and inform IBA (for banks) 
+with reasons for termination.
+Evaluation and due diligence of 
+Service Provider
+Outsourcing Agreement Confidentiality and Security Business Continuity and 
+Contingency Planning
+ including potential litigations, 
+security, internal controls, 
+auditing and monitoring and 
+external factors like political, 
+economic, social and legal 
+environment
+ of documents and data by the 
+service provider in accordance 
+with the legal/regulatory 
+provisions, etc.
+• While REs may share 
+premises, certain services, 
+back-offices, hardware 
+and software applications, 
+etc., with group entities or 
+may outsource financial 
+services to a group entity, 
+REs should maintain arm’s 
+length relationship in such 
+dealings and ensure clear 
+identification of the entity 
+and appropriate disclosure 
+on the nature of such 
+arrangements to all customers 
+in all communications.
+ alternative service providers or 
+back to in-house infrastructure.
+Handbook on Regulations at a Glance
+38 IV.7 LEVERAGE RATIO REQUIREMENTS APPLICABLE TO REs
+Regulated Entity Leverage Ratio Definition Leverage Ratio Requirement
+SCBs  
+(excluding SFBs, PBs, and RRBs)
+Tier 1 capital divided by Exposure Measure The minimum Leverage Ratio shall be 4%  
+for D-SIBs and 3.5% for other banks.
+AIFIs Tier 1 capital divided by Exposure Measure The minimum Leverage Ratio shall be 4%.
+SFBs Tier 1 capital divided by Total Exposure The minimum Leverage Ratio shall be 4.5%.
+PBs Net worth (paid-up capital and reserves) divided by 
+outside liabilities
+The minimum Leverage Ratio shall be 3%.
+NBFC-BL Total Outside Liabilities divided by Owned Fund The Leverage Ratio should not exceed 7.
+NBFC-AA Outside Liabilities (excluding borrowings/ loans from 
+the group entities) divided by Owned Funds
+The Leverage Ratio should not exceed 7.
+NBFC-P2P Total Outside Liabilities divided by Owned Funds The Leverage ratio should not exceed 2.
+NBFC-CIC Outside Liabilities divided by Adjusted Net Worth The Leverage ratio should not exceed 2.5.
+Chapter IV - Prudential Norms and Capital Regulations
+39
+IV.8 CAPITAL ADEQUACY AND PROVISIONING REQUIREMENTS FOR RBI REGULATED ENTITIES
+IV.8.a Banks and All-India Financial Institutions (AIFIs)
+No. Regulated Entity Applicable Basel 
+Framework
+Minimum requirements (%) CCB and CCyB
+CET1 Tier 1 CRAR
+1 Scheduled Commercial Banks (SCBs) 
+excluding SFBs, PBs, LABs, RRBs
+Basel III 5.58 7 9 CCB - 2.5 %
+CCyB – Not Activated
+2 Small Finance Banks (SFBs) Basel II norms 
+generally applicable
+6 7.5 15 NA
+3 Payments Banks (PBs) Basel II norms 
+generally applicable
+6 7.5 15 NA
+4 Local Area Banks (LABs) Basel I - 4.5 9 NA
+5 Regional Rural Banks (RRBs) Basel I 5.5 7 9 NA
+6 Urban Coperative Banks
+6.1 UCBs: Tier 2 to Tier 4
+Basel I
+- 6 12
+NA6.2 UCBs: Tier 1 UCBs - 4.5 9
+7 Rural Co-operative Banks (RCBs) Basel I - 4.5 9
+8 All India Financial Institutions (AIFIs) Basel III 5.5 7 9 NA
+8  Domestic Systemically Important Banks (D-SIBs) are also required to meet additional Common Equity Tier 1 (CET1) as applicable.
+Handbook on Regulations at a Glance
+40 IV.8.b NBFCs
+No. Regulated Entity Minimum requirements (%)
+CET1 Tier 1 CRAR
+1 NBFC-BL9 No risk-based capital requirement except as specified at 5.2 and 5.6 below;  
+(Leverage Ratio of 7 times)
+2 NBFC-ML - 10 15
+3 NBFC-UL 9 10 15
+4 NBFC-TL Shall be subject to higher capital charge which will be communicated  
+separately upon classification.
+5 NBFC categories by activity
+5.1  Housing Finance Company - 10 15
+5.2  Micro Finance Institutions - 7.5 15
+5.3  Mortgage Guarantee Companies - 6 10
+5.4  Standalone Primary Dealer - 7.5 15
+5.5  Core Investment Company Modified risk-based capital requirement  
+(CICs must maintain Adjusted Net Worth (ANW) of at least 30% of RWAs.)
+5.6  NBFCs engaged in lending against gold - 12 15
+5.7  Peer to Peer Lending Platform (P2P) 
+and Account Aggregator (AA)
+No risk-based capital requirement
+9  Regulatory structure of NBFCs under scale-based regulation is defined in section-I of Master Direction – Reserve Bank of India (Non-Banking Financial Company – Scale 
+Based Regulation) Directions, 2023
+Chapter IV - Prudential Norms and Capital Regulations
+41
+IV.8.c Risk weight related regulations covering all forms of risk
+Sl. 
+No
+Item/Subject Risk Weights (RWs)
+Capital charge for credit risk for Scheduled Commercial Banks (SCBs)
+General Framework - For SCBs (except RRBs), the Standardized Approach for credit risk under Basel framework has been prescribed by 
+the Reserve Bank with certain modifications to align with domestic conditions. Under the Standardised Approach, the rating assigned by 
+the eligible external credit rating agencies (ECRAs) largely support the measure of credit risk. Concurrently, RWs for certain exposures do 
+not depend on ratings provided by ECRAs, but on some other criteria or as prescribed by the Reserve Bank from time to time considering 
+macroprudential risks. The Reserve Bank has identified certain ECRAs that meet the eligibility criteria for providing credit ratings to banks’ 
+exposure/counterparties and has prescribed risk weights (RWs) corresponding to such ratings.
+1 Domestic sovereign exposures (direct claims) 0% 
+2 Exposures to foreign sovereigns 0% to 150% (depending on their external 
+credit ratings)
+3 Claims on domestic bank 
+• Other than investment in equity and capital instruments of scheduled banks  
+• Investment in equity and capital instruments issued by scheduled banks  
+(that are outside the scope of regulatory consolidation)
+20% to 625% (based on their CET1 and CCB 
+levels) 
+125% to full deduction (based on their CET1 
+and CCB levels)
+4 Claims on banks in foreign jurisdiction - based on the external ratings assigned by 
+international rating agencies.
+20% to 150%
+5 Claims on Corporate/ NBFCs/ Primary Dealers/ Public Sector entities
+For NBFCs exposure that attracts RW of less than 100% as per the external rating
+20% to 150% (based on their ratings)
+Additional RW of 25% shall be applied over 
+and above the RW indicated by external 
+rating. The requirement for additional RW 
+shall cease to exist from April 01, 2025.
+6 Claims on Commercial Real Estate (CRE) 100%
+Handbook on Regulations at a Glance
+42
+Sl. 
+No
+Item/Subject Risk Weights (RWs)
+7 Claims on Commercial Real Estate-Residential Housing (CRE-RH) 75%
+8 Retail loans: 
+• Loans to small businesses included under regulatory retail
+• Consumer credit, including personal loans but excluding housing loans, education 
+loans, vehicle loans, loans secured by gold and gold jewellery, and microfinance loans 
+• Credit Cards
+• Individual housing loans
+• Other Consumer credit exposure
+75% 
+125%  
+150%
+35%/50% (based on loan amount and LTV)
+100%
+9 Past-due loans - based on the specific provisions and collateral. 50 to 150%
+Capital charge for credit risk for NBFCs
+10 Domestic sovereign exposures (direct exposures) 0% 
+11 Exposures guaranteed by sovereign
+• Central Government guaranteed claims
+• State Government guaranteed claims
+• State Government guaranteed claims (which have remained in default for a 
+period of more than 90 days
+0%
+20%
+100%
+12 Cash and bank balances including fixed deposits and certificates of deposits with banks 0%
+13 Bonds of public sector banks 20%
+14 Loans and advances fully secured against deposits held and loans to staff 0%
+15 All assets covering PPP and post commercial operations date infrastructure projects in 
+existence over a year of commercial operation
+50%
+Chapter IV - Prudential Norms and Capital Regulations
+43
+Sl. 
+No
+Item/Subject Risk Weights (RWs)
+16 Credit card exposures 
+Consumer credit exposures categorised as retail loans, excluding housing loans, 
+educational loans, vehicle loans, loans against gold jewellery and microfinance/SHG 
+loans 
+125%
+17 Other exposures (except credit card and certain retail loans) 100%
+18 For Housing Finance Companies (HFCs ), risk weight on residential mortgages secured 
+by property are based on the LTV ratio and loan amount. 
+• Individual housing loans – based on the LTV ratio and loan amount
+• CRE 
+• CRE-RH
+35% or 50% 
+100% 
+75% 
+Capital charge for credit risk for UCBs/ StCBs /DCCBs /LABs/RRBs
+19 • Loans guaranteed by central/state governments.
+• Loans guaranteed by state governments which has become NPA
+0% 
+100%
+20 Loans to PSUs 100% 
+21 Cash / balances with RBI and Loan against term deposits / Life policies / NSCs and KVPs 0%
+22 Balances in co-operative banks and other banks 20% 
+23 • Individual housing loans - risk weight on residential mortgages depend on LTV
+• CRE 10
+• CRE-RH 
+50% to 100% (for LABs – 50% to 75%)
+100% 
+75% 
+10  StCBs/ DCCBs are not allowed to lend to CRE Sector, except for CRE-RH. Risk weights mentioned here for CRE and CRE-RH does not apply to RRBs. 
+Handbook on Regulations at a Glance
+44
+Sl. 
+No
+Item/Subject Risk Weights (RWs)
+24 Retail loans and advances
+• Consumer credit including personal loan for UCB/ DCCB/ StCB
+• Credit card and consumer credit including personal loans, but excluding housing 
+loans, education loans, vehicle loans, loans secured by gold and gold jewellery, and 
+microfinance loans – LAB/ RRBs (excluding credit card)
+• Loans up to `1 lakh against gold and silver ornaments
+• Loans extended against primary / collateral security of shares / debentures
+o UCB
+o StCB/ DCCB/RRBs
+o LAB (capital market exposure)
+• All other loans and advances including educational loan are generally risk weighted 
+at- 
+125% 
+125% 
+ 
+50%
+127.50% 
+125% 
+125%
+100%
+For all Regulated Entities (REs)
+25 Off-balance sheet exposures across REs are converted to credit-equivalent amounts 
+using specified Credit Conversion Factors (CCFs) given for REs. These credit-equivalent 
+amounts are then assigned RWs based on the counterparty or type of exposure 
+(whichever is higher) as discussed above, ensuring a consistent risk assessment. 
+Based on RW assigned as per counterparty 
+or type of exposure (whichever is higher)
+IV.9 STATUTORY AND REGULATORY LIMITS ON DEPOSITS FOR DEPOSIT TAKING NBFCs (INCLUDING HFCs) 
+No. Statutory and regulatory restrictions of deposits
+1 Deposit taking NBFCs shall maintain liquid assets of 15% of public deposit outstanding as at the close of business on last working day 
+of second preceding quarter
+2 Deposit taking NBFCs shall have minimum credit rating of ‘BBB–‘ issued by any of the SEBI registered credit rating agency
+3 Deposit taking NBFCs are prohibited from accepting demand deposits
+Chapter IV - Prudential Norms and Capital Regulations
+45
+No. Statutory and regulatory restrictions of deposits
+4 Deposit taking NBFCs complying with minimum NOF and all prudential norms can accept deposits up to the limit of 1.5 times of its 
+NOF
+5 Deposit taking NBFCs shall accept deposits which are repayable after 12 months but not later than 60 months
+6 Deposit taking NBFCs shall not pay interest exceeding 12.5% and such interest may be paid or compounded at rests which shall not 
+be shorter than monthly rests
+7 Minimum lock-in period of deposits of deposit-taking NBFCs shall be 3 months
+The regulatory limits applicable to various layers of NBFCs are as under:
+No. Statutory and regulatory restrictions NBFC-BL NBFC-ML NBFC-UL
+1 NBFCs shall not make investments in any scheme of AIFs which has downstream investments 
+(excluding investments in equity) either directly or indirectly in their debtor company. 
+Applicable Applicable Applicable
+2 NBFCs shall not lend against their own shares and debentures Applicable Applicable Applicable
+3 Lending against listed shares by NBFCs with asset size of `100 cr & above:
+(a)  LTV of 50% to be maintained at all times. Any shortfall in LTV due to movement of prices to 
+be made good in 7 working days;
+(b)  In case of lending for investment in capital market, only Group 1 securities (as notified by 
+Exchanges following the methodology laid down by SEB) shall be accepted as collateral for 
+loans above `5 lakh.
+Applicable Applicable Applicable
+4 LTV of 75% for lending against collateral of gold jewellery shall be maintained throughout the 
+tenure of the loan
+Applicable Applicable Applicable
+5 NBFCs shall not grant any advance against bullion/ primary gold and gold coins; and shall not 
+grant any advance for purchase of gold in any form, including units of ETFs and gold mutual fund
+Applicable Applicable Applicable
+6 NBFCs shall not be partners in partnership firms or LLPs Applicable Applicable Applicable
+Handbook on Regulations at a Glance
+46 IV.10 PRUDENTIAL NORMS ON DIVIDEND DECLARATION
+IV.10.a General Framework for Dividend Declaration
+No. Category Norms
+1 Capital Adequacy RE's ability to meet the regulatory capital requirements
+2 Profitability For commercial banks (excluding RRBs) and NBFCs, maxmimum dividend 
+payable is capped as specified percentage of profit after tax for the reference 
+year.
+3 Asset Quality REs maintaining NNPAs up to threshold as below can declare dividends:
+• UCBs: NNPA < 5%
+• SCBs: NNPA < 7%
+• NBFCs: NNPA < 6% (in each of the last 3 years, including as at the close 
+of the financial year for which dividend is proposed to be declared)
+4 Compliance with Other Regulatory Norms  
+(NA for NBFCs)
+Bank must meet other regulatory requirements e.g. CRR, SLR.
+5 Board Oversight REs to consider following aspects while deciding on the proposal to declare 
+dividend:
+• the interim dividend paid,
+• the Annual Financial Inspection findings of the Reserve Bank with regard
+• to divergence in identification of NPAs, shortfall in provisioning, etc.,
+• the auditors’ qualifications pertaining to the statement of accounts
+• the minimum regulatory capital requirements, and
+• the entity’s long term growth plans
+Chapter IV - Prudential Norms and Capital Regulations
+47
+IV.10.b Payout Ratios for Commercial Banks (excluding RRBs) 
+Category CRAR Net NPA Ratio (In current year)
+Zero More than zero 
+but less than 3%
+From 3 % to less 
+than 5%
+From 5% to less 
+than 7 %
+Range of Dividend Payout Ratio
+A 11% or more for each of the last 3 years Up to 40 Up to 35 Up to 25 Up to 15
+B 10% or more for each of the last 3 years Up to 35 Up to 30 Up to 20 Up to 10
+C 9% or more for each of the last 3 years Up to 30 Up to 25 Up to 15 Up to 5
+D 9% or more in the current year Up to 10 Up to 5 NIL
+IV.10.c Payout Ratio for NBFCs
+Sl. 
+No.
+Type of NBFC Maximum Dividend Payout 
+ Ratio (%) 
+1. NBFCs that do not accept public funds and do not have any customer interface No ceiling specified
+2. Core Investment Company 60
+3. Standalone Primary Dealers 60
+4. Other NBFCs 50
+Handbook on Regulations at a Glance
+48 IV.11 NORMS ON DISCLOSURE
+Sl. 
+No.
+Category Banks NBFCs 
+(further details in para IV.12 below)
+1. Financial Statements 
+formats
+As per third schedule of BR Act, 1949 As per Companies Act, 2013
+2. Capital Adequacy CAR, CET-1, Tier-1, Tier-2 CAR including breakdown of Tier-1 and Tier-2 
+capital
+3. NPAs and Provisioning NPA classification into Sub-standard, Doubtful, and 
+Loss; Movement of NPA; Loan restructuring and its 
+impact, etc.
+NPA classification (e.g., standard, sub-standard, 
+doubtful, and loss assets) and their associated 
+provisions; For Ind AS implementing NBFCs, 
+ECL would be applicable with IRACP being the 
+prudential floor. NBFCs under Ind AS follow 
+expected credit loss approach under Ind AS 109.
+4. Risk Management 
+disclosures
+Risk management framework; the effectiveness 
+of risk management strategies; qualitative and 
+quantitative disclosures on risk exposures in 
+derivatives
+Approach to managing various risks and 
+effectiveness of risk management strategies; 
+qualitative and quantitative disclosures on risk 
+exposures in derivatives
+5. Asset Liability 
+Management
+ALM framework including the maturity profile of 
+assets/ liabilities; LCR, NSFR
+ALM framework, detailing the maturity profile of 
+assets and liabilities and compliance with liquidity 
+norms like LCR (as applicable).
+6. Investments Composition of investment portfolio along with 
+details of movement in provisions held towards 
+depreciation; sale and transfers to/from HTM 
+category/ Permanent category
+Composition of investment portfolio along with 
+details of movement in provisions held towards 
+depreciation
+7. Remuneration Quantitative and qualitative disclosures on 
+remuneration of WTDs/ CEOs/ Material Risk Takers
+All pecuniary relationship or transactions of the 
+non-executive directors vis-à-vis the NBFC
+Chapter IV - Prudential Norms and Capital Regulations
+49
+Sl. 
+No.
+Category Banks NBFCs 
+(further details in para IV.12 below)
+8. Exposure to Sensitive 
+Sectors and Concentration 
+of NPAs
+Exposure to sectors like real estate sector, capital 
+market, factoring exposures, intra-group exposures, 
+concentration of exposures and NPAs
+Exposure to specific sectors such as real estate or 
+capital market, intra group exposures, unhedged 
+foreign currency exposures
+9. Other disclosures Disclosures on securitisation, transfer to Depositor 
+Education and Awareness Fund, penalties imposed, 
+provisions and contingencies, complaints etc.
+• Related party transactions
+• Non-financial disclosures including the structure 
+of the board, committees, internal controls, 
+compliance with various RBI guidelines
+• Breach of covenants, complaints, penalties 
+imposed, provisions and contingencies, 
+divergence in asset classification and 
+provisioning
+10. Acocunting Norms Companies (Accounting Standards) Rules, 2021, 
+guidelines prescribed by the Reserve Bank and 
+market practices
+Non-Banking Financial Companies (NBFCs) covered 
+by Rule 4 of the Companies (Indian Accounting 
+Standards) Rules, 2015:
+• Companies (Indian Accounting Standards) 
+Rules, 2015
+• Other NBFCs: Companies (Accounting 
+Standards) Rules, 2021, guidelines prescribed by 
+the Reserve Bank and market practices
+Handbook on Regulations at a Glance
+50 IV.12 DISCLOSURE NORMS FOR DIFFERENT NBFCs
+Sl. 
+No.
+Disclosure norms NBFC-BL NBFC-ML NBFC-UL
+1 Exposure to:
+(a)  Real estate sector
+(b) Capital market
+(c)  Sectoral exposure
+(d)  Intra-group exposure
+(e)  Unhedged foreign currency exposure
+Applicable Applicable Applicable
+2 Related party disclosure Applicable Applicable Applicable
+3 Disclosure on complaints:
+(a)  Summary information on complaints
+(b)  Top 5 grounds of complaint
+Applicable Applicable Applicable
+4 Capital
+(a)  CRAR
+(b)  Tier 1 Capital
+(c)  Tier 2 Capital
+(d)  Subordinated debt raised as Tier 2 Capital
+(e)  Perpetual Debt Instruments issued
+NA Applicable Applicable
+5 Investments
+(a)  Value of investments
+(b)  Movement of provisions held towards depreciation on investments
+NA Applicable Applicable
+Chapter IV - Prudential Norms and Capital Regulations
+51
+Sl. 
+No.
+Disclosure norms NBFC-BL NBFC-ML NBFC-UL
+6 Derivatives:
+(a)  Forward Rate Agreement/ Interest Rate Swap
+(b)  Exchange traded Interest Rate Derivatives
+(c)  Disclosure on risk exposure in derivatives
+ (i)  Qualitative disclosures
+ (ii)  Quantitative disclosures
+NA Applicable Applicable
+7 Asset Liability Management showing maturity pattern of specified items of assets and  
+liabilities
+NA Applicable Applicable
+8 Exposure to:
+(a)  Financing of parent company products
+(b)  Breaching of Single borrower/ Group borrower limits
+(c)  Unsecured advances 
+NA Applicable Applicable
+9 Corporate Governance – Non-listed NBFCs shall endeavour to make full disclosure in 
+accordance with SEBI (LODR) Regulations, but at a minimum disclose
+(a)  Details of composition of Board
+(b)  Committees of the Board and their composition
+(c)  Details of General Body Meetings
+(d)  Management Discussion and Analysis Report
+(e)  Details of non-compliance with Companies Act
+(f)  Details of penalties and strictures
+NA Applicable Applicable
+10 Breach of covenants of loan availed or debt securities issued NA Applicable Applicable
+Handbook on Regulations at a Glance
+52
+Sl. 
+No.
+Disclosure norms NBFC-BL NBFC-ML NBFC-UL
+11 Divergence in Asset Classification and Provisioning – to be disclosed if:
+(a)  additional provisioning requirements assessed by RBI exceeds 5% of reported profits 
+before tax and impairment loss on financial instruments; or
+(b)  Additional gross NPAs identified by RBI exceeds 5% of reported gross NPAs;
+NA Applicable Applicable
+12 Miscellaneous
+(a)  Policy on dealing with Related Party Transactions
+(b)  Ratings assigned and migration of ratings
+(c)  Remuneration of Directors – All pecuniary transactions of non-executive directors vis-à-
+vis the NBFC shall be disclosed
+(d)  Impact of prior period items on current year’s profit
+(e)  Postponement of revenue recognition pending resolution of significant uncertainties.
+(f)  Reasons for not consolidation of financial statements as per applicable accounting 
+standards 
+NA Applicable Applicable
+13 Additional Disclosures:
+(a)  Provisions and Contingencies
+(b)  Draw down from Reserves
+(c)  Concentration of deposits (for deposit taking NBFCs – top 20 depositors), Advances (top 
+20 borrowers), Exposures (top 20 borrowers) and NPAs (top 4 NPA accounts)
+(d)  Movement of NPAs
+(e)  Overseas Assets (for those NBFCs with JV and subsidiaries abroad)
+(f)  Off-balance sheet SPVs sponsored
+NA Applicable Applicable
+14 Disclosure requirements as per SEBI (LODR) Regulations (NBFC-UL shall be listed within 3 
+years of identification as NBFC-UL)
+NA NA Applicable
+Chapter IV - Prudential Norms and Capital Regulations
+53
+IV.13 OVERVIEW OF THE FRAMEWORK FOR ACCEPTANCE OF GREEN DEPOSITS
+Objective • To foster the green finance ecosystem and to encourage REs to offer green deposits to customers, protect interest of 
+depositors, aid customers to achieve their sustainability agenda, address greenwashing concerns and help augment the 
+flow of credit to green activities/projects.
+Applicability • All SCBss including SFBs (excluding RRBs, LABs and PBs) and Deposit taking NBFCs (including Housing Finance Companies 
+that have been granted a Certificate of Registration with permission to accept public deposits).
+Use of 
+Proceeds
+The framework prescribes the usage of proceeds of green deposits to following activities:
+i.  Renewable energy
+ii.  Energy efficiency
+iii. Clean transportation
+iv.  Climate change adaptation
+v.  Sustainable water and waste management
+vi.  Pollution prevention and control
+vii. Green buildings
+viii. Sustainable management of living natural resources and land use, and
+ix.  Terrestrial and aquatic biodiversity conservation. 
+Third-Party 
+Verification 
+/ Assurance 
+and Impact 
+Assessment
+The framework requires Third-Party Verification/Assurance and Impact Assessment of the green deposits raised and green 
+activities/ projects financed by the REs.
+• The allocation of funds raised through green deposits shall be subject to an independent Third-Party Verification/ 
+Assurance carried out on an annual basis.
+• The REs, with the assistance of external firms, shall mandatorily annually assess (FY 24-25 onwards) the beneficial 
+environmental impact of the funds lent for green activities/ projects i.e., an Impact Assessment Report. The report, for 
+example, would include estimates of how much GHG emissions were avoided due to the funded activity/ project.
+Reporting 
+and 
+Disclosures
+The framework requires following reporting and disclosures norms:
+• A review report shall be placed by the RE before its Board of Directors within three months of the end of the financial year 
+covering, inter-alia, the following:
+ a) Amount raised under green deposits during the previous financial year
+ b) List of activities/ projects which have been funded along with a brief description of the projects and the amounts 
+allocated to the eligible activities/ projects
+ c) a copy of the Third-Party Verification/ Assurance Report and the Impact Assessment Report.
+• REs shall make appropriate disclosures in their Annual Financial Statements.
+54
+CHAPTER V - CONDUCT RELATED REGULATIONS
+V.1 INTEREST RATE FRAMEWORK FOR NBFCs
+V.1.a Pricing and Charges
+Interest rate pricing on loans • The interest rates charged by NBFCs are deregulated
+• Board of each NBFCs shall adopt an interest rate model taking into account relevant factors such as 
+cost of funds, margin and risk premium
+• Approach for gradation of risk and rationale for charging rate of interest to be disclosed to the 
+borrower or customer in the application form and communicated explicitly in the sanction letter
+Charges • NBFCs are operationally independent to decide on charges as per the policies adopted by their 
+Boards, subject to compliance with the Fair Practices Code. 
+• All the terms and conditions of loans (including charges) need to be transparently disclosed to the 
+borrower in the vernacular language or a language understood by the borrower so that a meaningful 
+comparison and informed decision can be made
+• For retail and MSME term loans, key facts of a loan agreement shall be disclosed through a Key Facts 
+Statement (KFS) in standardised format
+V.1.b Deposit related pricing aspects- NBFCs
+Deposit Rates of NBFCs • Deposit taking NBFCs are operationally independent to decide on the rate of interest on deposits. 
+• However, it is prescribed that the rate of interest shall not exceed 12.5%.
+• Interest may be paid or compounded at rests which shall not be shorter than monthly rests
+• Principally, RBI is confining deposit-taking only to Banks; in last two decades, no new license has 
+been given to NBFC-D.
+Chapter V - Conduct Related Regulations
+55
+Prepayment rules for NBFCs
+Upto 3 months • Premature withdrawal not allowed. However, it is allowed only in case of death. No interest11.
+After 3 months but < 6 months • No interest
+After 6 months but before the date 
+of maturity
+• The interest payable shall be 2% lower than the interest rate applicable to a public deposit for the 
+period for which the public deposit has run, or if no rate has been specified for that period, then 3% 
+lower than the minimum rate at which public deposits are accepted by the non-banking financial 
+company12.
+V.2 INTEREST RATE FRAMEWORK AND PRICING OF DEPOSITS FOR SCBs AND COOPERATIVE BANKS
+Overarching Principle • Rates offered by REs must remain uniform across all its branches and for all the customers. 
+• REs cannot discriminate between one deposit from another deposit of similar amount, which is 
+accepted on same date at any of its offices. 
+• Interest rates cannot be subject to negotiation between depositors and the REs. 
+• REs shall have to disclose the schedule of interest rates on deposits in advance; 
+• Interest rates on deposits shall be reasonable, consistent, transparent, and available for supervisory 
+review
+• Interest rates offered by REs on NRE/ NRO deposits cannot be higher than those offered on 
+comparable domestic rupee term deposits
+11  In case of HFCs, premature withdrawal is allowed within the lock-in period and interest is payable at contracted rate.
+12  In case of HFCs, the corresponding prepayment rates are 1% and 2% respectively.
+Handbook on Regulations at a Glance
+56 V.2.a Deregulation of Deposit Rates of SCBs and Cooperative Banks
+Type of REs Domestic Deposits Non-resident Deposits {excluding FCNR(B)}
+Savings Term Savings Term
+Scheduled Commercial Banks October 25, 2011 October 22, 1997 December 16, 2011 December 16, 2011
+Co-operative Banks November 25, 2011 October 22, 1997 December 28, 2011 December 28, 2011
+V.2.b Present Limit on Bulk deposits
+Type of banks Limit in Rupees (`)
+Scheduled commercial banks (excluding RRBs) Three crore and above 
+Scheduled UCBs (Tier 3 and 4), RRBs and LABs One crore and above
+Remaining co-operative banks Fifteen lakh and above
+V.2.c Interest rates and Charges on Deposits 
+Interest Rate on Term Deposits It may vary on account of one or more of the following:
+• Tenor of the deposits (Min tenor = 7 days; For NRE term deposits, min tenor = 1 year)
+• Size of the deposits: Differential rate on bulk deposits
+• Non-availability of premature withdrawal option (such premature withdrawal option should be 
+there for deposits < `1Cr)
+Interest Rate on Savings Deposits • The interest rates on savings account were deregulated after considerable time as compared to 
+term deposits
+• REs are required to calculate interest rates on a daily product basis with a uniform rate for balances 
+up to Rupees one lakh
+• Above `1 lakh, REs can offer differential rates for any end-of-day savings balance
+Chapter V - Conduct Related Regulations
+57
+Additional Interest Rate on Deposits REs have the discretion to pay higher interest rates on: 
+• Term deposits for resident Indian senior citizens
+• Conditionally on deposits of its staff and their exclusive associations (additional 1% p.a.)
+• Not available to NRE and NRO accounts of senior citizens and bank’s own staff
+Interest on overdue domestic 
+Deposits
+• Unpaid and unclaimed deposits shall attract lower of rate of interest applicable to savings account 
+or the contracted rate of interest on the matured term deposit
+Penalty on premature withdrawal • REs to formulate a comprehensive Board approved policy on penalties for premature withdrawal 
+of term deposit and depositor should be informed at the time of acceptance of deposits; otherwise 
+REs cannot charge penalty.
+• In case of premature withdrawal, the interest rate payable shall be at the rate applicable to the 
+amount and period for which the deposit has remained with the RE instead of contracted rate
+• If withdrawal of term deposits is done before the completion of minimum tenor specified in the 
+MD, no interest is required to be paid in such cases
+• In respect of NRE term deposits, no penalty shall be levied on premature withdrawal if it is 
+converted into Resident Foreign Currency (RFC) Account
+V.3 FOREIGN CURRENCY DEPOSITS
+Interest rates • Floating rate deposits: Interest within the ceiling of swap rates for respective currency/ maturity
+• Fixed rate deposits: Interest within the ceiling of Overnight Alternative Reference Rate (OARR) for 
+the respective currency/ maturity
+• Banks advised to use OARR for the respective currency/Swap rates quoted by FBIL as the reference 
+for arriving at the interest rates on FCNR(B) deposits. 
+• Interest rates on term deposits under the FCNR (B) scheme shall vary only based on prescribed 
+tenor and size of deposits
+Handbook on Regulations at a Glance
+58
+Penalty on Premature Withdrawal • REs advised to disclose the components of penalty on premature withdrawal at the time of 
+acceptance of FCNR(B) deposits
+• Banks shall, at their discretion, levy penalty to recover the swap cost in the case of premature 
+withdrawal of FCNR(B) deposits
+• No penalties in the case of premature conversion of balances held in FCNR(B) deposits into RFC 
+Accounts by Non-Resident Indians on their return to India
+Payment of interest to NRIs on return 
+to India
+• Banks can allow FCNR(B) deposits of persons of Indian nationality/ origin, who return to India 
+for permanent settlement, to continue till maturity at the contracted rate of interest subject to 
+conditions
+V.4 GUIDELINES ON FAIR PRACTICES CODE FOR LENDERS
+V.4.a Pre-sanction appraisal
+Applications for loans and their 
+processing
+• Banks (SCBs excluding RRBs) have been advised to make loan application form comprehensive
+• Full disclosure of all fee/charges, refundable part, pre-payment charges and options, penalty for 
+delayed payment, process for switching fixed to floating
+• NBFCs including HFCs also advised to make all critical information easily accessible 
+Acknowledgement for loan 
+applications
+• REs to devise a system of giving acknowledgement for receipt of all loan applications
+• NBFCs including HFCs advised to provide a time frame of case disposal also
+Loan appraisal and timelines for 
+credit decisions
+• Proper assessment of credit application by borrowers; margin and security stipulation should not 
+be used as a substitute for due diligence
+• Complete appraisal of proposals in a time bound manner
+• Banks to make suitable disclosures on the timelines for conveying credit decisions through their 
+websites, notice boards, product literature, etc.
+• HFCs have been advised that normally all particulars required for processing the loan application 
+shall be collected by the HFC at the time of application
+Chapter V - Conduct Related Regulations
+59
+Communication regarding rejection 
+of loan application
+• Reason for rejection of loans, irrespective of any threshold limits, should be communicated to the 
+applicant within stipulated time by Banks and HFCs
+Communication of terms and 
+conditions to the borrower
+• Credit limit along with the terms and conditions to be communicated; borrower's acceptance 
+of these terms (after negotiation) given with his full knowledge to be kept on record by Banks, 
+NBFCs and HFCs
+• Language adopted by NBFCs and HFCs should be vernacular language or a language as understood 
+by the borrower; penalties charged for late repayment in bold in the loan agreement
+Furnishing a copy of the loan 
+agreement to the borrower
+• Banks, NBFCs, and HFCs should invariably furnish a copy of the loan agreement along with a copy 
+each of all enclosures quoted in the loan agreement to all the borrowers at the time of sanction/ 
+disbursement of loans
+• The loan agreement should clearly stipulate credit facilities that are solely at the discretion of 
+lenders
+• It may be specifically stated that the lender does not have an obligation to meet further 
+requirements of the borrowers on account of growth in business etc. without proper review of 
+credit limits
+V.4.b Disbursement and Post-disbursement supervision
+Disbursement of loans •  Banks and HFCs should ensure timely disbursement of loans sanctioned in conformity with the 
+disbursement schedule/ terms and conditions
+Changes in terms and conditions • Banks, NBFCs, and HFCs to give notice of any change in the terms and conditions including 
+interest rates, service charges, etc. Such changes to be effected prospectively.
+•  HFCs have been advised that if such change is to the disadvantage of the customer, he/ she may 
+within 60 days and without notice close his/ her account or switch it without having to pay any 
+extra charges or interest
+Post disbursement supervision •  Post disbursement supervision by Banks, particularly in respect of loans up to Rupees two lakh, 
+should be constructive with a view to taking care of any ‘lender-related’ genuine difficulty that 
+the borrower may face
+Handbook on Regulations at a Glance
+60
+•  NBFCs and HFCs have been advised that decision to recall/ accelerate payment or performance 
+under the agreement shall be in consonance with the loan agreement
+Release of securities • Banks, NBFCs and HFCs have been advised that lenders should release all securities on receiving 
+payment of loan or realisation of loan subject to any legitimate right or lien for any other claim 
+they may have against borrowers in which case borrower must be duly informed.
+Recovery of loans • Lenders should not resort to undue harassment viz. persistently bothering the borrowers at odd 
+hours, use of muscle power for recovery of loans, etc.
+• Staff should also be adequately trained to deal with the customers in an appropriate manner
+V.4.c Other Instructions
+Transfer of borrowal accounts • The consent or objection of the lender, if any, should be conveyed within 21 days from the date 
+of receipt of request from borrower or the transferee
+Interference in the affairs of the 
+borrowers
+• Lenders should refrain from interference in the affairs of the borrowers except for what is 
+provided in the T&C of the loan sanction documents
+Non-discrimination • Lenders must not discriminate on grounds of sex, caste and religion in the matter of lending (not 
+applicable for formulating scheme for weaker section)
+Responsibilty of Board • Board of Directors shall lay down the appropriate grievance redressal mechanism within the 
+organization
+• All disputes arising out of the decisions of lending institution’s functionaries should be heard 
+and disposed of at least at the next higher level
+• Periodic review of the compliance of the FPC and the functioning of the grievances redressal 
+mechanism at various levels of management
+Key Facts Statement (KFS)/ Most 
+Important Terms and Conditions 
+(MITC)
+• REs to provide a KFS, as per a standardized format (all critical information including cost), to all 
+prospective borrowers in case of all retail and MSME term loan products
+• HFCs have been advised to additionally obtain a document containing the other most important 
+terms and conditions (MITC) of such loan
+Chapter V - Conduct Related Regulations
+61
+Language and mode of communicating 
+Fair Practices Code
+• NBFCs and HFCs have been advised that FPC shall preferably be in the vernacular language or a 
+language as understood by the borrower
+Excessive interest charged by NBFCs 
+including HFCs
+• NBFCs including HFCs have been advised to lay out appropriate internal principles and procedures 
+in determining interest rates and processing and other charges
+• HFCs to put in place an internal mechanism to monitor the process and the operations so as to 
+ensure adequate transparency in communications with the borrowers
+• Board of NBFCs shall adopt an interest rate model taking into account relevant factors such as cost 
+of funds, margin and risk premium and determine the rate of interest to be charged for loans and 
+advances
+• The rates of interest and the approach for gradation of risks shall also be made available on the 
+website of the companies or published in the relevant newspapers
+• HFCs have been advised that instalments collected from borrowers should clearly indicate the 
+bifurcation between interest and principal
+Levy of foreclosure charges/ pre-
+payment penalties
+• Lenders shall not charge foreclosure charges/ pre-payment penalties on any floating rate term 
+loan sanctioned for purposes other than business to individual borrowers, with or without co-
+obligant(s)
+• HFCs not to charge pre-payment levy or penalty on pre-closure of housing loans if (i) loan is on 
+floating interest rate basis and pre-closed from any source; (ii) loan is on fixed rate and it is pre-
+closed by borrower out of its own source
+V.5 RECENT INSTRUCTIONS
+Penal charges in loan accounts • REs to formulate a Board approved policy on penal charges and transparently disclose the quantum 
+and reason for penal charges to the borrowers
+• Penalty for non-compliance of material terms of loan contract by the borrower shall be in the form 
+of ‘penal charges’ and shall not be levied in the form of ‘penal interest’- no capitalising (further 
+interest) on charges
+Handbook on Regulations at a Glance
+62
+Reset of floating interest rate on EMI 
+based personal loans
+• Proper conduct framework for provision of adequate headroom at origination for absorbing the 
+impact of rising interest rates; feasible options of switching to fixed rate loans and foreclosure of 
+loans; transparent disclosure of various charges incidental to the exercise of these options; and 
+proper communication of key information to the borrowers.
+Release of movable / immovable 
+property documents
+• REs to release all the original movable/ immovable property documents including removal of 
+charges registered with any registry within 30 days after full repayment/ settlement of the loan 
+account
+• Compensation to the borrower at the rate of `5,000/- per day for delay in return of documents by 
+REs (in case of loss/damage, another 30 days, i.e. total 60 days time)
+Digital Lending For REs engaged in Digital Lending, certain requirements are mandated under Guidelines on Digital 
+Lending dated September 02, 2022, inter-alia, including:
+• Disclosure of all-inclusive cost of loan as Annual Percentage Rate (APR) to the borrower.
+• Any fees, charges, etc., payable to Lending Serive Providers (LSPs) in the credit intermediation 
+process shall be paid directly by the Regulated Entity (RE) and not by the borrower.
+• Need based data collection with clear audit trails.
+• Data collection only with prior & explicit consent of the borrower.
+• Borrower’s discretion to accept or deny consent for use of specific data.
+• Digital Lending Apps (DLAs)/ LSPs to have a clear Privacy Policy.
+• LSPs/DLAs not to store personal information of borrowers, except for some basic minimum 
+information.
+• Data to be stored in servers located in India only.
+• Details of recovery agent to be disclosed upfront at the time of sanction and at the time of passing 
+of loan to recovery agent
+• Periodic review by RE of conduct of their LSPs
+• RE to impart necessary guidance to LSPs acting as recovery agent and ensure they comply with 
+outsourcing guidelines.
+Chapter V - Conduct Related Regulations
+63
+V.6 KEY ELEMENTS OF KYC POLICY
+Customer Acceptance Policy • REs to frame such policy but it should not result in denial of banking/financial facility to members 
+of the general public, especially those, who are financially or socially disadvantaged.
+• If REs are reasonably sure that due diligence may tip-off a customer who might be involved in 
+money laundering or terrorist financing, they should not initiate CDD process but file STR with 
+FIU-IND.
+Risk Management • Risk categorization of customers into low, medium and high risk, based on laid-down broad 
+principles; the categorisation and reason thereof to be kept confidential from customer.
+• Risk assessment to use FATF Public Statement, the reports and guidance notes on KYC/AML issued 
+by the Indian Banks Association (IBA), and other agencies.
+Customer Identification Procedure 
+(CIP)
+• To be carried out if (i) starting an account-based relationship; (ii) international transaction with 
+non-account holder, (iii) any transaction ≥ ` 50,000 with walk-in customer; and (iv) if there is a 
+reason to believe that customer is structuring transactions, etc.
+• REs may rely on CDD process done by a third party for the purpose of CIP for account opening 
+subject to certain conditions.
+• In case of individuals- 
+o RE shall obtain (i) Officially Valid Document including Aadhaar (with conditions), (ii) PAN or 
+Form-60, and (iii) documents regarding nature of business and financial status of the customer
+o 'Non-face-to-face’( NF2F) mode accounts can be opened with Aadhaar OTP based e-KYC 
+Authentication s.t. conditions. 
+o NF2F mode accounts can also be opened using CKYC identifier/ equivalent e-documents/ 
+documents through Digilocker and such customers shall be categorised as high risk. 
+o Video-CIP (V-CIP) is to be treated on par with face-to-face CIP.
+o As an alternative, banks shall open a 'Small Account' - aggregate of all credits ≤ `1L (yearly); 
+balance ≤`50K; deposit-withdrawal≤`10K (monthly). Can remain operational for 12 months 
+extendable by another 12 months subject to conditions.
+Handbook on Regulations at a Glance
+64
+• CDD for a sole proprietary firm shall include CDD of the proprietor and two documents for proof 
+of business/ activity in the name of the firm. If single document for business/activity is obtained, 
+contact point verification is to be carried out and existence of firm to be verified.
+• CDD for a legal entity(LE) shall involve identification of beneficial owner(s) and their CDD, apart 
+from LE’s CDD.
+Monitoring of Transactions/  
+On-going Due Diligence
+• Monitoring to be aligned with risk category of the customer, which shall be reviewed periodically 
+(at least every six months). 
+• Periodic updation of KYC- At least once in, 2 years for high-risk, 8 years for medium-risk, and 10 
+years for low risk customer.
+Other aspects-Enhanced and Simplified Due Diligence Procedure
+• Enhanced Due Diligence for – (i) NF2F customer onboarding; (ii) politically exposed persons; (iii) 
+client accounts opened by professional intermediaries; and Simplified Due Diligence for SHGs, 
+etc.
+Other aspects- Record Management
+• Maintain all necessary records of transaction for at least 5 years from the date of transaction; 
+identification records for at least 5 years after business relationship is ended.
+• In case of non-profit organisations, the details of such customers should be registered on the 
+DARPAN Portal of NITI Aayog.
+Other aspects- Requirements of FIU-IND
+• REs shall not have any account in the name of individuals/entities appearing in the UNSC sanction 
+list and lists circulated by Govt. under UAPA and WMD Act.
+Other aspeccts-Obligations under international agreements
+• REs shall not have any account in the name of individuals/entities appearing in the sanction list 
+circulated by UNSC.
+• As regards jurisdictions that do not or insufficiently apply the FATF recommendations, REs have 
+to take note of FATF public statements and apply enhanced due diligence measures.
+• REs shall take into account – (a) other UNSCRs and (b) lists in the first schedule and the fourth 
+schedule of UAPA, 1967 and any amendments to the same.
+Chapter V - Conduct Related Regulations
+65
+Other aspects-Secrecy Obligations and Sharing of Information
+• REs to maintain secrecy regarding the customer information as the same will be treated as 
+confidential; Disclosure of information only in certain exceptional cases.
+Other aspects-CDD and sharing KYC information with CKYCR
+• KYC records to be uploaded onto CKYCR by REs within 10 days of commencement of an account-
+based relationship with the customer.
+• Once KYC Identifier is generated by CKYCR, REs ensure that the same is communicated to the 
+individual/LE, as the case may be.
+• Updated information from any customer shall be uploaded within seven days or within such 
+period as may be notified by the Central Government onto CKYCR. CKYCR then will inform all REs 
+dealing with that customer with update.
+Other aspects-Operation of Bank Accounts & Money Mules
+• ‘Money Mules’ are used to launder the proceeds of fraud schemes by gaining illegal access to 
+deposit accounts by recruiting 3rd party.
+• REs to undertake diligence measures and meticulous monitoring to identify Mule accounts take 
+appropriate action, including filing STR with FIU-IND. 
+Other aspects-Unique Customer Identification Code (UCIC)
+• REs are required to allot a UCIC while entering into new relationships with individual customers 
+as also the existing individual customers.
+• The REs shall, at their option, not issue UCIC to all walk-in/ occasional customers provided it is 
+ensured that there is adequate mechanism to identify such walk-in customers who have frequent 
+transactions with them and ensure that they are allotted UCIC.
+• The RE shall apply CDD process at the UCIC level.
+66
+CHAPTER VI - RESOLUTION OF REGULATED ENTITIES
+VI.1 MERGERS AND AMALGAMATIONS
+Amalgamation of banking companies and co-operative banks Amalgamation of NBFCs
+• Governed by the provisions of the BR Act, 1949
+• RBI has discretionary power, under section 44A, to approve voluntary 
+amalgamation of two banking companies 
+• The draft scheme of amalgamation must be approved by the 
+shareholders of each banking company by a resolution passed by 2/3rd 
+of shareholder by value, and then submitted to RBI
+• MD -Amalgamation of Private Sector Banks dated April 21, 2016 giving 
+the details of the statutory provisions, regulatory criteria and the 
+procedure for submission of application
+• Pursuant to the notification of the Banking Regulation (amendment) 
+Act 2020, the powers to sanction the amalgamation scheme of co-
+operative banks now rests with the RBI under Section 44A read with 
+Section 56 of the BR Act.
+• MD- Amalgamation of UCBs, dated March 23, 2021
+• UCB amalagamtion application considered when amalgamating bank 
+on its own assurance or with the financial support from the State 
+Government extended upfront as part of the process of merger, assures 
+to protect the deposits of all the depositors of the amalgamated bank; 
+Amalgamating UCB also incentivised.
+• Guidelines on amalgamation of DCCBs with StCB under the provisions 
+of Section 44A and Section 56 of BR Act was issued on May 24, 2021
+• Governed by sections 232 to 234 of the Companies Act, 2013
+• NCLT has the power to approve the amalgamation of NBFCs
+• NBFCs are required to take prior approval from RBI for change 
+in control/ ownership/ management as well as for merger/ 
+amalgamation.
+• NBFC being amalgamated with Banking company: After 
+approval of both the entities, the application is forwarded to 
+RBI for NOC before being submitted in Tribunal for approval
+• NBFC being amalgamated with another NBFC: Prior written 
+approval of RBI; if there is change in shareholding pattern of 
+paid-up equity capital of the acquiring NBFC by 26% or more, 
+prior written approval of RBI is required
+• NBFC being merged with non-regulated entity (NRE): NBFC 
+to require prior approval from RBI; If NRE meets PBC after 
+merger then it must seek approval of RBI and register with RBI
+• NRE being merged with NBFC: Prior approval of RBI if (i) 
+merger would result change in shareholding pattern of 26% 
+or more of the paid-up equity capital of the NBFC; or (ii) 
+any change in the management of the NBFC which would 
+result in change in more than 30% of the directors, excluding 
+independent directors
+Chapter VI - Resolution of Regulated Entities
+67
+VI.2 RESOLUTION
+Resolution of banking companies & co-operative banks Resolution of NBFCs
+• RBI to apply to the Central Government for compulsory amalgamation/ 
+reconstruction of a banking company (Sec 45 of BR Act)/co-operative bank 
+(Sec 45 read with Sec 56 of BR Act)
+• After the amendment to Section 45(4) of the B.R. Act, in the year 2020, the 
+decision for amalgamation can be made during the period of moratorium or 
+at any other time
+• As per Section 45(6) of the BR Act, the draft Scheme on reconstruction/ 
+compulsory amalgamation, is placed on RBI website for comments/ objections 
+from the stakeholders
+• The draft scheme is then sent to Government of India for approval and is 
+notified by Government of India
+• RBI is empowered under provisions of Section 10B to remove any person who 
+has been elected to be Chairman of the Board of Directors or the Managing 
+Director of a banking company
+• RBI has the powers under Section 36ACA of the BR Act for Supersession of 
+the Board of Directors of banking companies and under Section 36AAA read 
+with Section 56 of the BR Act for supersession of Board of Directors of co-
+operative banks
+• RBI also has the power to issue directions under Section 35A to secure the 
+proper management of any banking company, and to require the banking 
+company / co-operative bank to make changes to management by the RBI u/s 
+36(1)(d)(v) of BR Act
+• Under Section 36AE of the Act, Central Government has the power to acquire 
+undertakings of banking companies in some cases
+• RBI may cancel the licence of a banking company/co-operative banks under 
+the provisions of Section 22(4) of the BR Act. Banks may appeal to central 
+government within 30-days.
+• After cancellation of license of banking company, HC appoints a liquidator 
+to wind up the bank; RCS appoints liquidator for uni-state cooperative, and 
+central registrar for multi-state cooperative bank.
+• Section 45MBA of the RBI, Act, 1934 empowers the RBI 
+with a range of tools for resolution of NBFCs including 
+the power to frame schemes of Amalgamation, 
+Reconstruction, or Splitting it.
+• RBI may also reduce the pay and allowances of CEOs, 
+MDs, Chairmen or any senior management officers 
+of the NBFC, cancel the shares held by them or their 
+relatives in the NBFC, or sell the assets of the NBFC.
+• Under provisions of Section 45-IA (6) RBI can cancel the 
+Certificate of Registration (COR) issued to NBFC.
+• Under Section 45MC of the RBI Act, RBI may file 
+an application for winding up of NBFC under the 
+Companies Act, 2013.
+• In case, any NBFC intends to surrender the COR 
+voluntarily, it is required to make any application to RBI 
+in terms of press-release on “Voluntary Surrender of 
+CoR by NBFCs (including HFCs) for cancellation”.
+• In terms of the IBC 2016 read with Financial Service 
+Provider Rules 2019, RBI also has the option to initiate 
+Corporate Insolvency Resolution Process against NBFCs 
+with asset size of `500 crore or more with default of `1 
+crore or more.
+• The resolution powers over NBFCs are contained under 
+Chapter IIIB of RBI Act. The relevant provisions are: 
+45-ID – Power to remove directors from office; 45-IE – 
+Supersession of Board of directors of NBFCs (other than 
+Govt NBFC); 45MB – Power of Bank to prohibit acceptance 
+of deposit and alienation of assets (applicable in case of 
+deposit taking NBFCs); 45MBA – Resolution of NBFCs; 
+45MC – Power of Bank to file winding up petition.

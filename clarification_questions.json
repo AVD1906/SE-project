@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "characteristic": "requirement_stability",
+            "question": "Are the project requirements fully known and stable?"
+        },
+        {
+            "characteristic": "requirement_change",
+            "question": "Do you expect requirements to change frequently as the project progresses?"
+        },
+        {
+            "characteristic": "risk",
+            "question": "Does this project involve high technical or operational risks?"
+        },
+        {
+            "characteristic": "user_involvement",
+            "question": "Will users be closely and continuously involved throughout the development process?"
+        },
+        {
+            "characteristic": "need_prototype",
+            "question": "Do you need to build a prototype early on to clarify requirements or test concepts?"
+        },
+        {
+            "characteristic": "formal_vv",
+            "question": "Is formal and rigorous verification and validation (V&V) required at each phase?"
+        },
+        {
+            "characteristic": "short_timeline",
+            "question": "Is there a very short timeline to deliver this project?"
+        },
+        {
+            "characteristic": "modular_system",
+            "question": "Can the system be easily broken down into independent modules or increments?"
+        },
+        {
+            "characteristic": "early_working_system",
+            "question": "Is it critical to deliver a working version of the system early, even if it lacks full features?"
+        },
+        {
+            "characteristic": "frequent_releases",
+            "question": "Do you need frequent releases of new software updates for the users?"
+        }
+    ]
+}

@@ -1,0 +1,1352 @@
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+RFQ018/25 
+ 
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APRIL 2025
+
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+1  
+1. INTRODUCTION 
+ 
+This document  provides the requirements for the functionality of the desired Loan 
+Management Solution application software for the Fund . The functional requirements are 
+aimed at ensuring that processes and procedures are automated to the extent possible by the 
+application. Legal and regulatory requirements are considered in the functional 
+requirements. 
+ 
+Specifications are denoted as mandatory or desirable. The definitions of the corresponding 
+priorities are indicated in the table below.  
+ 
+2. PURPOSE OF THE DOCUMENT 
+The purpose of this paper is to document the functional and non-functional requirements 
+specifications of the proposed loan management IT solution in accordance with the 
+Business, Information Systems and Technology Architecture design. The requirements 
+include the following areas:  
+  
+a) Legal and regulatory requirements to be met by the system.  
+b) Business functional requirements to be met by the proposed system.  
+c) Architectural requirements to be met by the system.  
+d) System administration and management functions required to be met by the 
+proposed system.  
+e) Performance requirements of the system.  
+f) Description of services required to be supplied by the vendor. These services 
+include:  
+i Project management. 
+ii System analysis and design. 
+iii Software customization/ development. 
+iv System integration.  
+v Training and capacity building. 
+vi Data conversion and migration 
+vii Documentation.   
+  
+g) Minimum requirements of the vendor’s management and technical team.  
+h) ICT goods and standard software required to be supplied and installed.  
+i) Inspections and tests required to be carried out.  
+j) Warranty, support, and maintenance services required to be provided  
+  
+3. DISCLAIMER  
+This document is intended for use by EDF and any parties they may expressly authorize. 
+The circulation and use of the contents of this report is therefore limited and any 
+analysis and interpretation of the contents must be made within the context of the 
+assignment, and the TOR’s.  
+ 
+     
+4. BACKGROUND  
+A business process review of EDF was conducted. Several challenges with existing 
+processes and systems were identified. A target system was designed, and its constituent 
+business processes was recommended. Below is a summary of EDF challenges and 
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+2  
+needs, business objectives of the proposed system and scope of the system 
+implementation work.   
+  
+4.1. Current challenges and needs of EDF  
+ 
+The current challenges faced by EDF are indicated below:  
+  
+i. The loan application process is manual. This is a challenge in the case of clients 
+who wish to apply for loans but whose geographical location is far from EDF’s 
+office.  
+ii. Follow-up on applications stages, especially when the application has been passed 
+to other departments is a challenge due to lack of automation.  
+iii. Reports are key aspects in business development, but in the case of EDF’s 
+business development department, report generation is a challenge since there is 
+no system used for data storage and retrieval.  
+iv. Lack of an appropriate tool or system to carry out client surveys and analyze 
+clients’ feedback has a potential negative impact on client relationship 
+management.  
+v. Poor record keeping system sometimes leads to loss of loans applications or 
+client’s documents  
+vi. Loan applications always have many documents attached to them and there is no 
+specific checklist for documents to review when checking if all needed documents 
+have been submitted and:  
+vii. Clients’ documents sometimes get lost or are misplaced due to poor storage 
+systems and processes.   
+viii. Keeping track of all records at the warehouses is a challenge since the process is 
+manual. This results in delays in receiving data or incomplete data from the 
+aggregator or the warehouse clerk.  
+ix. The manual loan management system breeds inefficiencies in the loans 
+disbursements and repayments operations.   
+x. Power blackouts always disrupt the ICT systems functioning.  
+   
+Based on the above challenges, the following needs can be deduced:  
+  
+1. There is need for a system that supports online loan applications  
+2. There is a need for a system that supports collateral and guarantor registration.   
+3. There is a need to have an application that supports recording of loan application, 
+vetting, verification, and approval details.  
+4. There is a need for flexibility and robustness in interest rate calculations.  
+5. There is a need to have loan repayment schedules prepared in accordance with the 
+different loan products and to also calculate loan repayment amounts automatically.  
+6. There is a need to have standard offer letters generated from the application in English.  
+7. A system that enables capturing of KYC requirements as well as other details which 
+can be used in analysis during reporting.  
+8. There is need for an application that facilitates enquiries, client feedback and follow -
+up.  
+9. There is need for a system that supports lead tracking, potential client registration, 
+campaigns, and marketing activities.  
+10. There is need for a system that supports clients feedback surveys  
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+3  
+11. There is need for a reliable system which is secure and 100% available.  
+  
+4.2. Business Objectives of the Proposed IT solution  
+EDF aims to ensure that Malawi’s vast export potential and business opportunities are exploited 
+to generate foreign exchange for the country. The main objective of the proposed loan 
+management IT Solution is to improve operational efficiency and serve EDF stakeholders 
+better.  
+ 
+Furthermore, the loan management IT Solution will reduce related infrastructure costs, 
+facilitate timely and accurate reporting to the regulator, financiers and other stakeholders and 
+data security will be guaranteed. The successful implementation of the IT Solution will provide 
+the following benefits:  
+  
+I. Streamline EDFs credit and lending operations. 
+II. Improved operational efficiency and effectiveness. 
+III. Improved data security and integrity.  
+IV. Integrated analytical and reporting tools to generate timely and accurate operational, 
+management, regulatory and financial reports for use by the key stakeholders.  
+V. Enhanced document management; vi. Improved client relationship management.  
+VI. Systems Audit trail with time stamps and access control. 
+VII. Reduced fraud perpetuated due to enhanced internal system controls; and  
+VIII. Enhanced availability and reliability of both historical and real-time data to facilitate 
+regular data-driven decision-making.  
+  
+5. SCOPE OF SPECIFICATIONS  
+The specifications document includes detailed specifications for the following:  
+  
+a) Supply, installation, implementation, testing, commissioning, and support of 
+application software with the following broad functionality:  
+i Client Relationship Management 
+ii Loan management.  
+iii Credit Scoring and Pricing 
+iv Activity management. 
+v Self-service web portal. 
+vi Social media plugin. 
+vii Document management.  
+viii Business Intelligence module  
+  
+  
+b) Installation, implementation, testing, commissioning, and support of integration 
+interfaces with the following systems:  
+  
+i. Loan management system.  
+ii. Credit Reference Bureau  
+ 
+c) Training of system administrators, super users, and functional users. 
+d) Installation, testing, commissioning, and support of ICT infrastructure, which 
+include the following:  
+  
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+4  
+i. Database Management system.  
+ii. Data center infrastructure.  
+ 
+6. TECHNICAL SPECIFICATIONS AND COMPLIANCE SHEET 
+ 
+ Table 1: Specifications prioritization  
+ 
+#   Priority   Explanation  
+i.     Mandatory (denoted as M)  Mandatory requirements are key to 
+meeting user needs and design objectives. 
+They are assigned the highest priority. 
+They must be met.  
+ii.    Desirable (denoted as D)  Desirable requirements are “nice to have” 
+but not mandatory. A system which meets 
+desirable requirements in a cost -effective 
+manner will be preferred over one which 
+does not meet them at all.  
+6.1. Bidder’s Qualifications 
+ 
+Bidders are expected to submit, together with information required in other parts of 
+this document, the following information: 
+6.1.1. Evidence of the bidder’s financial standing in form of audited financial 
+statements for the past three years 
+6.1.2. Qualification and competence of key staff in form of brief curriculum vitae for 
+key staff. Bidders must provide a structure of the project team responsible for 
+implementing this project, in case they win this bid. 
+6.1.3. Evidence of previous projects successfully completed through a profile of 
+similar projects successfully completed, the name of their customers and 
+estimated project value.  This information should be limited to projects 
+completed within the past five years. 
+ 
+6.2. Loan Management Solution Functional Requirements 
+ 
+Below are the  detailed functional system requirements specifications for the Loan 
+Management Solution. 
+ 
+Column B states the minimum technical specification of the item(s) required by the Procuring 
+Entity. Column C states whether the specification is mandatory (M) or desirable (D) 
+The Bidder is to complete column D with the technical specification of the item(s) offered 
+and to state whether the offered items “comply” or do “not comply” giving details of the 
+areas of non-compliance. 
+ 
+6.2.1. Loan product definition  
+The key requirements under loan product definition include the following: 
+a) To define loan products with varying characteristics targeted at EDF’s clients; and   
+b) To quickly define new products required to meet client requirements.  
+ 
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+5  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to define 
+loan products that are appropriate, unique, and 
+disparate such as: 
+• Working capital financing 
+• Project financing  
+• Guarantee facility  
+• Export credit  
+• Equity participation   
+• Hybrid facility   
+• Project preparation 
+• Any other  
+M   
+2.   The application should allow users to easily 
+create new loan products by defining, as a 
+minimum, the following features:   
+• Product unique code and name  
+• Category (The application should enable 
+users to define categories such as:  
+➢ Short term loans (Working capital 
+financing)  
+➢ Project financing  
+➢ Guarantee facility  
+➢ Export credit  
+➢ Loan Repayment Schedule 
+M   
+ • Minimum loan size  
+• Maximum loan size  
+• Maximum loan repayment period  
+• Grace period for repayment   
+• Repayment frequency  
+• Interest rate according to client loan cycle  
+• Basis for interest rate calculation; 
+Specifically, among several methods, the 
+application must support interest calculation 
+on reducing balance method as it is a 
+requirement by the Regulator.  
+• Interest calculation formula for instalment   
+• Fees charged and basis e.g., service fee, 
+admin fee, processing fee, arrangement fee, 
+insurance fees, commissions, etc.  
+• Penalty fees and category to which they 
+apply.  
+• Fees collection method (i.e., upfront, on 
+disbursement, at collection)  
+• Monthly installment amount formula  
+  
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+6  
+• Disbursement form i.e., cash, cheque, 
+transfer or supply of materials or a 
+combination of the different forms  
+• Collection method i.e., loan repayment 
+method  
+3.   For each feature indicated above, the application 
+should allow the user to dictate whether the 
+value set is compulsory or not to allow for both 
+rigidity and flexibility of values during loan 
+application and loan account creation.  
+➢ System should have multiple options 
+M   
+4.   The application should enable verification and 
+approval of new products by authorized users   
+M   
+5.   The application should allow changes to be 
+made to loan product characteristics and 
+parameters by authorized users. However, the 
+application must keep an audit trail to indicate 
+the changes made and maker of the changes.  
+➢ System be able to modify PAST, 
+CURRENT and FUTURE EVENTS  
+M   
+6.   The application must support export of data to 
+external applications like Excel, PDF, and Word  
+M   
+7.   The application must support import of data from 
+file formats like Excel and CSV  
+M   
+8.   The application must enable users to generate a 
+report of loan products and current 
+configuration and features for reference by 
+client services, sales, and audit departments   
+M   
+9.   The application must support multi -currency at 
+loan application and support currency conversion 
+during reporting   
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+7  
+10.   The application must provide alerts to 
+responsible users when.  
+➢ Loan application is submitted.  
+➢ Loan application is approved at each 
+level.  
+➢ When disbursement is made.  
+➢ When collateral value falls below 
+required value.  
+➢ Insurance on collateral expires in the 
+next 30 days.  
+➢ Insurance on collateral expires in the 
+next 5 days.  
+➢ When loan instalment or partial 
+installment is made.  
+➢ When a loan account has fallen in 
+arrears.  
+➢ When interest has been recalculated  
+➢ Grace period alert  
+  
+M   
+11.   The application should generate a report of 
+number of products per category  
+M   
+  
+6.2.2. Loan application  
+The key requirements under loan application are as follows:  
+a) To enable EDF record, receive and process loan applications online i.e., doing away 
+with paperwork; and   
+b) To reduce the time taken to process loan applications.  
+  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable application for 
+loans by allowing a client or user to complete a 
+loan application form online.  
+➢ Loan application inquiry 
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+8  
+2.   
+  
+  
+  
+The following data should be recorded on the 
+loan application form: 
+• Client number   
+• Salutation (i.e., Mr., Mrs., Miss, Dr., Eng., 
+etc.)  
+• Client name   
+• Gender  
+• Marital status  
+• Form of identification provided and 
+number (i.e., passport number, driving 
+license number, national ID number, 
+employee ID number, Voter’s registration 
+certificate, Signed letter from Chief or 
+Village Headman etc.)  
+• Date of birth                                        0  
+• Place of birth  
+• Nationality  
+• Address (See general specifications for 
+address and  
+contact definition)  
+• Sector 
+• Level of Education 
+• Home type (rented/owned)  
+• Telephone contact  
+• Home village   
+• Employer  
+• Employer address  
+• Income details (net monthly income for at 
+least 6 previous months)   
+• Next of kin details (Name, relationship, 
+address, contact, employer, employer’s 
+address, job position)  
+M   
+3.   The loan application form should be 
+automatically completed with values already 
+registered in the application e.g., client details 
+(shown above) should be auto completed on 
+entry of client number  
+M   
+4.   The application must automatically generate 
+loan application reference numbers.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+9  
+5.   The application should enable users to record 
+the following additional information:  
+• Loan product applied for  
+• Loan series or cycle.  
+• Loan Amount  
+• Proposed repayment period  
+• Purpose of loan  
+• Guarantor  
+• Collateral   
+• Loan disbursement form (cash or materials)  
+• Loan disbursement account.  
+• Notes and alerts to sync with calendar 
+M   
+6.   Having selected the loan product, the following 
+product values recorded at product definition 
+should be automatically completed without 
+need for further entry:  
+• Minimum loan size  
+• Maximum loan size  
+• Maximum loan repayment period  
+• Grace period for repayment   
+• Repayment frequency  
+• Interest rate according to client loan cycle  
+• Interest amount   
+• Fees charged and basis e.g., service fee, 
+admin fee, processing fee, arrangement fee, 
+insurance fee, commissions, etc.  
+• Fees collection method (i.e., upfront, on 
+disbursement, at collection)  
+• Mandatory saving amount and collection 
+method (i.e., upfront, on disbursement, at 
+collection)  
+• Disbursement form i.e., cash, cheque, 
+transfer or supply of material or a 
+combination of either form  
+• Monthly instalment amount  
+• Collection method e.g., loan repayment 
+method 
+   Interest calculation method.  
+• Loan collections account   
+M   
+7.   The application should among other methods 
+calculate interest on the scheduled balance   
+M   
+8.   The application should calculate and indicate 
+the Effective Interest Rate (EIR)   
+M   
+9.   The loan application form should allow users to 
+attach digital copies of documents, photos and 
+images that are required to be attached to the 
+application forms.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+10  
+10.   The application should flag clients who have a 
+current loan for special evaluation by the Credit 
+Officer  
+M   
+11.   The application should also indicate the 
+following:  
+• Whether the collateral provided is 
+sufficient   
+• Whether the guarantee provided is 
+adequate  
+M   
+12.   The application should enable a user to define 
+the workflow processes such as application, 
+verification, approval, disbursement, reporting 
+etc.  
+M   
+13.   The application must have various levels of 
+loan approvals depending on set limits.  
+ 
+The application should allow setting of 
+approval workflow based on transaction 
+amount limits.  
+M   
+14.   The loan application should also be accessible 
+to a senior user for approval of the loan 
+application. If rejected, the reason for rejection 
+should be indicated by the user.  
+M   
+15.   Where changes are made to the loan application 
+after submission by the applicant, a trail of the 
+changes should be kept indicating the changes 
+made and user who made those changes   
+M   
+16.   Email and dashboard alerts and notifications 
+should be sent automatically to users and 
+clients at the following points to reduce time 
+taken to process a loan application and to keep 
+clients informed of the progression of their 
+application:  
+• When application is submitted by an 
+applicant   
+• When application is submitted for 
+verification  
+• When application is approved or rejected   
+M   
+17.   The application should generate the loan 
+schedule indicating:  
+➢ Loan balance should be projected based 
+on the date. 
+➢ Dates when repayments will be due,   
+➢ Amount of installment,   
+➢ Number of repayments  
+➢ Frequency of repayments  
+➢ proportion of installment which is 
+Interest.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+11  
+➢ Proportion of installment which is 
+Principal  
+18.   The application should allow users to define 
+standardized content of loan agreement and loan 
+offer letters  
+M   
+19.   The application should generate a standardized 
+loan agreement and loan offer letter which can 
+be printed for the client to acknowledge and 
+sign against, and which includes:  
+• The loan schedule (with details indicated 
+above)  
+• Other customized terms and conditions  
+M   
+20.   The application must enable users make 
+enquiries to establish the status of loan 
+applications being processes   
+M   
+21.   The application should generate the following 
+operations reports:  
+• Number and value of loan application 
+received by loan product type, by category.  
+• Number and value of loan applications 
+approved by loan product type, by category  
+M   
+22.   The application must be able to detect repeat 
+customers and use previously held client 
+information.  
+M   
+  
+6.2.3. Business Lending  
+The key requirements of Business lending are:  
+a) To facilitate the application of loans by recognized businesses.  
+   
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application must support business lending 
+i.e., enable loan applications to be generated for 
+a business  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+12  
+2.   The application must enable users to record, as 
+a minimum, the following business details: 
+• Business name  
+• Nature of business  
+• Name and address of shareholders or 
+owners.  
+• Business physical address and contact 
+information.  
+• Owners’ contribution  
+• Line of business   
+• Date of incorporation or registration  
+• Registration number and Registration 
+authority   
+• Names of directors  
+• Bankers  
+• Attachments: certificate of incorporation, 
+memorandum and articles of association, 
+company profile, audited accounts, bank 
+statements for past 3 to 6 months, 
+comprehensive business plan   
+M   
+3.   The processing of a business loan application 
+shall follow the normal Loan application 
+procedures under section 3.3.2 above  
+M   
+  
+6.2.4. Group Lending  
+The key requirements of Group lending are:  
+a) To facilitate the application of loans by recognized groups; and   
+b) To track group obligations as well as individual obligations.  
+  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application must support group lending i.e., 
+enable loan applications to be generated for a 
+group  
+M   
+2.   The application must enable users to record, as 
+a minimum, the following group details:  
+• Group name  
+• Group description  
+• Group address and contact information.  
+• Composition of group (Name, address and 
+telephone, source of income)  
+M   
+3.   The application must indicate the amount of 
+loan applied for by each individual member of 
+the group.  
+M   
+4.   The processing of a group loan application shall 
+follow the normal Loan application procedures.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+13  
+  
+6.2.5. Collateral registration  
+The key requirement of collateral registration is as follows:  
+a) To adequately record collateral details used to secure loans; and   
+b) To verify the authenticity or ownership of collateral provided   
+  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should register as a minimum 
+the following details of collateral presented to 
+secure loans:  
+• Nature of collateral such as:   
+➢ Properties such as land titles, 
+warehouses, machinery, etc.  
+➢ Cash Deposits  
+➢ Commodities stock.  
+• Unique identification (e.g., Property 
+number)  
+• Legal Owner  
+• Document  registration  reference 
+ number  (From collateral 
+registration system in the registrar’s office 
+or from Land registry system)   
+• Insurance policy taken and insured value.  
+• Value of collateral  
+M   
+2.   The application must allow one collateral to 
+cover several loan facilities and allow one 
+facility to be covered by several collaterals.  
+M   
+3.   The application must be able to record multiple 
+securities of different values provided by the 
+same customer   
+M   
+4.   The application should generate a reference code 
+for each collateral registered.  
+M   
+5.   All Loans must be covered by 
+security/collateral whose value exceeds user 
+defined percentage of the loan amount. Loans 
+with security values below the set limit must be 
+flagged   
+M   
+6.   The application must allow updating of 
+securities and their values   
+M   
+7.   The application must generate a batch file 
+which includes all collateral   
+M   
+8.   The application should request a user to confirm 
+that he/she has physically observed the 
+condition of the collateral presented.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+14  
+9.   The application should indicate the loans taken 
+and those applied for using the same collateral.  
+M   
+10.   The application should allow several loans to be 
+taken against one collateral but should indicate 
+the value of all current loans taken against the 
+value of collateral.  
+M   
+11.   The application should flag collateral whose 
+value is below the value of loans against which 
+the collateral is pledged.  
+M   
+12.   The system should in addition to registration of 
+collateral enable geotagging (through google 
+maps plugin) of the registered collateral’s 
+location  
+D   
+13.   The system should be able to attach scanned 
+collateral documents  
+M   
+14.   The application must enable recording of 
+securities whose value is affected by a variable 
+factor. By updating such factors, the value of 
+security of changes. E.g., warehouse receipt 
+value depends on the market price of the 
+commodities.  
+M   
+15.   Where cash is taken as a form of collateral, the 
+system must calculate interest on cash deposits 
+made in the form of collateral   
+M  
+  
+6.2.6. Guarantor registration  
+The key requirements under guarantor registration are as follows: a) 
+To enable registration of guarantor; and   
+b) To establish guarantor commitment.  
+  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to record 
+guarantor details which as a minimum include 
+the following:   
+• Name  
+• Identification document   
+• Home address  
+• Business address  
+• Telephone contact   
+• Occupation  
+• Employer  
+• Employer’s address   
+• Employers telephone contact.  
+• Value guaranteed.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+15  
+• Asset guaranteed (e.g., where a guarantor 
+provides the collateral used by a loan 
+applicant to secure his/her loan.)  
+2.   The application should allow digital copies of 
+documents such as ID, proof of residence, proof 
+of employment to be attached to the guarantor 
+record.  
+M   
+3.   The application should generate a unique 
+reference number for the guarantor   
+M   
+4.   The application should enable users to register 
+existing clients as guarantors. In such case, the 
+application should automatically complete the 
+appropriate guaranteed details from client 
+records already kept by the application.  
+M   
+5.   The application should be able to show how 
+many loans are guaranteed by one guarantor as 
+well as the number and value of current loans of 
+the guarantor if he/she is a client.  
+M   
+6.   The application should enable users (according 
+to organization policy) to restrict the number of 
+loans that can be guaranteed by one individual.  
+M   
+7.   The application must require a guarantor 
+consent letter attached to a loan application in 
+case collateral used does not belong to applicant  
+M   
+ 
+6.2.7. Loan account management   
+The key requirements for loan account management are to provide a means for properly 
+tracking of all activities regarding the loan including disbursements, repayments, 
+payoffs, prepayments, write offs, rescheduling, refinancing, and restructuring, in order:  
+  
+a) To ensure that appropriate and accurate entries have been made to each account:  
+b) To determine if the client’s repayments are on track: 
+c) To identify clients who have defaulted on their repayments; and  
+d) To develop a client credit history.  
+  
+a) Loan account creation  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable authorized users 
+to create a loan account for approved loan 
+applications only    
+M   
+2.   Each loan account should have a unique number   M   
+3.   Loan account numbers must be different 
+(different series) from loan application reference 
+numbers   
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+16  
+4.   The loan account should be attached to the client 
+whose loan application was approved   
+M   
+5.   Loan details should be autocompleted from the 
+approved loan application form. These details 
+include the following:  
+• Client number  
+• Client name  
+• Loan amount  
+• Repayment frequency   
+• Repayment period  
+• Interest amount  
+• Loan schedule (Installment/Repayment 
+amount and due  
+date)   
+M   
+6.   Loan accounts of a consortium must indicate 
+details shown above for each member of the 
+consortium    
+M   
+7.   The application must have multiple levels of 
+authorizations  
+M   
+8.   The application should allow users to indicate 
+when penalties should be charged to the loan 
+account i.e., at end of day or end of week or end 
+of month   
+M   
+9.   Similarly, the application should allow users to 
+indicate when unpaid interest is charged to the 
+account i.e., at end of day or end of week or end 
+of month  
+M   
+10.   The application must be flexible to facilitate 
+allow a user to determine the number of days in 
+a year which is used to calculate interest.  
+M   
+11.   The application must provide a central location 
+for maintaining the base rate upon which 
+variable interest rates are based. In other words, 
+the base rate should be changed in one location 
+only.  
+M   
+12.   The application must support both fixed interest 
+rate and variable (or floating interest rate) 
+applicable to a facility. The variable interest rate 
+is a certain percentage above a given base rate. 
+When the policy rate is changed, so does the 
+interest rate applicable to the facility   
+M   
+13.   The application must support reversal of 
+transactions in case mistakes are made and must 
+trigger a corresponding interest reversal    
+M   
+14.   Reversals must be made only by authorized 
+users   
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+17  
+15.   The application must support back-dating of 
+transactions by an authorized user and trigger 
+interest recalculation.  
+M   
+16.   The application must support loan account 
+closure and ensure zero balance from the client 
+and generate a standard closure letter.  
+➢ Overpayment should be recognized in 
+the system 
+M   
+17.   Loan accounts must only be closed when the 
+balance is zero. The application must prevent 
+loan account closure if there is a balance 
+whether positive or negative   
+M   
+18.   The application must round up all amounts to 
+two decimal places. Round up means 5.434 
+becomes 5.44  
+M   
+  
+b) Loan disbursement  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to record 
+loan disbursements to the loan applicant 
+indicating: 
+• The disbursement form (cash, or materials 
+or a combination)  
+• The disbursement method (cheque, transfer 
+to bank account.)  
+M   
+2.   The application should enable users to make the 
+appropriate accounting entries in accordance 
+with international accounting standards when 
+funds are disbursed.  
+M   
+3.   Where method is chosen as transfers, the 
+application should generate appropriate transfer 
+instruction file to be sent to the bank or EFT 
+agent.  
+M   
+4.   For group loans, the application must record 
+the distribution of loan amount disbursed to 
+each member of the group.  
+M   
+5.   The loan account should be updated when the 
+disbursement is made   
+M   
+6.   The application must generate a standard 
+disbursement letter for all loan disbursements 
+and issue it to client by email. 
+M   
+  
+ 
+ 
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+18  
+c) Loan repayment/ Collections  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable repayments 
+received through different channels to be 
+recorded. These include through.  
+bank transfers, and any other transfers. 
+M   
+2.   The application must automatically trigger 
+interest recalculation when:  
+• A loan is restructured,   
+• A bullet payment is made by the 
+customer:  
+• A penalty is charged to the loan 
+account:  
+• An additional loan facility is added to 
+the loan account.  
+• A reversal is made.  
+• Back-dated transaction   
+• Interest rate change   
+M   
+3.   In all cases above, a new loan schedule must be 
+generated   
+M   
+4.   The system should integrate with the EDF 
+Bank’s core banking system to receive a file 
+which updates the loan account.  
+D  
+5.   The system should have the capability to send 
+alerts to the client 5 days before the loan 
+instalment is due and, on the day, when the loan 
+instalment is due.  
+D   
+6.   The application must be able to calculate and 
+report on loan account profitability by 
+comparing:  
+• Total revenue generated by the loan 
+account.  
+(Interest income)  
+• Total expenses on loan account   
+D  
+7.   The application must always check value of 
+security against loan amounts for all loan 
+facilities. The application should have a report 
+which shows the same and flags security values 
+that are below a certain percentage of the loan 
+amount  
+M   
+8.   If a new inspection is made, the previous record 
+must be maintained as history. In other words, a 
+history of collateral inspections must be kept  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+19  
+9.   The application must schedule periodic collateral 
+inspection and capture all details including:  
+• Date of inspection  
+• Value at inspection  
+• Condition   
+• Officer who inspected the collateral   
+M   
+  
+ 
+d) Interest Calculation  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The credit management application must 
+support both methods of interest calculation i.e.  
+• Interest calculated on scheduled 
+balance.  
+• Interest calculated on a fixed amount   
+M   
+2.   Using scheduled balance method, interest is 
+calculated daily. The credit management system 
+should be flexible to allow users to select the 
+applicable number of days in a year. Currently 
+EDF applies 365 days a year.  
+M   
+3.   For facilities where interest is calculated on a 
+fixed amount, interest is calculated monthly 
+(i.e., annual interest rate / 12)  
+M   
+4.   The credit management application must also 
+support the following methods: 
+• Annuity amortization  i.e., monthly 
+interest is calculated on scheduled 
+capital balance and monthly instalment 
+is a fixed amount.  
+• Linear amortization i.e., monthly interest 
+is calculated on a scheduled capital 
+balance while monthly capital payment is 
+fixed   
+M   
+5.   Interest must be calculated on penalties due, if 
+the penalty is not yet cleared by the customer   
+M   
+   
+e) Penalty Calculation  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   Penalties must be automatically applied when a 
+loan account has gone in arrears i.e., monthly 
+installment not paid.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+20  
+2.   The penalty is calculated as a rate of the amount 
+in arrears. The credit management system must 
+automatically calculate and apply the penalty   
+M   
+3.   The system should reverse/ disable the 
+application of penalties 
+M   
+  
+f) Bullet payments, Rehabilitation and Restructuring  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should trigger adjustment of 
+interest when bullet payment of a loan is made. 
+A bullet payment is a large amount of payment 
+that exceeds monthly installment amount  
+M   
+2.   The order of precedence of application of a bullet 
+payment is as follows: 
+• First, the payment is applied to clear any 
+outstanding penalties charged on the 
+account.  
+• Second, the payment is applied to clear 
+amount due.  
+• Third, the payment is applied to clear 
+outstanding interest on the loan: 
+• Fourth, the payment is applied to clear the 
+principal   
+M   
+3.   The application should allow restructuring of 
+loans i.e., amendment of a loan from an 
+outstanding balance by changing grace period, 
+or loan duration or interest rate and creating a 
+new repayment schedule.  
+M   
+4.   
+ 
+ 
+The loan restructuring request must be approved 
+through various levels of approval  
+M   
+5.   Restructuring or rehabilitation attracts a fee. The 
+current policy charges a fee of 0.25% of 
+outstanding balance. The credit management 
+application must automatically charge the 
+penalty to the loan account   
+M   
+6.   The current policy is such that the fee is added 
+to the monthly instalments i.e., grossed up. The 
+interest charged is also increased by a defined 
+restructuring fee. The application must execute 
+this policy   
+M   
+7.   Some customers prefer to pay the restructuring 
+fee upfront. The system should facilitate the 
+upfront payment of restructuring fee 
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+21  
+8.   The application should also allow users or 
+customer to request for rehabilitation of an 
+existing loan. Rehabilitation means an extreme 
+case where the customer can no longer service 
+the loan without radical changes. Rehabilitation 
+requires freezing interest or injecting more cash 
+in a project.  
+M   
+9.   The credit management application should be 
+able to freeze interest over a given period of time   
+M   
+10.   The credit management application must allow 
+amendment of principal and recalculation of 
+interest and generation of the new loan schedule   
+M   
+11.   Any adjustments made must be made by or 
+authorized by appropriate user.  
+M   
+12.   Adjustments made and approved should update 
+the loan account automatically   
+M   
+  
+g) Write off  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to write off 
+delinquent loans.  
+M   
+2.   The application should enable verification and 
+approval of loans chosen or selected to be 
+written off by an authorized user (Senior 
+personnel).  
+M   
+3.   The application should automatically make the 
+appropriate accounting entries in accordance 
+with international accounting standards to 
+provide an accurate financial position at all 
+times  
+D   
+  
+h) Transaction reversal  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to make 
+reversals and adjustments to loan account 
+transactions.  
+M   
+2.   Any adjustment or reversal should be authorized 
+by an appropriate user (senior personnel).  
+M   
+3.   The application should automatically make the 
+appropriate accounting entries in accordance 
+with international accounting standards to 
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+22  
+provide an accurate financial position at all 
+times.  
+  
+i) Loan account analytics and reports  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application should enable users to generate 
+loan repayment schedules for any loan.  
+M   
+2.   The application should enable users to 
+generate loan statement indicating 
+disbursement amount, penalty, repayments, 
+and loan balance for each loan account as at 
+that time.  
+M   
+3.   The application should have adequate alerting, 
+detection, and early warning capabilities to 
+enable users determine loans likely to default.  
+M   
+4.   The application should have extensive 
+reporting capabilities and enable the following 
+reports to be generated by users:  
+• CRB report 
+• Number and value of loans disbursed.  
+• Forex generation Report 
+• Aging of Accounts 
+• Sector Reports 
+• Insurance Report 
+• Provisions 
+• List of loans disbursed.  
+• Monthly payment report  
+• Active loans by credit officer  
+• Ageing of portfolio at risk  
+• Delinquent loans  
+• Summary of portfolio at risk  
+• Detailed delinquent loan history  
+• Loan write-off and recuperations report.  
+• Consolidated reports for the institution  
+M   
+5.   The application should have a portfolio 
+dashboard that indicates predefined key 
+performance indicators in each period such as:  
+• Number of disbursed loans  
+• Total amount disbursed.  
+• Number of loans in arrears  
+• Total amount in arrears  
+• Number of fully repaid loans  
+• Interest revenue from loan repayments  
+   
+  
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+23  
+6.2.8. Debt Recovery  
+The debt recovery requirements are aimed:  
+a) To easily, quickly, and accurately identify debtors likely to default and delinquent 
+loans; and   
+b) To follow up on delinquent loans and recover loans.  
+  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The application must enable users to quickly 
+and accurately identify accounts that are likely 
+to be defaulted through analysis of available 
+data such as repayment trends. 
+M   
+2.   The application must enable users to easily 
+identify delinquent loans and must be able to 
+categorize them by Relationship officer.  
+M   
+3.   The application must automatically send 
+notifications and alerts as follows:  
+• Five (5) days to installment due date   
+• One (1) day to installment due date  
+• When an account is defaulted  
+• Daily when an account is defaulted  
+M   
+4.   The application must allow users to customize 
+the following:  
+• Who receives the notification (the 
+application must allow multiple recipients 
+of the notification message i.e.,, Debtor, 
+Credit Officer, Credit Manager, Head of 
+credit and lending)  
+• When notifications should be sent   
+• The message text  
+M   
+5.   The system must have the capability of 
+generating a Reminder/ demand notice if a 
+client fails to make a repayment beyond a 
+predefined period.  
+M   
+6.   The system should have the capability to track 
+the subsequent processes following issuance of 
+a demand notice to the defaulting client such 
+as:  
+• Repayment of the due loan installment 
+amount  
+• Issuance of statutory notice  
+• Disposal of property   
+M   
+7.   The application must enable users to indicate 
+other notification strategies such as physical 
+visits to debtor premises, phone calls to debtor.  
+M   
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+24  
+8.   The application must enable users to identify 
+address and contact information for all debtors 
+of delinquent loans.  
+M   
+9.   The system should allow for definition on the 
+recovery order after write-off i.e., penalty first, 
+followed by interest and principal.  
+M   
+10.   The application should prioritize delinquent 
+accounts for collection purposes giving 
+priority to those with the highest potential for 
+recovery.  
+M   
+11.   The application should enable proactive 
+monitoring of delinquent loan accounts to 
+enable users to determine if recovery strategies 
+are effective.  
+M   
+12.   The application should monitor changes in 
+debtor information, such as employment 
+information, address information to determine 
+if debtor’s ability to pay has improved.  
+M   
+  
+6.2.9. Reporting  
+The reporting requirements are aimed at:  
+a) Providing a detailed presentation of stored data about loan facilities and clients  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The system must provide the following reports: 
+• Funds disbursement report (indicating 
+customer, loan account, amounts 
+disbursed, date of disbursement)  
+• Loan interest rate report (showing 
+customer, loan accounts, effective 
+interest rate)   
+• Loan portfolio report by Officer.  
+• Non-performing loans report.  
+• Top 20 largest loan accounts (showing 
+customer, loan account, loan amounts)   
+• The system should be providing report 
+for large exposures i.e., 10%. 
+• It should include recoveries from 
+delinquent loans. 
+• Statutory and Regulatory reports 
+•           Expected Credit Loss 
+•           Call Report 
+•           Credit Reference Bureau Report 
+•           Any other Reports 
+  
+M   
+ 
+6.2.10. Integration  
+LOAN MANAGEMENT SYSTEM REQUIREMENTS SPECIFICATIONS 
+  
+25  
+No.  Requirement description  Priority  Bidders’ 
+Specifications 
+A B C D 
+1.   The credit management application must 
+seamlessly integrate with the receivables 
+module so that accurate balances are reflected 
+in the receivables system  
+D   
+No.  Requirement description  Priority   
+2.   The credit management system must integrate 
+with the GL and expenses module so that 
+expenses can be associated with a loan account 
+to accurately calculate profitability on each 
+loan account   
+D  
+3.   The credit management system must integrate 
+with CRM so that customer profile is up to date 
+and that a 360 -degree view of the customer is 
+achieved in the CRM.  
+➢ The provisions should integrate DFI 
+directives with ECL and IFRS-9 
+D  
+ 
+ 
+ 
+ 

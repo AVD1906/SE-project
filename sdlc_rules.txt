@@ -1,0 +1,238 @@
+SDLC SELECTION RULES
+Source: NITK Software Engineering Lecture Slides
+
+IMPORTANT:
+These rules are derived primarily from the NITK SDLC selection slides.
+General software engineering knowledge may supplement these rules when relevant,
+but the lecture-slide rules should be given priority when they directly apply.
+
+
+========================
+1. WATERFALL MODEL
+========================
+
+Use Waterfall when:
+
+- Requirements are very well documented.
+- Requirements are clear and fixed.
+- Product definition is stable.
+- Technology is understood and not dynamic.
+- Requirements are not ambiguous.
+- The project is relatively short.
+- The project is small or well understood.
+
+Waterfall is less suitable when:
+
+- Requirements change moderately or frequently.
+- The project is complex or long-running.
+- There is high uncertainty.
+- Significant scope changes are expected.
+
+
+========================
+2. V-SHAPED MODEL
+========================
+
+Use V-Shaped when:
+
+- Requirements are well defined.
+- Requirements are clearly documented.
+- Requirements are stable/fixed.
+- Product definition is stable.
+- Technology is understood.
+- Requirements are not ambiguous.
+- Strong verification and validation are required.
+- Testing needs to be planned early.
+- Each development phase should have corresponding testing.
+
+V-Shaped is less suitable when:
+
+- Requirements change dynamically.
+- Iteration is required.
+- Continuous changes are expected.
+- Significant risk analysis is required.
+
+
+========================
+3. PROTOTYPE MODEL
+========================
+
+Use Prototype when:
+
+- Requirements are unclear or need clarification.
+- The desired system requires substantial end-user interaction.
+- Continuous user feedback is important.
+- The system has significant user-interface/user-interaction requirements.
+- Demonstrating functionality will help identify requirements.
+- A proof of concept may be required.
+
+Benefits relevant to selection:
+
+- Helps users understand the proposed system.
+- Helps identify missing or confusing functionality.
+- Provides early feedback.
+- Allows requirements to be refined.
+
+
+========================
+4. RAD MODEL
+========================
+
+Use RAD when:
+
+- Requirements may change.
+- User involvement is high.
+- The system can be divided into modules.
+- Rapid development is required.
+- Short iterations are appropriate.
+- Early integration and customer feedback are important.
+- The project can be completed in approximately 2–3 months.
+- Skilled developers/designers are available.
+- Adequate resources and budget are available.
+
+
+========================
+5. ITERATIVE / INCREMENTAL MODEL
+========================
+
+Use Iterative/Incremental when:
+
+- Major requirements are known.
+- Details of requirements may evolve.
+- Early working functionality is required.
+- Requirements may change.
+- Functionality can be developed incrementally.
+- Risk analysis is useful.
+- New technology is involved.
+- High-risk features can benefit from early development and evaluation.
+- The project benefits from periodic working results.
+
+
+========================
+6. SPIRAL MODEL
+========================
+
+Use Spiral when:
+
+- Risk evaluation and management are important.
+- The project has medium or high risk.
+- Requirements may change.
+- Requirements are initially unclear.
+- Requirements are complex and need clarification.
+- Extensive prototyping may be useful.
+- Long-term commitment is expected.
+- Significant changes are expected.
+- Early identification of risky parts is important.
+
+Spiral combines iterative development/prototyping with
+explicit risk analysis and management.
+
+
+========================
+7. AGILE MODEL
+========================
+
+Use Agile when:
+
+- Requirements change frequently.
+- Continuous stakeholder/customer involvement is important.
+- Frequent feedback is required.
+- Frequent delivery of working functionality is useful.
+- Development needs to be iterative and adaptive.
+- The project needs to respond quickly to changing requirements.
+
+
+========================
+PROJECT CHARACTERISTICS TO ANALYZE
+========================
+
+The SDLC decision should consider:
+
+1. Requirement uncertainty
+2. Requirement stability
+3. Requirement change frequency
+4. Functional needs
+5. Project team experience
+6. Technology experience
+7. Resource availability
+8. User community
+9. User involvement
+10. Project type
+11. Project complexity
+12. Cost/budget
+13. Cost of future upgrades
+14. Requirement change pattern
+15. Reuse
+16. Project longevity
+17. Product technology
+18. Project risk
+19. Need for prototype
+20. Need for proof of concept
+21. Need for verification and validation
+
+
+========================
+GENERAL SOFTWARE ENGINEERING
+FACTORS
+========================
+
+The system may additionally consider factors particularly
+relevant to financial software:
+
+- Regulatory criticality
+- Security risk
+- Privacy sensitivity
+- Auditability
+- Compliance requirements
+- Consequences of failure
+- Legacy-system dependencies
+- Integration complexity
+- Frequency of regulatory changes
+- Deployment/release requirements
+
+These factors supplement the NITK lecture rules.
+They must not override a directly applicable lecture rule without
+an explicit explanation.
+
+
+========================
+DECISION PRINCIPLE
+========================
+
+The system must NOT select an SDLC merely because the project
+belongs to a particular domain.
+
+Instead:
+
+Project Requirements
+        ↓
+Extract Project Characteristics
+        ↓
+Apply NITK SDLC Selection Rules
+        ↓
+Consider Additional Software Engineering Factors
+        ↓
+Identify Applicable SDLC Models
+        ↓
+Compare Evidence
+        ↓
+Recommend SDLC
+        ↓
+Explain Recommendation
+        ↓
+Human Approval
+
+
+The system should also allow a hybrid recommendation when
+the project characteristics genuinely support characteristics
+of multiple SDLC models.
+
+The final recommendation must explain:
+
+- Which project characteristics were identified.
+- Which NITK rules were triggered.
+- Which additional SE factors were relevant.
+- Which SDLC models were considered.
+- Why the selected model fits the identified characteristics.
+- Why other applicable models were not selected.
+- What evidence supports the recommendation.

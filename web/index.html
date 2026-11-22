@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fieldnote — Project workspace</title>
+  <link rel="stylesheet" href="assets/app.css">
+  <style>
+    .home-main{min-height:100vh;display:flex;flex-direction:column}
+    .intake-wrap{flex:1;display:grid;place-items:center;padding:26px 0 70px}
+    .intake-column{width:min(100%,760px);margin:auto}
+    .home-heading{text-align:center;margin:0 auto 30px}
+    .home-heading .eyebrow{margin-bottom:16px}
+    .home-heading h1{font:500 clamp(38px,5vw,58px)/1.04 Newsreader,serif;letter-spacing:-1.4px;margin:0 0 14px}
+    .home-heading p{font-size:14px;line-height:1.7;color:var(--muted);max-width:580px;margin:0 auto}
+    .request-card{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 35px #22372b0b;padding:22px}
+    .request-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+    .request-head h2{font-size:14px;margin:0;font-weight:600}
+    .request-head span{font:10px 'DM Mono';letter-spacing:.7px;color:#8a958e;text-transform:uppercase}
+    .request-card textarea{min-height:190px;background:#fdfdfa;line-height:1.75;font-size:14px;padding:15px}
+    .request-actions{display:flex;align-items:center;gap:13px;margin-top:15px;flex-wrap:wrap}
+    .request-actions .btn{padding:12px 17px}
+    .request-hint{font-size:11px;color:#87928b;line-height:1.6}
+    .home-links{display:flex;justify-content:center;gap:9px 20px;flex-wrap:wrap;margin-top:23px;color:#76827a;font-size:11px}
+    .home-links a{color:#466756;border-bottom:1px solid #bdcdbf;padding-bottom:2px}
+    .home-links a:hover{color:#183e2d;border-color:#183e2d}
+    .home-main .footer{margin-top:0}
+    @media(max-width:850px){.intake-wrap{padding:15px 0 35px}.home-heading{margin-bottom:23px}.request-card{padding:17px}.request-card textarea{min-height:165px}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <a class="brand" href="index.html"><span class="brand-mark">f</span><span><strong>fieldnote</strong><small>software studio</small></span></a>
+      <div class="nav-label">Workspace</div>
+      <nav class="nav">
+        <a class="active" href="index.html"><span class="icon">⌂</span><span>Overview</span></a>
+        <a href="requirements.html"><span class="icon">⌘</span><span>Requirements agent</span></a>
+        <a href="sdlc.html"><span class="icon">↗</span><span>SDLC advisor</span></a>
+        <a href="srs.html"><span class="icon">S</span><span>SRS builder</span></a>
+      </nav>
+      <div class="side-bottom">SOFTWARE ENGINEERING PROJECT<br>DOCUMENT WORKSPACE</div>
+    </aside>
+    <main class="main home-main">
+      <div class="topline"><div class="crumb">Projects <span>›</span> <b>Loan application assistant</b></div><span class="avatar">PROJECT WORKSPACE</span></div>
+      <div class="intake-wrap">
+        <div class="intake-column">
+          <header class="home-heading">
+            <div class="eyebrow">Project brief</div>
+            <h1>What does your<br>software need to do?</h1>
+            <p>Describe the system in your own words. Your requirements, lifecycle recommendation, and SRS draft will be prepared from this request.</p>
+          </header>
+          <section class="request-card">
+            <div class="request-head"><h2>Customer requirement</h2><span>One submission</span></div>
+            <label class="label" for="request">Describe the requested functionality</label>
+            <textarea id="request" placeholder="Example: Customers should be able to apply for loans online and the bank should check whether they already have an existing loan.">Customers should be able to apply for loans online and the bank should check whether they already have an existing loan.</textarea>
+            <div class="request-actions">
+              <button class="btn" id="run-workflow" type="button">Prepare project documents <span aria-hidden="true">→</span></button>
+              <span class="request-hint" id="run-status">Enter the requirement once. Results will appear on their dedicated pages.</span>
+            </div>
+          </section>
+          <nav class="home-links" aria-label="Project result pages">
+            <a href="requirements.html">Requirements</a>
+            <a href="sdlc.html">SDLC recommendation</a>
+            <a href="srs.html">SRS PDF</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer"><span>FIELDNOTE / SE PROJECT</span><span>PROJECT DOCUMENTS</span></div>
+    </main>
+  </div>
+  <script src="assets/agent-core.js"></script>
+  <script src="assets/workflow.js"></script>
+</body>
+</html>

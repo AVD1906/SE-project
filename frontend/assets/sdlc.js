@@ -32,7 +32,7 @@ function analyze(options={}) {
     const detail = item.evaluated
       ? `${item.score}% fit (${item.good.length}/${item.evaluated} known signals). ${item.good.length ? `Fits: ${item.good.join(', ')}.` : 'No supporting conditions found.'} ${item.bad.length ? `Conflicts: ${item.bad.join(', ')}.` : ''}`
       : 'Provide relevant project characteristics to evaluate this model.';
-    return `<div class="model"><div class="modelline"><b>${item.name}${isWinner ? ' · recommended' : isTiedTop ? ' · tied top fit' : ''}</b><span class="score">${score}</span></div><div class="bar"><i style="width:${item.score ?? 0}%"></i></div><small>${escapeHTML(blurbs[item.name])} ${escapeHTML(detail)}</small></div>`;
+    return `<div class="model"><div class="modelline"><b>${item.name}${isWinner ? ' · recommended' : isTiedTop ? ' · tied top fit' : ''}</b><span class="score">${score}</span></div><div class="bar"><i style="width:${item.evidenceScore ?? 0}%"></i></div><small>${escapeHTML(blurbs[item.name])} ${escapeHTML(detail)}</small></div>`;
   }).join('');
   $('sdlc-status').textContent = options.loaded ? 'Project characteristics loaded automatically from your overview request.' : 'Comparison updated · rule-based fit signals';
   if(options.persist){

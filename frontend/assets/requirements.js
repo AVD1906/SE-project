@@ -3,8 +3,8 @@ const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;'
 
 function renderRequirements(rows){
   list.innerHTML=rows.map(item=>item.confidence==='review'
-    ? `<article class="req"><div class="req-top"><span class="req-id">REQUEST · NEEDS REVIEW</span><span class="tag">NOT SOURCE-MATCHED</span></div><p>No source-backed requirement was identified. Review this customer request and add verified requirements before using it in the SRS: ${escapeHTML(item.text)}</p><div class="req-foot"><span>${escapeHTML(item.source)}</span><span>Human review required</span></div></article>`
-    : `<article class="req"><div class="req-top"><span class="req-id">${escapeHTML(item.id)} · FUNCTIONAL</span><span class="tag">DRAFT · ${escapeHTML(item.priority||'UNPRIORITIZED')}</span></div><p>${escapeHTML(item.text)}</p><div class="req-foot"><span>${escapeHTML(item.source)}</span><span>Confidence ${escapeHTML(item.confidence)}</span></div></article>`).join('');
+    ? `<article class="req"><div class="req-top"><span class="req-id">REQUEST · NEEDS REVIEW</span></div><p>No source-backed requirement was identified. Review this customer request and add verified requirements before using it in the SRS: ${escapeHTML(item.text)}</p></article>`
+    : `<article class="req"><div class="req-top"><span class="req-id">${escapeHTML(item.id)} · FUNCTIONAL</span></div><p>${escapeHTML(item.text)}</p></article>`).join('');
 }
 
 try{

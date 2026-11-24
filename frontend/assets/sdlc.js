@@ -22,9 +22,6 @@ function analyze(options={}) {
     : candidate
     ? `${best?'Recommended model':'Leading model'}: ${candidate.good.length} of ${candidate.evaluated} known signals match (${candidate.score}% fit). ${candidate.good.length ? `Supporting evidence: ${candidate.good.join(', ')}.` : ''} ${candidate.bad.length ? `Conflicts: ${candidate.bad.join(', ')}.` : ''} ${best?'':'More project facts are needed before committing to a model.'}`
     : 'No model has evidence to compare yet. Enter the requirement once on the overview page to prepare all three outputs.';
-  $('unknown-note').textContent = result.unknown.length
-    ? `Open questions: ${result.unknown.join(', ')}. Resolve these with the stakeholder before committing to a lifecycle.`
-    : 'All displayed characteristics have values. Confirm them with the project stakeholder.';
   $('models').innerHTML = result.ranked.map((item, i) => {
     const isTiedTop=tiedTop&&item.score===qualified[0].score&&item.evaluated===qualified[0].evaluated;
     const isWinner=Boolean(best&&item.name===best.name);

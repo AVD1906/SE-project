@@ -69,18 +69,20 @@ function requirementsPage(workflow){
 const requirementsHTML=fs.readFileSync('frontend/requirements.html','utf8');
 const reqPage=requirementsPage({scenario:exact,requirements:mapScenario(exact).requirements});
 check('requirements page has no second scenario input',()=>{assert.doesNotMatch(requirementsHTML,/<textarea[^>]+id="scenario"/);assert.doesNotMatch(requirementsHTML,/id="generate"/);});
-check('requirements page loads the overview request and linked drafts',()=>{assert.equal(reqPage['#scenario-display'].textContent,exact);assert.match(reqPage['#requirements'].innerHTML,/chunks 26.*27/);assert.match(reqPage['#requirements'].innerHTML,/chunk 32/);assert.equal(reqPage['#req-count'].textContent,'2 REQUIREMENTS');});
+check('requirements page loads the overview request without extra draft or trace metadata',()=>{assert.equal(reqPage['#scenario-display'].textContent,exact);assert.match(reqPage['#requirements'].innerHTML,/R1 · FUNCTIONAL/);assert.doesNotMatch(reqPage['#requirements'].innerHTML,/chunks?\s|Confidence|DRAFT|MEDIUM/);assert.equal(reqPage['#req-count'].textContent,'2 REQUIREMENTS');});
 const reviewText='<script>alert(1)</script>';
 const reviewPage=requirementsPage({scenario:reviewText,requirements:[]});
-check('requirements page keeps unmatched input escaped and marked for review',()=>{assert.match(reviewPage['#requirements'].innerHTML,/&lt;script&gt;/);assert.match(reviewPage['#requirements'].innerHTML,/NEEDS REVIEW/);});
+check('requirements page keeps unmatched input escaped and marked for review without chunk/confidence metadata',()=>{assert.match(reviewPage['#requirements'].innerHTML,/&lt;script&gt;/);assert.match(reviewPage['#requirements'].innerHTML,/NEEDS REVIEW/);assert.doesNotMatch(reviewPage['#requirements'].innerHTML,/chunks?\s|Confidence|DRAFT|MEDIUM/);});
 
-const sdlcIds=['stability','change','uncertainty','complexity','users','prototype','vv','timeline','modular','early','risk','releases','models','recommendation','reason','unknown-note','sdlc-status','analyze'];
+const sdlcHTML=fs.readFileSync('frontend/sdlc.html','utf8');
+const sdlcIds=['stability','change','uncertainty','complexity','users','prototype','vv','timeline','modular','early','risk','releases','models','recommendation','reason','sdlc-status','analyze'];
 const nodes=Object.fromEntries(sdlcIds.map(id=>[id,element(base[id]||'')]));
 const sdlcContext={document:{getElementById:id=>nodes[id]},window:browser.window};
 vm.runInNewContext(fs.readFileSync('frontend/assets/sdlc.js','utf8'),sdlcContext);
-check('SDLC UI does not recommend a lifecycle with no evidence',()=>{nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Insufficient evidence');assert.match(nodes['unknown-note'].textContent,/requirement stability/);});
+check('SDLC UI does not recommend a lifecycle with no evidence',()=>{nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Insufficient evidence');assert.match(nodes.reason.textContent,/No model has evidence/);});
+check('SDLC page omits the open-questions warning box',()=>{assert.doesNotMatch(sdlcHTML,/id="unknown-note"|Open questions:/);});
 check('SDLC UI renders all seven comparisons',()=>{assert.equal((nodes.models.innerHTML.match(/class="model"/g)||[]).length,7);});
-check('SDLC comparison bars show the share of known signals that match',()=>{for(const [id,value] of Object.entries({change:'high',uncertainty:'high',complexity:'high',risk:'high'}))nodes[id].value=value;nodes.analyze.handlers.click();const waterfall=nodes.models.innerHTML.split('<div class="model">').find(row=>row.includes('Waterfall'));assert.match(waterfall,/style="width:0%"/);assert.match(waterfall,/0% fit · 0\/3 match/);});
+check('SDLC comparison bars show the share of known signals that match',()=>{for(const [id,value] of Object.entries({change:'high',uncertainty:'high',complexity:'high',risk:'high'}))nodes[id].value=value;nodes.analyze.handlers.click();const waterfall=nodes.models.innerHTML.split('<div class="model">').find(row=>row.includes('Waterfall'));assert.match(waterfall,/style="width:0%"/);assert.match(waterfall,/0% fit.*0\/3 match/);});
 check('SDLC UI explains recommendation evidence and conflicts',()=>{for(const [id,value] of Object.entries({stability:'stable',change:'low',uncertainty:'low',complexity:'low',vv:'no'}))nodes[id].value=value;nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Waterfall');assert.match(nodes.reason.textContent,/Supporting evidence/);assert.match(nodes.models.innerHTML,/Conflicts:/);});
 check('SDLC UI refreshes after a project input changes',()=>{nodes.change.value='high';nodes.change.handlers.change();assert.equal(nodes['sdlc-status'].textContent,'Comparison updated · rule-based fit signals');assert.match(nodes.models.innerHTML,/Agile/);});
 console.log(`\n${passed} checks passed.`);

@@ -82,6 +82,7 @@ const sdlcIds=['stability','change','uncertainty','complexity','users','prototyp
 const nodes=Object.fromEntries(sdlcIds.map(id=>[id,element(base[id]||'')]));
 const sdlcContext={document:{getElementById:id=>nodes[id]},window:browser.window};
 vm.runInNewContext(fs.readFileSync('frontend/assets/sdlc.js','utf8'),sdlcContext);
+check('SDLC page leaves its status hint blank until the user acts',()=>{assert.equal(nodes['sdlc-status'].textContent,'');});
 check('SDLC UI does not recommend a lifecycle with no evidence',()=>{nodes.analyze.handlers.click();assert.equal(nodes.recommendation.textContent,'Insufficient evidence');assert.match(nodes.reason.textContent,/No model has evidence/);});
 check('SDLC page omits the open-questions warning box',()=>{assert.doesNotMatch(sdlcHTML,/id="unknown-note"|Open questions:/);});
 check('SDLC UI renders all seven comparisons',()=>{assert.equal((nodes.models.innerHTML.match(/class="model"/g)||[]).length,7);});

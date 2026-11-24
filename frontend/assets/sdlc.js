@@ -45,5 +45,4 @@ for (const id of ids) $(id).addEventListener('change', ()=>analyze({persist:true
 try{
   const workflow=JSON.parse(localStorage.getItem('fieldnote.workflow')||'null');
   if(workflow?.scenario&&workflow.characteristics){for(const id of ids){const select=$(id),value=workflow.characteristics[id];if(value&&[...select.options].some(option=>option.value===value))select.value=value;}analyze({loaded:true});}
-  else $('sdlc-status').textContent='Enter your requirement once on the overview page to prefill this comparison.';
-}catch(_){$('sdlc-status').textContent='Enter your requirement once on the overview page to prefill this comparison.';}
+}catch(_){}

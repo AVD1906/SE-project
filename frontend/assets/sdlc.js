@@ -31,7 +31,6 @@ function analyze(options={}) {
       : 'Provide relevant project characteristics to evaluate this model.';
     return `<div class="model"><div class="modelline"><b>${item.name}${isWinner ? ' · recommended' : isTiedTop ? ' · tied top fit' : ''}</b><span class="score">${score}</span></div><div class="bar"><i style="width:${item.score ?? 0}%"></i></div><small>${escapeHTML(blurbs[item.name])} ${escapeHTML(detail)}</small></div>`;
   }).join('');
-  $('sdlc-status').textContent = options.loaded ? 'Project characteristics loaded automatically from your overview request.' : 'Comparison updated · rule-based fit signals';
   if(options.persist){
     try{
       const current=JSON.parse(localStorage.getItem('fieldnote.workflow')||'null');
@@ -44,5 +43,5 @@ function escapeHTML(s) { return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<':
 for (const id of ids) $(id).addEventListener('change', ()=>analyze({persist:true}));
 try{
   const workflow=JSON.parse(localStorage.getItem('fieldnote.workflow')||'null');
-  if(workflow?.scenario&&workflow.characteristics){for(const id of ids){const select=$(id),value=workflow.characteristics[id];if(value&&[...select.options].some(option=>option.value===value))select.value=value;}analyze({loaded:true});}
+  if(workflow?.scenario&&workflow.characteristics){for(const id of ids){const select=$(id),value=workflow.characteristics[id];if(value&&[...select.options].some(option=>option.value===value))select.value=value;}analyze();}
 }catch(_){}

@@ -2,9 +2,9 @@ const list=document.querySelector('#requirements');
 const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 
 function renderRequirements(rows){
-  list.innerHTML=rows.map(item=>item.confidence==='review'
+  list.innerHTML=rows.map((item,index)=>item.confidence==='review'
     ? `<article class="req"><div class="req-top"><span class="req-id">REQUEST · NEEDS REVIEW</span></div><p>No source-backed requirement was identified. Review this customer request and add verified requirements before using it in the SRS: ${escapeHTML(item.text)}</p></article>`
-    : `<article class="req"><div class="req-top"><span class="req-id">${escapeHTML(item.id)} · FUNCTIONAL</span></div><p>${escapeHTML(item.text)}</p></article>`).join('');
+    : `<article class="req"><div class="req-top"><span class="req-id">R${index+1} · FUNCTIONAL</span></div><p>${escapeHTML(item.text)}</p></article>`).join('');
 }
 
 try{

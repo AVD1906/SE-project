@@ -1,0 +1,42 @@
+SDLC SAMPLE CASES - LOAN MANAGEMENT DOMAIN
+==========================================
+
+Paste one case at a time into the overview page. Each case includes at least five
+capabilities that the requirements agent can match to the included loan SRS. The
+expected model is shown after each scenario; it is not named inside the scenario.
+
+
+CASE 1 - STABLE, DOCUMENTED LOAN PROCESS
+Expected model: Waterfall
+
+A bank is replacing a small, well-understood loan processing system with a limited scope. The project has stable requirements, fully documented and approved, and the scope will not change. The five required functions are: customers apply for loans online; the form captures applicant identity, contact, employer, and income details; applicants upload supporting loan documents; applications move through verification and approval workflows; and the system generates a repayment schedule with due dates and installment amounts. The bank expects one complete delivery after requirements, design, implementation, and verification are finished. Each stage requires written documentation and sign-off.
+
+CASE 2 - LOAN SYSTEM WITH PHASE-PAIRED TESTING
+Expected model: V-Shaped
+
+A bank has approved stable requirements for a loan processing system, and the product definition will remain fixed. It must let customers apply for loans online, capture applicant identity and income details, accept supporting loan document uploads, route applications through verification and approval workflows, and generate repayment schedules. The technology is understood and the requirements are unambiguous. Formal verification and validation are mandatory: acceptance tests must be derived from requirements, integration tests planned alongside architecture, and unit tests specified alongside detailed design. Each development phase has a corresponding test phase, and release requires documented evidence that every approved requirement passes.
+
+CASE 3 - CLARIFYING THE LOAN APPLICATION EXPERIENCE
+Expected model: Prototype
+
+A lender needs an online service for customers to apply for loans, enter applicant identity, contact, and income details, upload supporting documents, follow the approval workflow, and receive application status notifications. Users are unclear about how the form should be arranged, which information should be requested at each step, and how document errors should be explained. Continuous user involvement is required. The team should build an early interactive version of the loan screens and workflow for loan officers and applicants to try, then refine the screens and clarify requirements from their feedback. Requirements rarely change after users approve the final flow, and the project is low risk.
+
+CASE 4 - RAPID MODULAR LOAN SERVICING DELIVERY
+Expected model: RAD
+
+A lending company must deliver a modular loan servicing system in a short timeline of two to three months. The project has continuous user involvement, with loan officers and customers reviewing each module weekly. Requirements may undergo frequent changes as the modules are reviewed. The team will quickly build and integrate online loan applications, applicant identity, contact, and income detail capture, supporting document upload, approval workflow, and repayment schedule modules in short development cycles. Skilled developers and designers are available, and the company has adequate resources. It wants rapid delivery, early integration, and customer feedback, but there are no frequent production releases during development.
+
+CASE 5 - LOAN FEATURES DELIVERED IN EVALUATED INCREMENTS
+Expected model: Iterative / Incremental
+
+A bank has identified the major functions for a loan system: customers apply online, the application captures applicant identity and income details, supporting documents are uploaded, approval workflows are handled, and repayment schedules are generated. Detailed repayment rules and exception cases may evolve, and requirements are changing frequently. The bank needs early working functionality so staff can evaluate the core application and approval flow. The team will assess medium risk by building and evaluating high-risk features in successive increments, adding capabilities in stages instead of waiting for the full system. User involvement is limited between milestone reviews, and frequent production releases are not required.
+
+CASE 6 - HIGH-RISK LEGACY LOAN PLATFORM
+Expected model: Spiral
+
+A bank is committing to a complex, high-risk loan platform that will connect online loan applications, applicant identity and income checks, supporting document storage, approval workflows, and repayment schedules with several legacy banking systems. Requirements for the integrations are initially uncertain, and frequent changes are expected as technical and compliance risks become clearer. Integration failures or incorrect loan decisions could cause substantial financial and regulatory harm, so the project is high risk. Before each major commitment, the team must identify the highest risks, evaluate alternatives, test risk-reduction approaches, and decide whether to continue into the next development cycle. The project is long term and there is limited user involvement.
+
+CASE 7 - FREQUENT CUSTOMER-DRIVEN LOAN RELEASES
+Expected model: Agile
+
+A digital lender has defined five initial functions for its loan service: customers apply online, provide applicant identity and income details, upload supporting documents, use an approval workflow, and receive a repayment schedule. Customer priorities and requirements change frequently as borrowers and loan officers use the service. Continuous user involvement is important, and customers and stakeholders will review progress regularly and reprioritize work from their feedback. The team should deliver early working functionality and make frequent releases of working features, improving the service in short adaptive cycles. The project needs to respond quickly to changing needs rather than freeze the plan upfront.

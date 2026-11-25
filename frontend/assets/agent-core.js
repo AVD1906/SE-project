@@ -89,14 +89,14 @@
     const infer=(value,reason)=>({value,reason});
     const change=/\b(frequently|frequent changes|evolving requirements|changing requirements)\b/.test(t)?infer('high','the request says requirements change frequently'):/\b(fixed scope|stable requirements|will not change|rarely change)\b/.test(t)?infer('low','the request says scope is stable'):infer('unknown','change frequency was not stated');
     const uncertainty=/\b(unclear|uncertain|explore|discover|prototype|proof of concept)\b/.test(t)?infer('high','the request describes uncertainty or prototyping'):count?infer('low','source-backed requirement matches were found'):infer('unknown','no source-backed requirements were matched');
-    const complexity=/\b(complex|enterprise|large scale)\b/.test(t)?infer('high','the request explicitly describes high scope'):count>=8?infer('high',`${count} source-backed capabilities were matched`):count>0&&count<=3?infer('low',`${count} source-backed capabilities were matched`):infer('unknown','project complexity was not stated');
+    const complexity=/\b(complex|enterprise|large scale)\b/.test(t)?infer('high','the request explicitly describes high scope'):/\b(limited scope|well understood project|small project)\b/.test(t)?infer('low','the request explicitly describes a small, well-understood scope'):count>=8?infer('high',`${count} source-backed capabilities were matched`):count>0&&count<=3?infer('low',`${count} source-backed capabilities were matched`):infer('unknown','project complexity was not stated');
     const user=/\b(continuous user|frequent stakeholder feedback|co-design with users)\b/.test(t)?'high':/\b(limited user involvement|users unavailable)\b/.test(t)?'low':'unknown';
     const vv=/\b(formal v&v|formal verification|rigorous validation)\b/.test(t)?'yes':/\b(no formal v&v|formal v&v not required)\b/.test(t)?'no':'unknown';
     const risk=/\b(high risk|significant risk)\b/.test(t)?'high':/\b(medium risk)\b/.test(t)?'medium':/\b(low risk)\b/.test(t)?'low':'unknown';
     return {
       stability:/\b(stable requirements|fixed requirements|fixed scope)\b/.test(t)?'stable':/\b(changing requirements|frequently changing)\b/.test(t)?'changing':'unknown',
       change:change.value,uncertainty:uncertainty.value,complexity:complexity.value,users:user,
-      prototype:/\b(no prototype|prototype not needed)\b/.test(t)?'no':/\b(prototype|proof of concept)\b/.test(t)?'yes':'unknown',
+      prototype:/\b(no prototype|prototype not needed|no early interactive version)\b/.test(t)?'no':/\b(prototype|proof of concept|early interactive version|interactive mock-?up)\b/.test(t)?'yes':'unknown',
       vv,timeline:/\b(2[- ]?3 months|two to three months|short timeline)\b/.test(t)?'short':/\b(long timeline|more than six months)\b/.test(t)?'normal':'unknown',
       modular:/\b(modular|independent modules|independent components)\b/.test(t)?'yes':/\b(monolithic|cannot be modularized)\b/.test(t)?'no':'unknown',
       early:/\b(mvp|early working|working version early|early release|pilot release)\b/.test(t)?'yes':/\b(no early release|early version not needed)\b/.test(t)?'no':'unknown',

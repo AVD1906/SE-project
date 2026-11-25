@@ -7,10 +7,10 @@ print("Loading embedding model...")
 ROOT = Path(__file__).resolve().parents[2]
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-# Read chunks
+
 text = (ROOT / "data" / "processed" / "chunks.txt").read_text(encoding="utf-8")
 
-# Split individual chunks
+
 raw_chunks = text.split("-" * 80)
 
 chunks = []
@@ -23,7 +23,7 @@ for chunk in raw_chunks:
 
 print(f"Found {len(chunks)} chunks")
 
-# Extract only the actual text
+
 texts = []
 
 for chunk in chunks:
@@ -38,7 +38,7 @@ embeddings = model.encode(
     show_progress_bar=True
 )
 
-# Save everything
+
 data = {
     "chunks": chunks,
     "texts": texts,

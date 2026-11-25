@@ -1,5 +1,4 @@
-# NITK SDLC Rule Engine - Step 5C
-# YES / NO / UNKNOWN logic
+
 
 def yes(value):
     return value is True
@@ -24,7 +23,7 @@ def evaluate_model(name, core, supporting, conflicts, unknowns):
     print(f"\n{name}")
     print("-" * len(name))
 
-    # CORE CONDITIONS
+   
     print(
         f"Core conditions: "
         f"{core_yes} YES / {core_no} NO / {core_unknown} UNKNOWN"
@@ -41,7 +40,7 @@ def evaluate_model(name, core, supporting, conflicts, unknowns):
         else:
             print("  ? UNKNOWN:", condition)
 
-    # SUPPORTING CONDITIONS
+   
     print(f"\nSupporting conditions: {supporting_yes} YES")
 
     for condition, result in supporting.items():
@@ -55,19 +54,19 @@ def evaluate_model(name, core, supporting, conflicts, unknowns):
         else:
             print("  ? UNKNOWN:", condition)
 
-    # CONTRADICTIONS
+    
     print(f"\nContradictions: {len(conflicts)}")
 
     for item in conflicts:
         print("  -", item)
 
-    # UNKNOWN INFORMATION
+   
     print(f"\nUnknown conditions: {len(unknowns)}")
 
     for item in unknowns:
         print("  ? ", item)
 
-    # FINAL STATUS
+    
     if len(conflicts) > 0:
         status = "WEAK"
 
@@ -86,9 +85,7 @@ def evaluate_model(name, core, supporting, conflicts, unknowns):
     print("\nSTATUS:", status)
 
 
-# =========================================================
-# CURRENT PROJECT CHARACTERISTICS
-# =========================================================
+
 
 project = {
 
@@ -115,9 +112,7 @@ project = {
 print("\n========== NITK SDLC RULE CHECK ==========\n")
 
 
-# =========================================================
-# WATERFALL
-# =========================================================
+
 
 waterfall_core = {
 
@@ -175,9 +170,7 @@ evaluate_model(
 )
 
 
-# =========================================================
-# V-SHAPED
-# =========================================================
+
 
 v_core = {
 
@@ -227,9 +220,7 @@ evaluate_model(
 )
 
 
-# =========================================================
-# PROTOTYPE
-# =========================================================
+
 
 prototype_core = {
 
@@ -281,9 +272,7 @@ evaluate_model(
 )
 
 
-# =========================================================
-# RAD
-# =========================================================
+
 
 rad_core = {
 
@@ -348,9 +337,7 @@ evaluate_model(
 )
 
 
-# =========================================================
-# ITERATIVE / INCREMENTAL
-# =========================================================
+
 
 iterative_core = {
 
@@ -410,9 +397,6 @@ evaluate_model(
 )
 
 
-# =========================================================
-# SPIRAL
-# =========================================================
 
 spiral_core = {
 
@@ -469,9 +453,7 @@ evaluate_model(
 )
 
 
-# =========================================================
-# AGILE
-# =========================================================
+
 
 agile_core = {
 

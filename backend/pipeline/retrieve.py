@@ -5,9 +5,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 
-# ============================================================
-# 1. Load embedding model
-# ============================================================
+
 
 print("Loading embedding model...")
 
@@ -16,9 +14,7 @@ model = SentenceTransformer(
 )
 
 
-# ============================================================
-# 2. Load chunks and embeddings
-# ============================================================
+
 
 with (ROOT / "data" / "processed" / "embeddings.pkl").open("rb") as f:
     data = pickle.load(f)
@@ -27,9 +23,7 @@ chunks = data["chunks"]
 embeddings = data["embeddings"]
 
 
-# ============================================================
-# 3. Normalize embeddings
-# ============================================================
+
 
 embeddings_normalized = embeddings / np.linalg.norm(
     embeddings,
@@ -38,9 +32,7 @@ embeddings_normalized = embeddings / np.linalg.norm(
 )
 
 
-# ============================================================
-# 4. Targeted retrieval queries
-# ============================================================
+
 
 queries = [
 
@@ -56,9 +48,7 @@ queries = [
 ]
 
 
-# ============================================================
-# 5. Retrieve top chunks for each query
-# ============================================================
+
 
 all_results = []
 
@@ -68,21 +58,20 @@ for query in queries:
     print("QUERY:")
     print(query)
 
-    # Convert query into embedding
     query_embedding = model.encode(query)
 
-    # Normalize query
+    
     query_embedding = query_embedding / np.linalg.norm(
         query_embedding
     )
 
-    # Cosine similarity
+
     similarities = np.dot(
         embeddings_normalized,
         query_embedding
     )
 
-    # Top 2 chunks
+    
     top_k = 2
 
     top_indices = np.argsort(
@@ -103,9 +92,7 @@ for query in queries:
         print(chunks[index])
 
 
-# ============================================================
-# 6. Remove duplicate chunks
-# ============================================================
+
 
 unique_results = []
 seen_chunks = set()
@@ -129,11 +116,7 @@ for result in all_results:
         unique_results.append(result)
 
 
-# ============================================================
-# 7. Ensure important eligibility evidence is included
-# ============================================================
 
-# Chunk 32 contains the existing-loan eligibility evidence.
 required_chunk_ids = {"32"}
 
 for chunk in chunks:
@@ -160,9 +143,7 @@ for chunk in chunks:
             seen_chunks.add(chunk_id)
 
 
-# ============================================================
-# 8. Display final evidence
-# ============================================================
+
 
 print("\n")
 print("=" * 80)
@@ -177,9 +158,7 @@ for i, result in enumerate(unique_results, start=1):
     print(result["chunk"])
 
 
-# ============================================================
-# 9. Save final evidence for the LLM
-# ============================================================
+
 
 with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
     "w",
@@ -215,9 +194,7 @@ with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
         )
 
 
-# ============================================================
-# 10. Final message
-# ============================================================
+
 
 print("\n" + "=" * 80)
 print("Retrieved evidence saved to data/generated/retrieved_context.txt")

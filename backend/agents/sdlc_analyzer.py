@@ -5,9 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 
-# =========================================================
-# 1. READ INPUT FILES
-# =========================================================
+
 
 with (ROOT / "data" / "generated" / "generated_requirements.txt").open("r", encoding="utf-8") as f:
     requirements = f.read()
@@ -16,16 +14,12 @@ with (ROOT / "config" / "sdlc_rules.txt").open("r", encoding="utf-8") as f:
     rules = f.read()
 
 
-# =========================================================
-# 2. CONNECT TO GEMINI
-# =========================================================
+
 
 client = genai.Client()
 
 
-# =========================================================
-# 3. EXTRACT PROJECT CHARACTERISTICS
-# =========================================================
+
 
 prompt = f"""
 You are extracting project characteristics for an SDLC
@@ -89,7 +83,7 @@ response = client.models.generate_content(
 text = response.text.strip()
 
 
-# Remove markdown JSON fences if Gemini adds them
+
 if text.startswith("```json"):
     text = text[7:]
 
@@ -111,17 +105,12 @@ except json.JSONDecodeError:
     exit()
 
 
-# =========================================================
-# 4. SAVE CHARACTERISTICS
-# =========================================================
 
 with (ROOT / "data" / "generated" / "project_characteristics.json").open("w", encoding="utf-8") as f:
     json.dump(project, f, indent=4)
 
 
-# =========================================================
-# 5. DISPLAY CHARACTERISTICS
-# =========================================================
+
 
 print("\n========== PROJECT CHARACTERISTICS ==========\n")
 
@@ -129,9 +118,7 @@ for key, value in project.items():
     print(f"{key}: {value}")
 
 
-# =========================================================
-# 6. FIND UNKNOWN FACTORS
-# =========================================================
+
 
 unknowns = []
 
@@ -141,9 +128,7 @@ for key, value in project.items():
         unknowns.append(key)
 
 
-# =========================================================
-# 7. GENERATE CLARIFICATION QUESTIONS
-# =========================================================
+
 
 if unknowns:
 
@@ -209,9 +194,7 @@ Return ONLY valid JSON in this format:
         exit()
 
 
-    # =====================================================
-    # 8. DISPLAY QUESTIONS
-    # =====================================================
+    
 
     print("\n========== INFORMATION REQUIRED ==========\n")
 

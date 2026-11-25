@@ -4,9 +4,7 @@ from google import genai
 
 ROOT = Path(__file__).resolve().parents[2]
 
-# --------------------------------------------------
-# GEMINI SETUP
-# --------------------------------------------------
+
 
 api_key = os.getenv("GEMINI_API_KEY")
 
@@ -16,9 +14,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 
-# --------------------------------------------------
-# GET CUSTOMER INPUT
-# --------------------------------------------------
+
 
 print("=" * 80)
 print("FINANCIAL REQUIREMENT GATHERING ASSISTANT")
@@ -29,9 +25,7 @@ customer_input = input(
 )
 
 
-# --------------------------------------------------
-# READ RETRIEVED EVIDENCE
-# --------------------------------------------------
+
 
 with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
     "r",
@@ -40,9 +34,7 @@ with (ROOT / "data" / "generated" / "retrieved_context.txt").open(
     context = f.read()
 
 
-# --------------------------------------------------
-# PROMPT 1: REQUIREMENT GENERATION
-# --------------------------------------------------
+
 
 generation_prompt = f"""
 You are a financial requirements engineering assistant.
@@ -248,9 +240,7 @@ generation_response = client.models.generate_content(
 requirements = generation_response.text
 
 
-# --------------------------------------------------
-# PROMPT 2: REQUIREMENT QUALITY CHECK
-# --------------------------------------------------
+
 
 quality_prompt = f"""
 You are a software requirements quality analyst.
@@ -575,9 +565,7 @@ because they were not explicitly stated by the customer.
 """
 
 
-# --------------------------------------------------
-# RUN QUALITY CHECK
-# --------------------------------------------------
+
 
 print("\nChecking requirement quality...\n")
 
@@ -589,9 +577,7 @@ quality_response = client.models.generate_content(
 quality_analysis = quality_response.text
 
 
-# --------------------------------------------------
-# DISPLAY FINAL OUTPUT
-# --------------------------------------------------
+
 
 print("\n")
 print("=" * 80)
@@ -610,9 +596,7 @@ print(quality_analysis)
 print("=" * 80)
 
 
-# --------------------------------------------------
-# SAVE EVERYTHING
-# --------------------------------------------------
+
 
 with (ROOT / "data" / "generated" / "generated_requirements.txt").open(
     "w",
